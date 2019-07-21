@@ -1,0 +1,40 @@
+platform :ios, '9.0'
+
+inhibit_all_warnings!
+
+target 'samples' do
+  # ReactNative
+  pod 'React', :path => '../node_modules/react-native', :subspecs => [
+    'Core',
+    'CxxBridge', # Include this for RN >= 0.47
+    'DevSupport', # Include this to enable In-App Devmenu if RN >= 0.43
+    'RCTText',
+    'RCTNetwork',
+    'RCTWebSocket', # Needed for debugging
+    'RCTAnimation', # Needed for FlatList and animations running on native UI thread
+    'RCTSettings',
+    'RCTActionSheet',
+    'RCTGeolocation',
+    'ART',
+    'RCTBlob',
+    'RCTImage',
+    'RCTLinkingIOS',
+    'RCTVibration',
+  ]
+
+  # Explicitly include Yoga if you are using RN >= 0.42.0
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+
+  # Third party deps podspec link
+  pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
+  pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
+  pod 'MandMobileRN', :path => '../node_modules/mand-mobile-rn'#, :subspecs => ['Core', 'MDNumberKeyboard', 'MDRefreshControl', 'MDImagePicker']
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
+end

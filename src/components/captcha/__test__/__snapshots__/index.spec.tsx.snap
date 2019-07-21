@@ -1,0 +1,3209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly captcha with ReactNode slot 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onRequestClose={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={false}
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "black",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    pointerEvents="box-none"
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderRadius": 4,
+          "display": "flex",
+          "justifyContent": "center",
+          "overflow": "hidden",
+          "paddingBottom": 15,
+          "paddingHorizontal": 30,
+          "paddingTop": 30,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "position": "absolute",
+            "right": 16,
+            "top": 16,
+            "zIndex": 1301,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 16,
+              },
+              undefined,
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#111A34",
+            "fontSize": 22,
+            "fontWeight": "400",
+            "lineHeight": 25.299999999999997,
+            "marginBottom": 8,
+          }
+        }
+      >
+        title
+      </Text>
+      <View />
+      <View
+        style={
+          Array [
+            Object {
+              "marginTop": 25,
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={-1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [
+                  Object {
+                    "marginHorizontal": undefined,
+                    "marginRight": 3,
+                  },
+                  Object {
+                    "marginHorizontal": undefined,
+                    "marginLeft": 3,
+                  },
+                  Object {
+                    "width": "100%",
+                  },
+                ],
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginVertical": 14,
+                "width": 240,
+              },
+              null,
+            ]
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "color": "#2F86F6",
+                "fontSize": 12,
+                "marginLeft": 10,
+                "textAlign": "right",
+              }
+            }
+          >
+            发送验证码
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`renders correctly captcha with a view 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#fff",
+      "borderRadius": 4,
+      "display": "flex",
+      "justifyContent": "center",
+      "overflow": "hidden",
+      "paddingBottom": 15,
+      "paddingHorizontal": 30,
+      "paddingTop": 30,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "marginTop": 25,
+        },
+        Object {
+          "paddingHorizontal": 10,
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        keyboardType="default"
+        maxLength={1}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+        secureTextEntry={false}
+        style={
+          Array [
+            Object {
+              "borderBottomColor": "#C5CAD5",
+              "borderBottomWidth": 0.5,
+              "color": "#111A34",
+              "flex": 1,
+              "height": 35,
+              "marginHorizontal": 6,
+              "textAlign": "center",
+              "width": undefined,
+            },
+            Array [
+              Object {
+                "marginHorizontal": undefined,
+                "marginRight": 3,
+              },
+            ],
+          ]
+        }
+        underlineColorAndroid="transparent"
+      />
+      <TextInput
+        allowFontScaling={true}
+        keyboardType="default"
+        maxLength={1}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+        secureTextEntry={false}
+        style={
+          Array [
+            Object {
+              "borderBottomColor": "#C5CAD5",
+              "borderBottomWidth": 0.5,
+              "color": "#111A34",
+              "flex": 1,
+              "height": 35,
+              "marginHorizontal": 6,
+              "textAlign": "center",
+              "width": undefined,
+            },
+            Array [],
+          ]
+        }
+        underlineColorAndroid="transparent"
+      />
+      <TextInput
+        allowFontScaling={true}
+        keyboardType="default"
+        maxLength={1}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+        secureTextEntry={false}
+        style={
+          Array [
+            Object {
+              "borderBottomColor": "#C5CAD5",
+              "borderBottomWidth": 0.5,
+              "color": "#111A34",
+              "flex": 1,
+              "height": 35,
+              "marginHorizontal": 6,
+              "textAlign": "center",
+              "width": undefined,
+            },
+            Array [],
+          ]
+        }
+        underlineColorAndroid="transparent"
+      />
+      <TextInput
+        allowFontScaling={true}
+        keyboardType="default"
+        maxLength={1}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+        secureTextEntry={false}
+        style={
+          Array [
+            Object {
+              "borderBottomColor": "#C5CAD5",
+              "borderBottomWidth": 0.5,
+              "color": "#111A34",
+              "flex": 1,
+              "height": 35,
+              "marginHorizontal": 6,
+              "textAlign": "center",
+              "width": undefined,
+            },
+            Array [
+              Object {
+                "marginHorizontal": undefined,
+                "marginLeft": 3,
+              },
+            ],
+          ]
+        }
+        underlineColorAndroid="transparent"
+      />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginVertical": 14,
+            "width": 240,
+          },
+          Object {
+            "width": undefined,
+          },
+        ]
+      }
+    >
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#2F86F6",
+            "fontSize": 12,
+            "marginLeft": 10,
+            "textAlign": "right",
+          }
+        }
+      >
+        发送验证码
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly captcha with brief 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onRequestClose={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={false}
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "black",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    pointerEvents="box-none"
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderRadius": 4,
+          "display": "flex",
+          "justifyContent": "center",
+          "overflow": "hidden",
+          "paddingBottom": 15,
+          "paddingHorizontal": 30,
+          "paddingTop": 30,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "position": "absolute",
+            "right": 16,
+            "top": 16,
+            "zIndex": 1301,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 16,
+              },
+              undefined,
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#111A34",
+            "fontSize": 22,
+            "fontWeight": "400",
+            "lineHeight": 25.299999999999997,
+            "marginBottom": 8,
+          }
+        }
+      >
+        title
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "marginTop": 25,
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={-1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [
+                  Object {
+                    "marginHorizontal": undefined,
+                    "marginRight": 3,
+                  },
+                  Object {
+                    "marginHorizontal": undefined,
+                    "marginLeft": 3,
+                  },
+                  Object {
+                    "width": "100%",
+                  },
+                ],
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginVertical": 14,
+                "width": 240,
+              },
+              null,
+            ]
+          }
+        >
+          <Text
+            numberOfLines={0}
+            style={
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "maxWidth": "50%",
+                "textAlign": "left",
+              }
+            }
+          >
+            最新验证码依然有效，请勿重发
+          </Text>
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "color": "#2F86F6",
+                "fontSize": 12,
+                "marginLeft": 10,
+                "textAlign": "right",
+              }
+            }
+          >
+            发送验证码
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`renders correctly captcha with custom countdown number 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onRequestClose={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={false}
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "black",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    pointerEvents="box-none"
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderRadius": 4,
+          "display": "flex",
+          "justifyContent": "center",
+          "overflow": "hidden",
+          "paddingBottom": 15,
+          "paddingHorizontal": 30,
+          "paddingTop": 30,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "position": "absolute",
+            "right": 16,
+            "top": 16,
+            "zIndex": 1301,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 16,
+              },
+              undefined,
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginTop": 25,
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [
+                  Object {
+                    "marginHorizontal": undefined,
+                    "marginRight": 3,
+                  },
+                ],
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [],
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [],
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [
+                  Object {
+                    "marginHorizontal": undefined,
+                    "marginLeft": 3,
+                  },
+                ],
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginVertical": 14,
+                "width": 240,
+              },
+              null,
+            ]
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "color": "#2F86F6",
+                "fontSize": 12,
+                "marginLeft": 10,
+                "textAlign": "right",
+              }
+            }
+          >
+            发送验证码
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`renders correctly captcha with error 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onRequestClose={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={false}
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "black",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    pointerEvents="box-none"
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderRadius": 4,
+          "display": "flex",
+          "justifyContent": "center",
+          "overflow": "hidden",
+          "paddingBottom": 15,
+          "paddingHorizontal": 30,
+          "paddingTop": 30,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "position": "absolute",
+            "right": 16,
+            "top": 16,
+            "zIndex": 1301,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 16,
+              },
+              undefined,
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginTop": 25,
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [
+                  Object {
+                    "marginHorizontal": undefined,
+                    "marginRight": 3,
+                  },
+                ],
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [],
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [],
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [
+                  Object {
+                    "marginHorizontal": undefined,
+                    "marginLeft": 3,
+                  },
+                ],
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginVertical": 14,
+                "width": 240,
+              },
+              null,
+            ]
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "color": "#2F86F6",
+                "fontSize": 12,
+                "marginLeft": 10,
+                "textAlign": "right",
+              }
+            }
+          >
+            发送验证码
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`renders correctly captcha with maxlength 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onRequestClose={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={false}
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "black",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    pointerEvents="box-none"
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderRadius": 4,
+          "display": "flex",
+          "justifyContent": "center",
+          "overflow": "hidden",
+          "paddingBottom": 15,
+          "paddingHorizontal": 30,
+          "paddingTop": 30,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "position": "absolute",
+            "right": 16,
+            "top": 16,
+            "zIndex": 1301,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 16,
+              },
+              undefined,
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#111A34",
+            "fontSize": 22,
+            "fontWeight": "400",
+            "lineHeight": 25.299999999999997,
+            "marginBottom": 8,
+          }
+        }
+      >
+        title
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "marginTop": 25,
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [
+                  Object {
+                    "marginHorizontal": undefined,
+                    "marginRight": 3,
+                  },
+                ],
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [],
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [],
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [],
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [],
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [
+                  Object {
+                    "marginHorizontal": undefined,
+                    "marginLeft": 3,
+                  },
+                ],
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginVertical": 14,
+                "width": 240,
+              },
+              null,
+            ]
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "color": "#2F86F6",
+                "fontSize": 12,
+                "marginLeft": 10,
+                "textAlign": "right",
+              }
+            }
+          >
+            发送验证码
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`renders correctly captcha with security 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onRequestClose={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={false}
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "black",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    pointerEvents="box-none"
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderRadius": 4,
+          "display": "flex",
+          "justifyContent": "center",
+          "overflow": "hidden",
+          "paddingBottom": 15,
+          "paddingHorizontal": 30,
+          "paddingTop": 30,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "position": "absolute",
+            "right": 16,
+            "top": 16,
+            "zIndex": 1301,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 16,
+              },
+              undefined,
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#111A34",
+            "fontSize": 22,
+            "fontWeight": "400",
+            "lineHeight": 25.299999999999997,
+            "marginBottom": 8,
+          }
+        }
+      >
+        title
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "marginTop": 25,
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={-1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={true}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [
+                  Object {
+                    "marginHorizontal": undefined,
+                    "marginRight": 3,
+                  },
+                  Object {
+                    "marginHorizontal": undefined,
+                    "marginLeft": 3,
+                  },
+                  Object {
+                    "width": "100%",
+                  },
+                ],
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginVertical": 14,
+                "width": 240,
+              },
+              null,
+            ]
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "color": "#2F86F6",
+                "fontSize": 12,
+                "marginLeft": 10,
+                "textAlign": "right",
+              }
+            }
+          >
+            发送验证码
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`renders correctly captcha with text slot 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onRequestClose={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={false}
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "black",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    pointerEvents="box-none"
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderRadius": 4,
+          "display": "flex",
+          "justifyContent": "center",
+          "overflow": "hidden",
+          "paddingBottom": 15,
+          "paddingHorizontal": 30,
+          "paddingTop": 30,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "position": "absolute",
+            "right": 16,
+            "top": 16,
+            "zIndex": 1301,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 16,
+              },
+              undefined,
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#111A34",
+            "fontSize": 22,
+            "fontWeight": "400",
+            "lineHeight": 25.299999999999997,
+            "marginBottom": 8,
+          }
+        }
+      >
+        title
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#858B9C",
+            "fontSize": 14,
+            "lineHeight": 16.8,
+            "textAlign": "center",
+          }
+        }
+      >
+        testtest
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "marginTop": 25,
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={-1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [
+                  Object {
+                    "marginHorizontal": undefined,
+                    "marginRight": 3,
+                  },
+                  Object {
+                    "marginHorizontal": undefined,
+                    "marginLeft": 3,
+                  },
+                  Object {
+                    "width": "100%",
+                  },
+                ],
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginVertical": 14,
+                "width": 240,
+              },
+              null,
+            ]
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "color": "#2F86F6",
+                "fontSize": 12,
+                "marginLeft": 10,
+                "textAlign": "right",
+              }
+            }
+          >
+            发送验证码
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`renders correctly captcha with title 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onRequestClose={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={false}
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "black",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    pointerEvents="box-none"
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderRadius": 4,
+          "display": "flex",
+          "justifyContent": "center",
+          "overflow": "hidden",
+          "paddingBottom": 15,
+          "paddingHorizontal": 30,
+          "paddingTop": 30,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "position": "absolute",
+            "right": 16,
+            "top": 16,
+            "zIndex": 1301,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 16,
+              },
+              undefined,
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#111A34",
+            "fontSize": 22,
+            "fontWeight": "400",
+            "lineHeight": 25.299999999999997,
+            "marginBottom": 8,
+          }
+        }
+      >
+        title
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "marginTop": 25,
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [
+                  Object {
+                    "marginHorizontal": undefined,
+                    "marginRight": 3,
+                  },
+                ],
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [],
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [],
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [
+                  Object {
+                    "marginHorizontal": undefined,
+                    "marginLeft": 3,
+                  },
+                ],
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginVertical": 14,
+                "width": 240,
+              },
+              null,
+            ]
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "color": "#2F86F6",
+                "fontSize": 12,
+                "marginLeft": 10,
+                "textAlign": "right",
+              }
+            }
+          >
+            发送验证码
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`renders correctly captcha with visible 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onRequestClose={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={true}
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "black",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    pointerEvents="box-none"
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "opacity": 0,
+        "padding": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderRadius": 4,
+          "display": "flex",
+          "justifyContent": "center",
+          "overflow": "hidden",
+          "paddingBottom": 15,
+          "paddingHorizontal": 30,
+          "paddingTop": 30,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "position": "absolute",
+            "right": 16,
+            "top": 16,
+            "zIndex": 1301,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 16,
+              },
+              undefined,
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#111A34",
+            "fontSize": 22,
+            "fontWeight": "400",
+            "lineHeight": 25.299999999999997,
+            "marginBottom": 8,
+          }
+        }
+      >
+        title
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "marginTop": 25,
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={-1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [
+                  Object {
+                    "marginHorizontal": undefined,
+                    "marginRight": 3,
+                  },
+                  Object {
+                    "marginHorizontal": undefined,
+                    "marginLeft": 3,
+                  },
+                  Object {
+                    "width": "100%",
+                  },
+                ],
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginVertical": 14,
+                "width": 240,
+              },
+              null,
+            ]
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "color": "#2F86F6",
+                "fontSize": 12,
+                "marginLeft": 10,
+                "textAlign": "right",
+              }
+            }
+          >
+            发送验证码
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`renders correctly captcha without maxlength 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onRequestClose={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={false}
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "black",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    pointerEvents="box-none"
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderRadius": 4,
+          "display": "flex",
+          "justifyContent": "center",
+          "overflow": "hidden",
+          "paddingBottom": 15,
+          "paddingHorizontal": 30,
+          "paddingTop": 30,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "position": "absolute",
+            "right": 16,
+            "top": 16,
+            "zIndex": 1301,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 16,
+              },
+              undefined,
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#111A34",
+            "fontSize": 22,
+            "fontWeight": "400",
+            "lineHeight": 25.299999999999997,
+            "marginBottom": 8,
+          }
+        }
+      >
+        title
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "marginTop": 25,
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={-1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [
+                  Object {
+                    "marginHorizontal": undefined,
+                    "marginRight": 3,
+                  },
+                  Object {
+                    "marginHorizontal": undefined,
+                    "marginLeft": 3,
+                  },
+                  Object {
+                    "width": "100%",
+                  },
+                ],
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginVertical": 14,
+                "width": 240,
+              },
+              null,
+            ]
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "color": "#2F86F6",
+                "fontSize": 12,
+                "marginLeft": 10,
+                "textAlign": "right",
+              }
+            }
+          >
+            发送验证码
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`renders correctly with defaults 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onRequestClose={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={false}
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "black",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    pointerEvents="box-none"
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderRadius": 4,
+          "display": "flex",
+          "justifyContent": "center",
+          "overflow": "hidden",
+          "paddingBottom": 15,
+          "paddingHorizontal": 30,
+          "paddingTop": 30,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "position": "absolute",
+            "right": 16,
+            "top": 16,
+            "zIndex": 1301,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 16,
+              },
+              undefined,
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginTop": 25,
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [
+                  Object {
+                    "marginHorizontal": undefined,
+                    "marginRight": 3,
+                  },
+                ],
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [],
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [],
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="default"
+            maxLength={1}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#C5CAD5",
+                  "borderBottomWidth": 0.5,
+                  "color": "#111A34",
+                  "flex": 1,
+                  "height": 35,
+                  "marginHorizontal": 6,
+                  "textAlign": "center",
+                  "width": undefined,
+                },
+                Array [
+                  Object {
+                    "marginHorizontal": undefined,
+                    "marginLeft": 3,
+                  },
+                ],
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginVertical": 14,
+                "width": 240,
+              },
+              null,
+            ]
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "color": "#2F86F6",
+                "fontSize": 12,
+                "marginLeft": 10,
+                "textAlign": "right",
+              }
+            }
+          >
+            发送验证码
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;

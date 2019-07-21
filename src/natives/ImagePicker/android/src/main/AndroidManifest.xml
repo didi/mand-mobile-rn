@@ -1,0 +1,40 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mandmobile.react.imagepicker">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application android:theme="@style/AppTheme">
+        <provider
+            android:name=".MDImagePickerFileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/md_file_paths" />
+        </provider>
+
+        <activity
+            android:name=".activity.MDImagePickerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MDImagePreviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MDImageSimplePreviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MDCropActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+    </application>
+</manifest>
+  

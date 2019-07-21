@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "borderColor": "#C5CAD5",
+        "borderRadius": 2,
+        "borderStyle": "solid",
+        "borderWidth": 0.5,
+        "justifyContent": "center",
+        "overflow": "hidden",
+        "paddingHorizontal": 10,
+        "paddingVertical": 6,
+        "position": "relative",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#111A34",
+          "fontSize": 16,
+        },
+      ]
+    }
+  >
+    日缴
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with disabled 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "borderColor": "#C5CAD5",
+        "borderRadius": 2,
+        "borderStyle": "solid",
+        "borderWidth": 0.5,
+        "justifyContent": "center",
+        "overflow": "hidden",
+        "paddingHorizontal": 10,
+        "paddingVertical": 6,
+        "position": "relative",
+      },
+      Object {
+        "borderColor": "#C5CAD5",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#111A34",
+          "fontSize": 16,
+        },
+        Object {
+          "color": "#C5CAD5",
+        },
+      ]
+    }
+  >
+    日缴
+  </Text>
+</View>
+`;

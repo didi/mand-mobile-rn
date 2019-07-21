@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with custom icon 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "flex-start",
+      "marginVertical": 6,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": undefined,
+          "fontSize": 14,
+        },
+        Array [
+          Object {
+            "color": "#2F86F6",
+          },
+        ],
+        Object {
+          "fontFamily": "mand-mobile",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+    svg={false}
+    type="MandMobile"
+  >
+    
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#111A34",
+          "fontSize": 14,
+          "marginLeft": 6,
+        },
+      ]
+    }
+  >
+    单选项
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "flex-start",
+      "marginVertical": 6,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": undefined,
+          "fontSize": 16,
+        },
+        Array [
+          Object {
+            "color": "#2F86F6",
+          },
+        ],
+        Object {
+          "fontFamily": "mand-mobile",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+    svg={false}
+    type="MandMobile"
+  >
+    
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#111A34",
+          "fontSize": 14,
+          "marginLeft": 6,
+        },
+      ]
+    }
+  >
+    单选项
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with empty icon 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "flex-start",
+      "marginVertical": 6,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#111A34",
+          "fontSize": 14,
+          "marginLeft": 6,
+        },
+      ]
+    }
+  >
+    单选项
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with react node label 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "flex-start",
+      "marginVertical": 6,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": undefined,
+          "fontSize": 16,
+        },
+        Array [
+          Object {
+            "color": "#2F86F6",
+          },
+        ],
+        Object {
+          "fontFamily": "mand-mobile",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+    svg={false}
+    type="MandMobile"
+  >
+    
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "color": "#111A34",
+          "fontSize": 14,
+          "marginLeft": 6,
+        },
+      ]
+    }
+  >
+    <Text>
+      单选项
+    </Text>
+  </View>
+</View>
+`;

@@ -1,0 +1,3028 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+        },
+        Object {
+          "height": 200,
+          "width": 350,
+        },
+      ]
+    }
+  >
+    <View
+      pointerEvents="none"
+      style={
+        Array [
+          Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#E2E4EA",
+            "position": "relative",
+            "width": "100%",
+            "zIndex": 2,
+          },
+          Object {
+            "height": 80,
+          },
+        ]
+      }
+    />
+    <View
+      pointerEvents="none"
+      style={
+        Array [
+          Object {
+            "borderColor": "#E2E4EA",
+            "borderTopWidth": 1,
+            "position": "relative",
+            "width": "100%",
+            "zIndex": 2,
+          },
+          Object {
+            "height": 80,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "stretch",
+          "display": "flex",
+          "flexDirection": "row",
+          "height": "100%",
+          "justifyContent": "space-between",
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    >
+      <RCTScrollView
+        automaticallyAdjustContentInsets={false}
+        onMomentumScrollBegin={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={true}
+        showsVerticalScrollIndicator={false}
+        style={
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "column",
+              "overflow": "hidden",
+            },
+            Object {
+              "width": 350,
+            },
+          ]
+        }
+      >
+        <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#2F86F6",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              北京
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              广西壮族自治区
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 0.5,
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 0.5,
+                  },
+                ]
+              }
+            />
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with not icon 1`] = `
+<View
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+        },
+        Object {
+          "height": 200,
+          "width": 350,
+        },
+      ]
+    }
+  >
+    <View
+      pointerEvents="none"
+      style={
+        Array [
+          Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#E2E4EA",
+            "position": "relative",
+            "width": "100%",
+            "zIndex": 2,
+          },
+          Object {
+            "height": 80,
+          },
+        ]
+      }
+    />
+    <View
+      pointerEvents="none"
+      style={
+        Array [
+          Object {
+            "borderColor": "#E2E4EA",
+            "borderTopWidth": 1,
+            "position": "relative",
+            "width": "100%",
+            "zIndex": 2,
+          },
+          Object {
+            "height": 80,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "stretch",
+          "display": "flex",
+          "flexDirection": "row",
+          "height": "100%",
+          "justifyContent": "space-between",
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    >
+      <RCTScrollView
+        automaticallyAdjustContentInsets={false}
+        onMomentumScrollBegin={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={true}
+        showsVerticalScrollIndicator={false}
+        style={
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "column",
+              "overflow": "hidden",
+            },
+            Object {
+              "width": 116.66666666666667,
+            },
+          ]
+        }
+      >
+        <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#2F86F6",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              北京
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 0.5,
+                  },
+                ]
+              }
+            >
+              广西壮族自治区
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 0.5,
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 0.5,
+                  },
+                ]
+              }
+            />
+          </View>
+        </View>
+      </RCTScrollView>
+      <RCTScrollView
+        automaticallyAdjustContentInsets={false}
+        onMomentumScrollBegin={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={true}
+        showsVerticalScrollIndicator={false}
+        style={
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "column",
+              "overflow": "hidden",
+            },
+            Object {
+              "width": 116.66666666666667,
+            },
+          ]
+        }
+      >
+        <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#2F86F6",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              北京市
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 0.5,
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 0.5,
+                  },
+                ]
+              }
+            />
+          </View>
+        </View>
+      </RCTScrollView>
+      <RCTScrollView
+        automaticallyAdjustContentInsets={false}
+        onMomentumScrollBegin={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={true}
+        showsVerticalScrollIndicator={false}
+        style={
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "column",
+              "overflow": "hidden",
+            },
+            Object {
+              "width": 116.66666666666667,
+            },
+          ]
+        }
+      >
+        <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#2F86F6",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              昌平区
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              朝阳区
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              崇文区
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 0.5,
+                  },
+                ]
+              }
+            >
+              大兴区
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              东城区
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              房山区
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              丰台区
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              海淀区
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              怀柔区
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              门头沟区
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              密云县
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              平谷区
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              其它区
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              石景山区
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              顺义区
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              通州区
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              西城区
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              宣武区
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              延庆县
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 0.5,
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+                Object {
+                  "height": 40,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#C5CAD5",
+                    "opacity": 0.5,
+                  },
+                ]
+              }
+            />
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with tab 1`] = `
+<View
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <Modal
+    animationType="none"
+    hardwareAccelerated={false}
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    onRequestClose={[Function]}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      accessible={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#000",
+          "bottom": 0,
+          "height": 1334,
+          "left": 0,
+          "opacity": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "width": 750,
+        }
+      }
+    />
+    <View
+      hideModalContentWhileAnimating={false}
+      onModalHide={[Function]}
+      pointerEvents="box-none"
+      scrollOffset={0}
+      scrollOffsetMax={0}
+      scrollTo={null}
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+          "margin": 0,
+          "padding": 0,
+          "transform": Array [
+            Object {
+              "translateY": 0,
+            },
+          ],
+          "width": "100%",
+        }
+      }
+      supportedOrientations={
+        Array [
+          "portrait",
+          "landscape",
+        ]
+      }
+      swipeThreshold={100}
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "flex-end",
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#F9FAFB",
+                "borderTopLeftRadius": 4,
+                "borderTopRightRadius": 4,
+                "display": "flex",
+                "flexDirection": "row",
+                "height": 60,
+                "justifyContent": "space-between",
+                "overflow": "hidden",
+                "position": "relative",
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+                "paddingHorizontal": "20%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#111A34",
+                  "fontSize": 20,
+                  "textAlign": "center",
+                  "width": "100%",
+                }
+              }
+            >
+              选择省市区/县
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+                "left": 0,
+                "maxHeight": 60,
+                "position": "absolute",
+                "width": "20%",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "color": "#666f83",
+                  "flex": 1,
+                  "fontSize": 18,
+                  "fontWeight": "500",
+                }
+              }
+            >
+              取消
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+                "maxHeight": 60,
+                "position": "absolute",
+                "right": 0,
+                "width": "20%",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "color": "#2F86F6",
+                  "flex": 1,
+                  "fontSize": 18,
+                  "fontWeight": "500",
+                }
+              }
+            >
+              确认
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#fff",
+              "justifyContent": "center",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#ffffff",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                },
+                Object {
+                  "height": 200,
+                  "width": 350,
+                },
+              ]
+            }
+          >
+            <View
+              pointerEvents="none"
+              style={
+                Array [
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "#E2E4EA",
+                    "position": "relative",
+                    "width": "100%",
+                    "zIndex": 2,
+                  },
+                  Object {
+                    "height": 80,
+                  },
+                ]
+              }
+            />
+            <View
+              pointerEvents="none"
+              style={
+                Array [
+                  Object {
+                    "borderColor": "#E2E4EA",
+                    "borderTopWidth": 1,
+                    "position": "relative",
+                    "width": "100%",
+                    "zIndex": 2,
+                  },
+                  Object {
+                    "height": 80,
+                  },
+                ]
+              }
+            />
+            <View
+              style={
+                Object {
+                  "alignItems": "stretch",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "height": "100%",
+                  "justifyContent": "space-between",
+                  "position": "absolute",
+                  "width": "100%",
+                }
+              }
+            >
+              <RCTScrollView
+                automaticallyAdjustContentInsets={false}
+                onMomentumScrollBegin={[Function]}
+                onMomentumScrollEnd={[Function]}
+                onScrollBeginDrag={[Function]}
+                onScrollEndDrag={[Function]}
+                removeClippedSubviews={true}
+                showsVerticalScrollIndicator={false}
+                style={
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "width": 116.66666666666667,
+                    },
+                  ]
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    >
+                      北京
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#2F86F6",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    >
+                      广西壮族自治区
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 0.5,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 0.5,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </RCTScrollView>
+              <RCTScrollView
+                automaticallyAdjustContentInsets={false}
+                onMomentumScrollBegin={[Function]}
+                onMomentumScrollEnd={[Function]}
+                onScrollBeginDrag={[Function]}
+                onScrollEndDrag={[Function]}
+                removeClippedSubviews={true}
+                showsVerticalScrollIndicator={false}
+                style={
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "width": 116.66666666666667,
+                    },
+                  ]
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#2F86F6",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    >
+                      北海市
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    >
+                      百色市
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    >
+                      崇左市
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    >
+                      防城港市
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    >
+                      贵港市
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    >
+                      桂林市
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    >
+                      河池市
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    >
+                      贺州市
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    >
+                      来宾市
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    >
+                      柳州市
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    >
+                      南宁市
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    >
+                      钦州市
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    >
+                      梧州市
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    >
+                      玉林市
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 0.5,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 0.5,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </RCTScrollView>
+              <RCTScrollView
+                automaticallyAdjustContentInsets={false}
+                onMomentumScrollBegin={[Function]}
+                onMomentumScrollEnd={[Function]}
+                onScrollBeginDrag={[Function]}
+                onScrollEndDrag={[Function]}
+                removeClippedSubviews={true}
+                showsVerticalScrollIndicator={false}
+                style={
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "width": 116.66666666666667,
+                    },
+                  ]
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    >
+                      海城区
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#2F86F6",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    >
+                      合浦县
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    >
+                      其它区
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    >
+                      铁山港区
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    >
+                      银海区
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 0.5,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "height": 40,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginLeft": 10,
+                            "marginRight": 10,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#C5CAD5",
+                            "opacity": 0.5,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </RCTScrollView>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </Modal>
+</View>
+`;

@@ -1,0 +1,387 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly with default 1`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "color": "#fff",
+        "fontSize": 21,
+      },
+      undefined,
+      Object {
+        "fontFamily": "mand-mobile",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+  type="MandMobile"
+>
+  
+</Text>
+`;
+
+exports[`render correctly with vector icon 1`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "color": "black",
+        "fontSize": 21,
+      },
+      undefined,
+      Object {
+        "fontFamily": "anticon",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+  type="AntDesign"
+>
+  
+</Text>
+`;
+
+exports[`render correctly with vector icon 2`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 16,
+      },
+      undefined,
+      Object {
+        "fontFamily": "mand-mobile",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+  type="MandMobile"
+>
+  ?
+</Text>
+`;
+
+exports[`render correctly with vector icon 3`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 16,
+      },
+      undefined,
+      Object {
+        "fontFamily": "anticon",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+  type="AntDesign"
+>
+  ?
+</Text>
+`;
+
+exports[`render correctly with vector icon 4`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 16,
+      },
+      undefined,
+      Object {
+        "fontFamily": "Entypo",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+  type="Entypo"
+>
+  ?
+</Text>
+`;
+
+exports[`render correctly with vector icon 5`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 16,
+      },
+      undefined,
+      Object {
+        "fontFamily": "EvilIcons",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+  type="EvilIcons"
+>
+  ?
+</Text>
+`;
+
+exports[`render correctly with vector icon 6`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 16,
+      },
+      undefined,
+      Object {
+        "fontFamily": "Feather",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+  type="Feather"
+>
+  ?
+</Text>
+`;
+
+exports[`render correctly with vector icon 7`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 16,
+      },
+      undefined,
+      Object {
+        "fontFamily": "FontAwesome",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+  type="FontAwesome"
+>
+  ?
+</Text>
+`;
+
+exports[`render correctly with vector icon 8`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 16,
+      },
+      undefined,
+      Object {
+        "fontFamily": "Font Awesome 5 Free",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {
+        "fontWeight": "400",
+      },
+    ]
+  }
+  type="FontAwesome5"
+>
+  ?
+</Text>
+`;
+
+exports[`render correctly with vector icon 9`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 16,
+      },
+      undefined,
+      Object {
+        "fontFamily": "fontcustom",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+  type="Foundation"
+>
+  ?
+</Text>
+`;
+
+exports[`render correctly with vector icon 10`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 16,
+      },
+      undefined,
+      Object {
+        "fontFamily": "Ionicons",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+  type="Ionicons"
+>
+  ?
+</Text>
+`;
+
+exports[`render correctly with vector icon 11`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 16,
+      },
+      undefined,
+      Object {
+        "fontFamily": "Material Design Icons",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+  type="MaterialCommunityIcons"
+>
+  ?
+</Text>
+`;
+
+exports[`render correctly with vector icon 12`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 16,
+      },
+      undefined,
+      Object {
+        "fontFamily": "Material Icons",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+  type="MaterialIcons"
+>
+  ?
+</Text>
+`;
+
+exports[`render correctly with vector icon 13`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 16,
+      },
+      undefined,
+      Object {
+        "fontFamily": "Octicons",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+  type="Octicons"
+>
+  ?
+</Text>
+`;
+
+exports[`render correctly with vector icon 14`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 16,
+      },
+      undefined,
+      Object {
+        "fontFamily": "simple-line-icons",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+  type="SimpleLineIcons"
+>
+  ?
+</Text>
+`;
+
+exports[`render correctly with vector icon 15`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 16,
+      },
+      undefined,
+      Object {
+        "fontFamily": "zocial",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+  type="Zocial"
+>
+  ?
+</Text>
+`;

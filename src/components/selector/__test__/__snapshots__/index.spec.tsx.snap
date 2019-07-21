@@ -1,0 +1,1303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with check mode 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onRequestClose={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={true}
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#000",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    pointerEvents="box-none"
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+        "transform": Array [
+          Object {
+            "translateY": 1334,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#F9FAFB",
+              "borderTopLeftRadius": 4,
+              "borderTopRightRadius": 4,
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 60,
+              "justifyContent": "space-between",
+              "overflow": "hidden",
+              "position": "relative",
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "paddingHorizontal": "20%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#111A34",
+                "fontSize": 20,
+                "textAlign": "center",
+                "width": "100%",
+              }
+            }
+          >
+            标题
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "left": 0,
+              "maxHeight": 60,
+              "position": "absolute",
+              "width": "20%",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "color": "#666f83",
+                "flex": 1,
+                "fontSize": 18,
+                "fontWeight": "500",
+              }
+            }
+          >
+            取消
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "maxHeight": 60,
+              "position": "absolute",
+              "right": 0,
+              "width": "20%",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "color": "#2F86F6",
+                "flex": 1,
+                "fontSize": 18,
+                "fontWeight": "500",
+              }
+            }
+          >
+            确定
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFF",
+            "paddingBottom": 0,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#FFF",
+                "borderBottomColor": "#E2E4EA",
+                "borderBottomWidth": 0.5,
+                "justifyContent": "center",
+                "marginLeft": 16,
+                "marginRight": 16,
+                "paddingBottom": 16,
+                "paddingTop": 16,
+              },
+              Object {
+                "flexDirection": "row",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#41485D",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            选项1
+          </Text>
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "#41485D",
+                  "fontSize": 16,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "mand-mobile",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#FFF",
+                "borderBottomColor": "#E2E4EA",
+                "borderBottomWidth": 0.5,
+                "justifyContent": "center",
+                "marginLeft": 16,
+                "marginRight": 16,
+                "paddingBottom": 16,
+                "paddingTop": 16,
+              },
+              Object {
+                "flexDirection": "row",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#41485D",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            选项2
+          </Text>
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "#41485D",
+                  "fontSize": 16,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "mand-mobile",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#FFF",
+                "borderBottomColor": "#E2E4EA",
+                "borderBottomWidth": 0.5,
+                "justifyContent": "center",
+                "marginLeft": 16,
+                "marginRight": 16,
+                "paddingBottom": 16,
+                "paddingTop": 16,
+              },
+              Object {
+                "flexDirection": "row",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#41485D",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            选项3
+          </Text>
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "#41485D",
+                  "fontSize": 16,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "mand-mobile",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#FFF",
+                "borderBottomColor": "#E2E4EA",
+                "borderBottomWidth": 0.5,
+                "justifyContent": "center",
+                "marginLeft": 16,
+                "marginRight": 16,
+                "paddingBottom": 16,
+                "paddingTop": 16,
+              },
+              Object {
+                "flexDirection": "row",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#C5CAD5",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            选项4
+          </Text>
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "#C5CAD5",
+                  "fontSize": 16,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "mand-mobile",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#FFF",
+                "borderBottomColor": "#E2E4EA",
+                "borderBottomWidth": 0.5,
+                "justifyContent": "center",
+                "marginLeft": 16,
+                "marginRight": 16,
+                "paddingBottom": 16,
+                "paddingTop": 16,
+              },
+              Object {
+                "flexDirection": "row",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#41485D",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            选项5
+          </Text>
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "#41485D",
+                  "fontSize": 16,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "mand-mobile",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`renders correctly with confirm mode 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onRequestClose={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={true}
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#000",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    pointerEvents="box-none"
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+        "transform": Array [
+          Object {
+            "translateY": 1334,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#F9FAFB",
+              "borderTopLeftRadius": 4,
+              "borderTopRightRadius": 4,
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 60,
+              "justifyContent": "space-between",
+              "overflow": "hidden",
+              "position": "relative",
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "paddingHorizontal": "20%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#111A34",
+                "fontSize": 20,
+                "textAlign": "center",
+                "width": "100%",
+              }
+            }
+          >
+            标题
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "left": 0,
+              "maxHeight": 60,
+              "position": "absolute",
+              "width": "20%",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "color": "#666f83",
+                "flex": 1,
+                "fontSize": 18,
+                "fontWeight": "500",
+              }
+            }
+          >
+            取消
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "maxHeight": 60,
+              "position": "absolute",
+              "right": 0,
+              "width": "20%",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "color": "#2F86F6",
+                "flex": 1,
+                "fontSize": 18,
+                "fontWeight": "500",
+              }
+            }
+          >
+            确定
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFF",
+            "paddingBottom": 0,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFF",
+              "borderBottomColor": "#E2E4EA",
+              "borderBottomWidth": 0.5,
+              "justifyContent": "center",
+              "marginLeft": 16,
+              "marginRight": 16,
+              "paddingBottom": 16,
+              "paddingTop": 16,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#41485D",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            选项1
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#858B9C",
+                  "fontSize": 14,
+                  "paddingTop": 10,
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#858B9C",
+                },
+              ]
+            }
+          >
+            这是一段内容描述1
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFF",
+              "borderBottomColor": "#E2E4EA",
+              "borderBottomWidth": 0.5,
+              "justifyContent": "center",
+              "marginLeft": 16,
+              "marginRight": 16,
+              "paddingBottom": 16,
+              "paddingTop": 16,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#41485D",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            选项2
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#858B9C",
+                  "fontSize": 14,
+                  "paddingTop": 10,
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#858B9C",
+                },
+              ]
+            }
+          >
+            这是一段内容描述2
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFF",
+              "borderBottomColor": "#E2E4EA",
+              "borderBottomWidth": 0.5,
+              "justifyContent": "center",
+              "marginLeft": 16,
+              "marginRight": 16,
+              "paddingBottom": 16,
+              "paddingTop": 16,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#41485D",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            选项3
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#858B9C",
+                  "fontSize": 14,
+                  "paddingTop": 10,
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#858B9C",
+                },
+              ]
+            }
+          >
+            这是一段内容描述3
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFF",
+              "borderBottomColor": "#E2E4EA",
+              "borderBottomWidth": 0.5,
+              "justifyContent": "center",
+              "marginLeft": 16,
+              "marginRight": 16,
+              "paddingBottom": 16,
+              "paddingTop": 16,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#C5CAD5",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            选项4
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#858B9C",
+                  "fontSize": 14,
+                  "paddingTop": 10,
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#C5CAD5",
+                },
+              ]
+            }
+          >
+            这是一段内容描述4
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFF",
+              "borderBottomColor": "#E2E4EA",
+              "borderBottomWidth": 0.5,
+              "justifyContent": "center",
+              "marginLeft": 16,
+              "marginRight": 16,
+              "paddingBottom": 16,
+              "paddingTop": 16,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#41485D",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            选项5
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#858B9C",
+                  "fontSize": 14,
+                  "paddingTop": 10,
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#858B9C",
+                },
+              ]
+            }
+          >
+            这是一段内容描述5
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`renders correctly with default mode 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onRequestClose={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={true}
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#000",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    pointerEvents="box-none"
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+        "transform": Array [
+          Object {
+            "translateY": 1334,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#F9FAFB",
+              "borderTopLeftRadius": 4,
+              "borderTopRightRadius": 4,
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 60,
+              "justifyContent": "space-between",
+              "overflow": "hidden",
+              "position": "relative",
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "paddingHorizontal": "20%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#111A34",
+                "fontSize": 20,
+                "textAlign": "center",
+                "width": "100%",
+              }
+            }
+          >
+            标题
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "left": 0,
+              "maxHeight": 60,
+              "position": "absolute",
+              "width": "20%",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 21,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "mand-mobile",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFF",
+            "paddingBottom": 0,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFF",
+              "borderBottomColor": "#E2E4EA",
+              "borderBottomWidth": 0.5,
+              "justifyContent": "center",
+              "marginLeft": 16,
+              "marginRight": 16,
+              "paddingBottom": 16,
+              "paddingTop": 16,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#41485D",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            选项1
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFF",
+              "borderBottomColor": "#E2E4EA",
+              "borderBottomWidth": 0.5,
+              "justifyContent": "center",
+              "marginLeft": 16,
+              "marginRight": 16,
+              "paddingBottom": 16,
+              "paddingTop": 16,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#41485D",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            选项2
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFF",
+              "borderBottomColor": "#E2E4EA",
+              "borderBottomWidth": 0.5,
+              "justifyContent": "center",
+              "marginLeft": 16,
+              "marginRight": 16,
+              "paddingBottom": 16,
+              "paddingTop": 16,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#41485D",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            选项3
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFF",
+              "borderBottomColor": "#E2E4EA",
+              "borderBottomWidth": 0.5,
+              "justifyContent": "center",
+              "marginLeft": 16,
+              "marginRight": 16,
+              "paddingBottom": 16,
+              "paddingTop": 16,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#C5CAD5",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            选项4
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFF",
+              "borderBottomColor": "#E2E4EA",
+              "borderBottomWidth": 0.5,
+              "justifyContent": "center",
+              "marginLeft": 16,
+              "marginRight": 16,
+              "paddingBottom": 16,
+              "paddingTop": 16,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#41485D",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            选项5
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;

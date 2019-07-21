@@ -1,0 +1,736 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with custom children 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "borderColor": "#C5CAD5",
+      "borderRadius": 2,
+      "borderStyle": "solid",
+      "flexDirection": "row",
+      "height": 32,
+      "justifyContent": "center",
+      "opacity": 0.3,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 17,
+      }
+    }
+  >
+    Custom children
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with custom props 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#fff",
+      "borderColor": "#2F86F6",
+      "borderRadius": 50,
+      "borderStyle": "solid",
+      "flexDirection": "row",
+      "height": 32,
+      "justifyContent": "center",
+      "opacity": 0.3,
+    }
+  }
+>
+  <View>
+    <Text>
+      Custom children
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with custom props 2`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "borderColor": "#FF5257",
+      "borderRadius": 50,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 32,
+      "justifyContent": "center",
+      "opacity": 0.3,
+      "width": 32,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": "#FF5257",
+          "fontSize": 14,
+        },
+        undefined,
+        Object {
+          "fontFamily": "mand-mobile",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+    type="MandMobile"
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with custom style 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "borderColor": "#C5CAD5",
+      "borderRadius": 2,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 32,
+      "justifyContent": "center",
+      "marginVertical": 10,
+      "opacity": 0.3,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "paddingHorizontal": 2,
+        },
+        Object {
+          "color": "#41485D",
+        },
+      ]
+    }
+  >
+    Default & Custom style
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with different type 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "borderColor": "#C5CAD5",
+      "borderRadius": 2,
+      "borderStyle": "solid",
+      "flexDirection": "row",
+      "height": 50,
+      "justifyContent": "center",
+    }
+  }
+>
+  Default
+   button
+</View>
+`;
+
+exports[`renders correctly with different type 2`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "borderColor": "#2F86F6",
+      "borderRadius": 2,
+      "borderStyle": "solid",
+      "flexDirection": "row",
+      "height": 50,
+      "justifyContent": "center",
+    }
+  }
+>
+  Primary
+   button
+</View>
+`;
+
+exports[`renders correctly with different type 3`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "borderColor": "#FF5257",
+      "borderRadius": 2,
+      "borderStyle": "solid",
+      "flexDirection": "row",
+      "height": 50,
+      "justifyContent": "center",
+    }
+  }
+>
+  Warning
+   button
+</View>
+`;
+
+exports[`renders correctly with different type 4`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "borderColor": "#C5CAD5",
+      "borderRadius": 2,
+      "borderStyle": "solid",
+      "flexDirection": "row",
+      "height": 50,
+      "justifyContent": "center",
+    }
+  }
+>
+  Disabled
+   button
+</View>
+`;
+
+exports[`renders correctly with different type 5`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "borderColor": "#FFF",
+      "borderRadius": 2,
+      "borderStyle": "solid",
+      "flexDirection": "row",
+      "height": 50,
+      "justifyContent": "center",
+    }
+  }
+>
+  Link
+   button
+</View>
+`;
+
+exports[`renders correctly with icon 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "borderColor": "#C5CAD5",
+      "borderRadius": 2,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 32,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "paddingHorizontal": 2,
+        },
+        Object {
+          "color": "#41485D",
+        },
+      ]
+    }
+  >
+    Default & icon button
+  </Text>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": "#41485D",
+          "fontSize": 14,
+        },
+        undefined,
+        Object {
+          "fontFamily": "mand-mobile",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+    type="MandMobile"
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with icon 2`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "borderColor": "#C5CAD5",
+      "borderRadius": 50,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 50,
+      "justifyContent": "center",
+      "width": 50,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": "#41485D",
+          "fontSize": 18,
+        },
+        undefined,
+        Object {
+          "fontFamily": "mand-mobile",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+    type="MandMobile"
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with inactive 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "borderColor": "#C5CAD5",
+      "borderRadius": 2,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 32,
+      "justifyContent": "center",
+      "opacity": 0.3,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "paddingHorizontal": 2,
+        },
+        Object {
+          "color": "#41485D",
+        },
+      ]
+    }
+  >
+    Default & icon button
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with onPress 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "borderColor": "#C5CAD5",
+      "borderRadius": 2,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 50,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 18,
+            "paddingHorizontal": 3,
+          },
+          Object {
+            "color": "#41485D",
+          },
+        ]
+      }
+    >
+      Default & onPress event
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with plain 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "borderColor": "#C5CAD5",
+      "borderRadius": 2,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 50,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 18,
+          "paddingHorizontal": 3,
+        },
+        Object {
+          "color": "#41485D",
+        },
+      ]
+    }
+  >
+    Default & Plain button
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with plain 2`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "borderColor": "#2F86F6",
+      "borderRadius": 2,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 50,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 18,
+          "paddingHorizontal": 3,
+        },
+        Object {
+          "color": "#2F86F6",
+        },
+      ]
+    }
+  >
+    Default & Plain button
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with plain 3`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "borderColor": "#FF5257",
+      "borderRadius": 2,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 50,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 18,
+          "paddingHorizontal": 3,
+        },
+        Object {
+          "color": "#FF5257",
+        },
+      ]
+    }
+  >
+    Default & Plain button
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with plain 4`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "borderColor": "#C5CAD5",
+      "borderRadius": 2,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 50,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 18,
+          "paddingHorizontal": 3,
+        },
+        Object {
+          "color": "#C5CAD5",
+        },
+      ]
+    }
+  >
+    Default & Plain button
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with plain 5`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "borderColor": "#FFF",
+      "borderRadius": 2,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 50,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 18,
+          "paddingHorizontal": 3,
+        },
+        Object {
+          "color": "#41485D",
+        },
+      ]
+    }
+  >
+    Default & Plain button
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with round 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "borderColor": "#C5CAD5",
+      "borderRadius": 50,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 50,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 18,
+          "paddingHorizontal": 3,
+        },
+        Object {
+          "color": "#41485D",
+        },
+      ]
+    }
+  >
+    Default & Round button
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with size 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "borderColor": "#C5CAD5",
+      "borderRadius": 2,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 32,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "paddingHorizontal": 2,
+        },
+        Object {
+          "color": "#41485D",
+        },
+      ]
+    }
+  >
+    Default & Small button
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with size 2`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "borderColor": "#C5CAD5",
+      "borderRadius": 2,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "width": 150,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#41485D",
+        },
+      ]
+    }
+  >
+    Custom size button
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with size 3`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "borderColor": "#C5CAD5",
+      "borderRadius": 2,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 50,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#41485D",
+        },
+      ]
+    }
+  >
+    Custom size button
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with size 4`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "borderColor": "#C5CAD5",
+      "borderRadius": 2,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 24,
+        },
+        Object {
+          "color": "#41485D",
+        },
+      ]
+    }
+  >
+    Custom size button
+  </Text>
+</View>
+`;

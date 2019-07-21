@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F9FAFB",
+        "borderTopLeftRadius": 4,
+        "borderTopRightRadius": 4,
+        "display": "flex",
+        "flexDirection": "row",
+        "height": 60,
+        "justifyContent": "space-between",
+        "overflow": "hidden",
+        "position": "relative",
+        "width": "100%",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`renders correctly with normal props 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F9FAFB",
+        "borderTopLeftRadius": 4,
+        "borderTopRightRadius": 4,
+        "display": "flex",
+        "flexDirection": "row",
+        "height": 60,
+        "justifyContent": "space-between",
+        "overflow": "hidden",
+        "position": "relative",
+        "width": "100%",
+      },
+      Object {
+        "height": 90,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "paddingHorizontal": "20%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#111A34",
+          "fontSize": 20,
+          "textAlign": "center",
+          "width": "100%",
+        }
+      }
+    >
+      Prevent Mask Click
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#858B9C",
+          "fontSize": 14,
+          "textAlign": "center",
+          "width": "100%",
+        }
+      }
+    >
+      Prevent Mask Click Prevent Mask Click
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "left": 0,
+        "maxHeight": 60,
+        "position": "absolute",
+        "width": "20%",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "color": "#666f83",
+          "flex": 1,
+          "fontSize": 18,
+          "fontWeight": "500",
+        }
+      }
+    >
+      cancel
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "maxHeight": 60,
+        "position": "absolute",
+        "right": 0,
+        "width": "20%",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "color": "#2F86F6",
+          "flex": 1,
+          "fontSize": 18,
+          "fontWeight": "500",
+        }
+      }
+    >
+      ok
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with solt 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F9FAFB",
+        "borderTopLeftRadius": 4,
+        "borderTopRightRadius": 4,
+        "display": "flex",
+        "flexDirection": "row",
+        "height": 60,
+        "justifyContent": "space-between",
+        "overflow": "hidden",
+        "position": "relative",
+        "width": "100%",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "paddingHorizontal": "20%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#f4a",
+        }
+      }
+    >
+      Prevent Mask Click
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "left": 0,
+        "maxHeight": 60,
+        "position": "absolute",
+        "width": "20%",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "color": "#f4a",
+        }
+      }
+    >
+      取消
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "maxHeight": 60,
+        "position": "absolute",
+        "right": 0,
+        "width": "20%",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "color": "#f4a",
+        }
+      }
+    >
+      取消
+    </Text>
+  </View>
+</View>
+`;

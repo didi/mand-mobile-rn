@@ -1,0 +1,27 @@
+{
+  "prompts": {
+    "ccname": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "string",
+      "required": true,
+      "message": "组件中文名称，如：轻提示"
+    },
+    "category": {
+      "type": "string",
+      "required": true,
+      "message": "组件类型, 选项: basic feedback form business gesture"
+    },
+    "description": {
+      "type": "string",
+      "message": "组件描述"
+    },
+    "author": {
+      "type": "string",
+      "message": "Author"
+    }
+  },
+  "completeMessage": "To get started:\n\n  cd {{destDirName}}\n"
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/md_ic_image_unchecked"
+    android:tint="@color/md_black_41">
+
+</bitmap>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="md_default_pull_down_to_refresh">下拉刷新</string>
+    <string name="md_default_release_to_refresh">释放刷新</string>
+    <string name="md_default_refreshing">刷新中…</string>
+    <string name="md_default_refresh_finish">刷新完成</string>
+    <string name="md_default_last_update_time">上次更新 M-d HH:mm</string>
+    <string name="md_default_no_update_time">您还没有刷新</string>
+</resources>

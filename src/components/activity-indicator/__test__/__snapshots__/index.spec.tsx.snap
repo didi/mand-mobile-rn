@@ -1,0 +1,1720 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with Carousel 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "justifyContent": "center",
+      },
+      Object {
+        "flexDirection": "row",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <View
+      animating={true}
+      color="#2F86F6"
+      column={false}
+      duration={1200}
+      easing={[Function]}
+      interaction={true}
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#2F86F6",
+            "borderRadius": 2.5,
+            "height": 5,
+            "margin": 2.5,
+            "opacity": 0.5,
+            "transform": Array [
+              Object {
+                "scale": 1,
+              },
+            ],
+            "width": 5,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#2F86F6",
+            "borderRadius": 2.5,
+            "height": 5,
+            "margin": 2.5,
+            "opacity": 0.5,
+            "transform": Array [
+              Object {
+                "scale": 1,
+              },
+            ],
+            "width": 5,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#2F86F6",
+            "borderRadius": 2.5,
+            "height": 5,
+            "margin": 2.5,
+            "opacity": 0.5,
+            "transform": Array [
+              Object {
+                "scale": 1,
+              },
+            ],
+            "width": 5,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with Carousel set color 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "justifyContent": "center",
+        "marginVertical": 10,
+      },
+      Object {
+        "flexDirection": "row",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <View
+      animating={true}
+      color="#fff"
+      column={false}
+      duration={1200}
+      easing={[Function]}
+      interaction={true}
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "borderRadius": 2.5,
+            "height": 5,
+            "margin": 2.5,
+            "opacity": 0.5,
+            "transform": Array [
+              Object {
+                "scale": 1,
+              },
+            ],
+            "width": 5,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "borderRadius": 2.5,
+            "height": 5,
+            "margin": 2.5,
+            "opacity": 0.5,
+            "transform": Array [
+              Object {
+                "scale": 1,
+              },
+            ],
+            "width": 5,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "borderRadius": 2.5,
+            "height": 5,
+            "margin": 2.5,
+            "opacity": 0.5,
+            "transform": Array [
+              Object {
+                "scale": 1,
+              },
+            ],
+            "width": 5,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with column roller 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "justifyContent": "center",
+        "marginVertical": 10,
+      },
+      Object {
+        "flexDirection": "column",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <View
+      animating={true}
+      color="#2F86F6"
+      column={false}
+      duration={1200}
+      easing={[Function]}
+      interaction={true}
+      style={
+        Object {
+          "borderColor": "#eee",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "height": 10,
+          "width": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "bottom": 0,
+            "justifyContent": "center",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "height": 10,
+              "transform": Array [
+                Object {
+                  "rotate": "45deg",
+                },
+              ],
+              "width": 10,
+            }
+          }
+        >
+          <View
+            collapsable={false}
+            style={
+              Object {
+                "height": 5,
+                "overflow": "hidden",
+                "width": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 10,
+                  "transform": Array [
+                    Object {
+                      "translateY": 0,
+                    },
+                    Object {
+                      "rotate": "-165deg",
+                    },
+                  ],
+                  "width": 10,
+                }
+              }
+            >
+              <View
+                collapsable={false}
+                style={
+                  Object {
+                    "height": 5,
+                    "overflow": "hidden",
+                    "width": 10,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "borderColor": "#2F86F6",
+                      "borderRadius": 5,
+                      "borderWidth": 1,
+                      "height": 10,
+                      "width": 10,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "#aaa",
+        "fontSize": 8,
+        "marginLeft": 0,
+        "marginTop": 8,
+      }
+    }
+  >
+    column loading
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with dark spinner 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "justifyContent": "center",
+        "marginVertical": 10,
+      },
+      Object {
+        "flexDirection": "row",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <View
+      animating={true}
+      color="black"
+      column={false}
+      duration={1200}
+      easing={[Function]}
+      interaction={true}
+      style={
+        Object {
+          "height": 10,
+          "width": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "bottom": 0,
+            "justifyContent": "flex-start",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "transform": Array [
+              Object {
+                "rotate": "0deg",
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "black",
+              "borderRadius": 0.5,
+              "height": 2.5,
+              "opacity": 0,
+              "width": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "bottom": 0,
+            "justifyContent": "flex-start",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "transform": Array [
+              Object {
+                "rotate": "30deg",
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "black",
+              "borderRadius": 0.5,
+              "height": 2.5,
+              "opacity": 0.09090909090909083,
+              "width": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "bottom": 0,
+            "justifyContent": "flex-start",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "transform": Array [
+              Object {
+                "rotate": "60deg",
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "black",
+              "borderRadius": 0.5,
+              "height": 2.5,
+              "opacity": 0.18181818181818177,
+              "width": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "bottom": 0,
+            "justifyContent": "flex-start",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "transform": Array [
+              Object {
+                "rotate": "90deg",
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "black",
+              "borderRadius": 0.5,
+              "height": 2.5,
+              "opacity": 0.2727272727272727,
+              "width": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "bottom": 0,
+            "justifyContent": "flex-start",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "transform": Array [
+              Object {
+                "rotate": "120deg",
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "black",
+              "borderRadius": 0.5,
+              "height": 2.5,
+              "opacity": 0.36363636363636365,
+              "width": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "bottom": 0,
+            "justifyContent": "flex-start",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "transform": Array [
+              Object {
+                "rotate": "150deg",
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "black",
+              "borderRadius": 0.5,
+              "height": 2.5,
+              "opacity": 0.4545454545454546,
+              "width": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "bottom": 0,
+            "justifyContent": "flex-start",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "transform": Array [
+              Object {
+                "rotate": "180deg",
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "black",
+              "borderRadius": 0.5,
+              "height": 2.5,
+              "opacity": 0.5454545454545454,
+              "width": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "bottom": 0,
+            "justifyContent": "flex-start",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "transform": Array [
+              Object {
+                "rotate": "210deg",
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "black",
+              "borderRadius": 0.5,
+              "height": 2.5,
+              "opacity": 0.6363636363636364,
+              "width": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "bottom": 0,
+            "justifyContent": "flex-start",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "transform": Array [
+              Object {
+                "rotate": "240deg",
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "black",
+              "borderRadius": 0.5,
+              "height": 2.5,
+              "opacity": 0.7272727272727273,
+              "width": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "bottom": 0,
+            "justifyContent": "flex-start",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "transform": Array [
+              Object {
+                "rotate": "270deg",
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "black",
+              "borderRadius": 0.5,
+              "height": 2.5,
+              "opacity": 0.8181818181818181,
+              "width": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "bottom": 0,
+            "justifyContent": "flex-start",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "transform": Array [
+              Object {
+                "rotate": "300deg",
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "black",
+              "borderRadius": 0.5,
+              "height": 2.5,
+              "opacity": 0.9090909090909091,
+              "width": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "bottom": 0,
+            "justifyContent": "flex-start",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "transform": Array [
+              Object {
+                "rotate": "330deg",
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "black",
+              "borderRadius": 0.5,
+              "height": 2.5,
+              "opacity": 1,
+              "width": 1,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "#aaa",
+        "fontSize": 8,
+        "marginLeft": 8,
+        "marginTop": 0,
+      }
+    }
+  >
+    加载中...
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "justifyContent": "center",
+      },
+      Object {
+        "flexDirection": "row",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <View
+      animating={true}
+      color="#2F86F6"
+      column={false}
+      duration={1200}
+      easing={[Function]}
+      interaction={true}
+      style={
+        Object {
+          "borderColor": "#eee",
+          "borderRadius": 17.5,
+          "borderWidth": 3.5,
+          "height": 35,
+          "width": 35,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "bottom": 0,
+            "justifyContent": "center",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "height": 35,
+              "transform": Array [
+                Object {
+                  "rotate": "45deg",
+                },
+              ],
+              "width": 35,
+            }
+          }
+        >
+          <View
+            collapsable={false}
+            style={
+              Object {
+                "height": 17.5,
+                "overflow": "hidden",
+                "width": 35,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 35,
+                  "transform": Array [
+                    Object {
+                      "translateY": 0,
+                    },
+                    Object {
+                      "rotate": "-165deg",
+                    },
+                  ],
+                  "width": 35,
+                }
+              }
+            >
+              <View
+                collapsable={false}
+                style={
+                  Object {
+                    "height": 17.5,
+                    "overflow": "hidden",
+                    "width": 35,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "borderColor": "#2F86F6",
+                      "borderRadius": 17.5,
+                      "borderWidth": 3.5,
+                      "height": 35,
+                      "width": 35,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with light spinner 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgba(0,0,0,0.7)",
+      "borderRadius": 2,
+      "padding": 10,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+          "marginVertical": 10,
+        },
+        Object {
+          "flexDirection": "row",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "justifyContent": "center",
+          },
+        ]
+      }
+    >
+      <View
+        animating={true}
+        color="white"
+        column={false}
+        duration={1200}
+        easing={[Function]}
+        interaction={true}
+        style={
+          Object {
+            "height": 15,
+            "width": 15,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "bottom": 0,
+              "justifyContent": "flex-start",
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "transform": Array [
+                Object {
+                  "rotate": "0deg",
+                },
+              ],
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "white",
+                "borderRadius": 0.75,
+                "height": 3.75,
+                "opacity": 0,
+                "width": 1.5,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "bottom": 0,
+              "justifyContent": "flex-start",
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "transform": Array [
+                Object {
+                  "rotate": "30deg",
+                },
+              ],
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "white",
+                "borderRadius": 0.75,
+                "height": 3.75,
+                "opacity": 0.09090909090909083,
+                "width": 1.5,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "bottom": 0,
+              "justifyContent": "flex-start",
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "transform": Array [
+                Object {
+                  "rotate": "60deg",
+                },
+              ],
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "white",
+                "borderRadius": 0.75,
+                "height": 3.75,
+                "opacity": 0.18181818181818177,
+                "width": 1.5,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "bottom": 0,
+              "justifyContent": "flex-start",
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "transform": Array [
+                Object {
+                  "rotate": "90deg",
+                },
+              ],
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "white",
+                "borderRadius": 0.75,
+                "height": 3.75,
+                "opacity": 0.2727272727272727,
+                "width": 1.5,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "bottom": 0,
+              "justifyContent": "flex-start",
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "transform": Array [
+                Object {
+                  "rotate": "120deg",
+                },
+              ],
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "white",
+                "borderRadius": 0.75,
+                "height": 3.75,
+                "opacity": 0.36363636363636365,
+                "width": 1.5,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "bottom": 0,
+              "justifyContent": "flex-start",
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "transform": Array [
+                Object {
+                  "rotate": "150deg",
+                },
+              ],
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "white",
+                "borderRadius": 0.75,
+                "height": 3.75,
+                "opacity": 0.4545454545454546,
+                "width": 1.5,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "bottom": 0,
+              "justifyContent": "flex-start",
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "transform": Array [
+                Object {
+                  "rotate": "180deg",
+                },
+              ],
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "white",
+                "borderRadius": 0.75,
+                "height": 3.75,
+                "opacity": 0.5454545454545454,
+                "width": 1.5,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "bottom": 0,
+              "justifyContent": "flex-start",
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "transform": Array [
+                Object {
+                  "rotate": "210deg",
+                },
+              ],
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "white",
+                "borderRadius": 0.75,
+                "height": 3.75,
+                "opacity": 0.6363636363636364,
+                "width": 1.5,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "bottom": 0,
+              "justifyContent": "flex-start",
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "transform": Array [
+                Object {
+                  "rotate": "240deg",
+                },
+              ],
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "white",
+                "borderRadius": 0.75,
+                "height": 3.75,
+                "opacity": 0.7272727272727273,
+                "width": 1.5,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "bottom": 0,
+              "justifyContent": "flex-start",
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "transform": Array [
+                Object {
+                  "rotate": "270deg",
+                },
+              ],
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "white",
+                "borderRadius": 0.75,
+                "height": 3.75,
+                "opacity": 0.8181818181818181,
+                "width": 1.5,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "bottom": 0,
+              "justifyContent": "flex-start",
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "transform": Array [
+                Object {
+                  "rotate": "300deg",
+                },
+              ],
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "white",
+                "borderRadius": 0.75,
+                "height": 3.75,
+                "opacity": 0.9090909090909091,
+                "width": 1.5,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "bottom": 0,
+              "justifyContent": "flex-start",
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "transform": Array [
+                Object {
+                  "rotate": "330deg",
+                },
+              ],
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "white",
+                "borderRadius": 0.75,
+                "height": 3.75,
+                "opacity": 1,
+                "width": 1.5,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#aaa",
+          "fontSize": 10,
+          "marginLeft": 8,
+          "marginTop": 0,
+        }
+      }
+    >
+      加载中...
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with normal roller 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "justifyContent": "center",
+        "marginVertical": 10,
+      },
+      Object {
+        "flexDirection": "row",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <View
+      animating={true}
+      color="#2F86F6"
+      column={false}
+      duration={1200}
+      easing={[Function]}
+      interaction={true}
+      style={
+        Object {
+          "borderColor": "#eee",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "height": 10,
+          "width": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "bottom": 0,
+            "justifyContent": "center",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "height": 10,
+              "transform": Array [
+                Object {
+                  "rotate": "45deg",
+                },
+              ],
+              "width": 10,
+            }
+          }
+        >
+          <View
+            collapsable={false}
+            style={
+              Object {
+                "height": 5,
+                "overflow": "hidden",
+                "width": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 10,
+                  "transform": Array [
+                    Object {
+                      "translateY": 0,
+                    },
+                    Object {
+                      "rotate": "-165deg",
+                    },
+                  ],
+                  "width": 10,
+                }
+              }
+            >
+              <View
+                collapsable={false}
+                style={
+                  Object {
+                    "height": 5,
+                    "overflow": "hidden",
+                    "width": 10,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "borderColor": "#2F86F6",
+                      "borderRadius": 5,
+                      "borderWidth": 1,
+                      "height": 10,
+                      "width": 10,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "#aaa",
+        "fontSize": 8,
+        "marginLeft": 8,
+        "marginTop": 0,
+      }
+    }
+  >
+    加载中
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with stop animating 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "justifyContent": "center",
+        "marginVertical": 10,
+      },
+      Object {
+        "flexDirection": "row",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <View
+      animating={false}
+      color="#2F86F6"
+      column={false}
+      duration={1200}
+      easing={[Function]}
+      interaction={true}
+      style={
+        Object {
+          "borderColor": "#eee",
+          "borderRadius": 17.5,
+          "borderWidth": 3.5,
+          "height": 35,
+          "width": 35,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "bottom": 0,
+            "justifyContent": "center",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "height": 35,
+              "transform": Array [
+                Object {
+                  "rotate": "45deg",
+                },
+              ],
+              "width": 35,
+            }
+          }
+        >
+          <View
+            collapsable={false}
+            style={
+              Object {
+                "height": 17.5,
+                "overflow": "hidden",
+                "width": 35,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 35,
+                  "transform": Array [
+                    Object {
+                      "translateY": 0,
+                    },
+                    Object {
+                      "rotate": "-165deg",
+                    },
+                  ],
+                  "width": 35,
+                }
+              }
+            >
+              <View
+                collapsable={false}
+                style={
+                  Object {
+                    "height": 17.5,
+                    "overflow": "hidden",
+                    "width": 35,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "borderColor": "#2F86F6",
+                      "borderRadius": 17.5,
+                      "borderWidth": 3.5,
+                      "height": 35,
+                      "width": 35,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "#aaa",
+        "fontSize": 35,
+        "marginLeft": 8,
+        "marginTop": 0,
+      }
+    }
+  >
+    loading...
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with text 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "justifyContent": "center",
+        "marginVertical": 10,
+      },
+      Object {
+        "flexDirection": "row",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <View
+      animating={true}
+      color="#2F86F6"
+      column={false}
+      duration={1200}
+      easing={[Function]}
+      interaction={true}
+      style={
+        Object {
+          "borderColor": "#eee",
+          "borderRadius": 17.5,
+          "borderWidth": 3.5,
+          "height": 35,
+          "width": 35,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "bottom": 0,
+            "justifyContent": "center",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "height": 35,
+              "transform": Array [
+                Object {
+                  "rotate": "45deg",
+                },
+              ],
+              "width": 35,
+            }
+          }
+        >
+          <View
+            collapsable={false}
+            style={
+              Object {
+                "height": 17.5,
+                "overflow": "hidden",
+                "width": 35,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 35,
+                  "transform": Array [
+                    Object {
+                      "translateY": 0,
+                    },
+                    Object {
+                      "rotate": "-165deg",
+                    },
+                  ],
+                  "width": 35,
+                }
+              }
+            >
+              <View
+                collapsable={false}
+                style={
+                  Object {
+                    "height": 17.5,
+                    "overflow": "hidden",
+                    "width": 35,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "borderColor": "#2F86F6",
+                      "borderRadius": 17.5,
+                      "borderWidth": 3.5,
+                      "height": 35,
+                      "width": 35,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "#aaa",
+        "fontSize": 35,
+        "marginLeft": 8,
+        "marginTop": 0,
+      }
+    }
+  >
+    loading...
+  </Text>
+</View>
+`;

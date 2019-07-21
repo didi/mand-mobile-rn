@@ -1,0 +1,7 @@
+src/*
+dist/*
+node_modules/*
+android/*
+ios/*
+tsconfig.json
+tsconfig.build.json

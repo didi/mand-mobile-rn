@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#C5CAD5",
+          "borderBottomWidth": 0.5,
+          "height": 35,
+          "justifyContent": "center",
+          "marginHorizontal": 6,
+          "textAlign": "center",
+          "width": 33,
+        },
+        Array [
+          Object {
+            "marginHorizontal": undefined,
+            "marginRight": 3,
+          },
+        ],
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#111A34",
+          "height": "100%",
+          "lineHeight": 35,
+          "textAlign": "center",
+          "width": "100%",
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#C5CAD5",
+          "borderBottomWidth": 0.5,
+          "height": 35,
+          "justifyContent": "center",
+          "marginHorizontal": 6,
+          "textAlign": "center",
+          "width": 33,
+        },
+        Array [],
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#111A34",
+          "height": "100%",
+          "lineHeight": 35,
+          "textAlign": "center",
+          "width": "100%",
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#C5CAD5",
+          "borderBottomWidth": 0.5,
+          "height": 35,
+          "justifyContent": "center",
+          "marginHorizontal": 6,
+          "textAlign": "center",
+          "width": 33,
+        },
+        Array [],
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#111A34",
+          "height": "100%",
+          "lineHeight": 35,
+          "textAlign": "center",
+          "width": "100%",
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#C5CAD5",
+          "borderBottomWidth": 0.5,
+          "height": 35,
+          "justifyContent": "center",
+          "marginHorizontal": 6,
+          "textAlign": "center",
+          "width": 33,
+        },
+        Array [
+          Object {
+            "marginHorizontal": undefined,
+            "marginLeft": 3,
+          },
+        ],
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#111A34",
+          "height": "100%",
+          "lineHeight": 35,
+          "textAlign": "center",
+          "width": "100%",
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <TextInput
+    allowFontScaling={true}
+    autoFocus={false}
+    editable={true}
+    hideDot={false}
+    keyboardType="default"
+    maxLength={4}
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onFocus={[Function]}
+    secureTextEntry={false}
+    style={
+      Object {
+        "height": 35,
+        "opacity": 0,
+        "position": "absolute",
+        "width": "100%",
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+</View>
+`;

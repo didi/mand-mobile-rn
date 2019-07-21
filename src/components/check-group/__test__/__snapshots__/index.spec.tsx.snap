@@ -1,0 +1,548 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  style={
+    Object {
+      "justifyContent": "center",
+    }
+  }
+>
+  <View>
+    <View
+      accessible={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "borderColor": "#C5CAD5",
+            "borderRadius": 2,
+            "borderStyle": "solid",
+            "borderWidth": 0.5,
+            "justifyContent": "center",
+            "overflow": "hidden",
+            "paddingHorizontal": 10,
+            "paddingVertical": 6,
+            "position": "relative",
+          },
+          Object {
+            "borderColor": "#C5CAD5",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 16,
+            },
+            Object {
+              "color": "#C5CAD5",
+            },
+          ]
+        }
+      >
+        自己
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "borderColor": "#C5CAD5",
+            "borderRadius": 2,
+            "borderStyle": "solid",
+            "borderWidth": 0.5,
+            "justifyContent": "center",
+            "overflow": "hidden",
+            "paddingHorizontal": 10,
+            "paddingVertical": 6,
+            "position": "relative",
+          },
+          Object {
+            "borderColor": "#C5CAD5",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 16,
+            },
+            Object {
+              "color": "#C5CAD5",
+            },
+          ]
+        }
+      >
+        配偶
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "borderColor": "#C5CAD5",
+            "borderRadius": 2,
+            "borderStyle": "solid",
+            "borderWidth": 0.5,
+            "justifyContent": "center",
+            "overflow": "hidden",
+            "paddingHorizontal": 10,
+            "paddingVertical": 6,
+            "position": "relative",
+          },
+          Object {
+            "borderColor": "#C5CAD5",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 16,
+            },
+            Object {
+              "color": "#C5CAD5",
+            },
+          ]
+        }
+      >
+        父母
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "borderColor": "#C5CAD5",
+            "borderRadius": 2,
+            "borderStyle": "solid",
+            "borderWidth": 0.5,
+            "justifyContent": "center",
+            "overflow": "hidden",
+            "paddingHorizontal": 10,
+            "paddingVertical": 6,
+            "position": "relative",
+          },
+          Object {
+            "borderColor": "#C5CAD5",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 16,
+            },
+            Object {
+              "color": "#C5CAD5",
+            },
+          ]
+        }
+      >
+        子女
+      </Text>
+    </View>
+  </View>
+  <View>
+    <View
+      accessible={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+          "marginVertical": 6,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 16,
+            },
+            Array [
+              Object {
+                "color": "#2F86F6",
+              },
+            ],
+            Object {
+              "fontFamily": "mand-mobile",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        type="MandMobile"
+      >
+        
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 14,
+              "marginLeft": 6,
+            },
+          ]
+        }
+      >
+        西瓜
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+          "marginVertical": 6,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 16,
+            },
+            Array [
+              Object {
+                "color": "#2F86F6",
+              },
+            ],
+            Object {
+              "fontFamily": "mand-mobile",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        type="MandMobile"
+      >
+        
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 14,
+              "marginLeft": 6,
+            },
+          ]
+        }
+      >
+        苹果
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+          "marginVertical": 6,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 16,
+            },
+            Array [
+              Object {
+                "color": "#2F86F6",
+              },
+            ],
+            Object {
+              "fontFamily": "mand-mobile",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        type="MandMobile"
+      >
+        
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 14,
+              "marginLeft": 6,
+            },
+          ]
+        }
+      >
+        香蕉
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+          "marginVertical": 6,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 16,
+            },
+            Array [
+              Object {
+                "color": "#2F86F6",
+              },
+              Object {
+                "color": "#C5CAD5",
+              },
+            ],
+            Object {
+              "fontFamily": "mand-mobile",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        type="MandMobile"
+      >
+        
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 14,
+              "marginLeft": 6,
+            },
+            Object {
+              "color": "#C5CAD5",
+            },
+          ]
+        }
+      >
+        西红柿
+      </Text>
+    </View>
+  </View>
+  <View>
+    <View
+      accessible={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+          "marginVertical": 6,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 16,
+            },
+            Array [
+              Object {
+                "color": "#2F86F6",
+              },
+            ],
+            Object {
+              "fontFamily": "mand-mobile",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        type="MandMobile"
+      >
+        
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 14,
+              "marginLeft": 6,
+            },
+          ]
+        }
+      >
+        旅游
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+          "marginVertical": 6,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 16,
+            },
+            Array [
+              Object {
+                "color": "#2F86F6",
+              },
+            ],
+            Object {
+              "fontFamily": "mand-mobile",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        type="MandMobile"
+      >
+        
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 14,
+              "marginLeft": 6,
+            },
+          ]
+        }
+      >
+        阅读
+      </Text>
+    </View>
+  </View>
+  <View>
+    <Text>
+      最喜欢那些
+    </Text>
+  </View>
+  <View />
+</View>
+`;
+
+exports[`renders correctly with not children 1`] = `
+<View
+  style={
+    Object {
+      "justifyContent": "center",
+    }
+  }
+/>
+`;

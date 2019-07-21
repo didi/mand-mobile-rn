@@ -1,0 +1,18 @@
+# 说明
+
+1. 目前不支持动效 svg。
+2. 打开 https://icomoon.io/app/#/select 网站，选择 `Import Icons`，上传 svg 文件。
+3. 选择 `edit` 功能（就是右侧的那个铅笔），点击上传后显示的图片。
+4. 在弹出的对话框中选择 `Download(SVG)`。
+5. 将下载的文件，放置在当前（README）目录。
+6. 运行 `yarn svg2obj`，会输出到 `../xmldata.ts` 文件中。
+7，按照如下代码使用, 注意： `name` 是在 `../xmldata.ts` 中的 `key`。
+```ts
+            <MDIcon
+              name='add' 
+              svg={true}
+            />
+```
+
+
+维护人：刘江北

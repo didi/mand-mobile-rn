@@ -1,0 +1,2716 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render cashier correctly with channelLimit 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onRequestClose={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={false}
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#000",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    pointerEvents="box-none"
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#f9fafb",
+              "borderTopLeftRadius": 4,
+              "borderTopRightRadius": 4,
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 60,
+              "justifyContent": "space-between",
+              "overflow": "hidden",
+              "position": "relative",
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "paddingHorizontal": "20%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#111A34",
+                "fontSize": 20,
+                "textAlign": "center",
+                "width": "100%",
+              }
+            }
+          >
+            支付
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "left": 0,
+              "maxHeight": 60,
+              "position": "absolute",
+              "width": "20%",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "color": "#333",
+                  "fontSize": 24,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "mand-mobile",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "white",
+            "paddingBottom": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "white",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "white",
+                "paddingBottom": 12.5,
+                "paddingTop": 32.5,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#666f83",
+                  "fontSize": 14,
+                  "textAlign": "center",
+                }
+              }
+            >
+              支付金额(元)
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#111A34",
+                  "fontFamily": "FD+_Number",
+                  "fontSize": 40,
+                  "letterSpacing": -1,
+                  "lineHeight": 60,
+                  "marginTop": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              0.00
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#666f83",
+                  "fontSize": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              关于支付金额的特殊说明
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#2F86F6",
+                "borderColor": "#2F86F6",
+                "borderRadius": 2,
+                "borderStyle": "solid",
+                "borderWidth": 0.5,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "center",
+                "marginBottom": 20,
+                "marginHorizontal": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 18,
+                      "paddingHorizontal": 3,
+                    },
+                    Object {
+                      "color": "#FFF",
+                    },
+                  ]
+                }
+              >
+                确认支付
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`render cashier correctly with header slot 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onRequestClose={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={false}
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#000",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    pointerEvents="box-none"
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#f9fafb",
+              "borderTopLeftRadius": 4,
+              "borderTopRightRadius": 4,
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 60,
+              "justifyContent": "space-between",
+              "overflow": "hidden",
+              "position": "relative",
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "paddingHorizontal": "20%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#111A34",
+                "fontSize": 20,
+                "textAlign": "center",
+                "width": "100%",
+              }
+            }
+          >
+            支付
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "left": 0,
+              "maxHeight": 60,
+              "position": "absolute",
+              "width": "20%",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "color": "#333",
+                  "fontSize": 24,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "mand-mobile",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "white",
+            "paddingBottom": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "position": "relative",
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgba(89, 158, 248, .08)",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "minHeight": 32,
+                  "paddingLeft": 16,
+                  "position": "relative",
+                  "zIndex": 1301,
+                },
+                undefined,
+                Object {},
+                Object {
+                  "backgroundColor": "#FFEEEF",
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "paddingRight": 6,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#FF5B60",
+                      "fontSize": 18,
+                    },
+                    undefined,
+                    Object {
+                      "fontFamily": "mand-mobile",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={
+                Object {
+                  "flex": 1,
+                  "margin": "auto",
+                  "overflow": "hidden",
+                  "width": "auto",
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2F86F6",
+                      "fontSize": 13,
+                    },
+                    Object {},
+                    Object {
+                      "color": "#FF5B60",
+                    },
+                  ]
+                }
+              >
+                该银行3:00-12:00系统维护，请更换其他银行卡
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "opacity": 1,
+                  "paddingRight": 16,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#FF5B60",
+                      "fontSize": 18,
+                    },
+                    undefined,
+                    Object {
+                      "fontFamily": "mand-mobile",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "white",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "white",
+                "paddingBottom": 12.5,
+                "paddingTop": 32.5,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#666f83",
+                  "fontSize": 14,
+                  "textAlign": "center",
+                }
+              }
+            >
+              支付金额(元)
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#111A34",
+                  "fontFamily": "FD+_Number",
+                  "fontSize": 40,
+                  "letterSpacing": -1,
+                  "lineHeight": 60,
+                  "marginTop": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              0.00
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#666f83",
+                  "fontSize": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              关于支付金额的特殊说明
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#2F86F6",
+                "borderColor": "#2F86F6",
+                "borderRadius": 2,
+                "borderStyle": "solid",
+                "borderWidth": 0.5,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "center",
+                "marginBottom": 20,
+                "marginHorizontal": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 18,
+                      "paddingHorizontal": 3,
+                    },
+                    Object {
+                      "color": "#FFF",
+                    },
+                  ]
+                }
+              >
+                确认支付
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`render correctly with visiable cashier 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onRequestClose={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={false}
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#000",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    pointerEvents="box-none"
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#f9fafb",
+              "borderTopLeftRadius": 4,
+              "borderTopRightRadius": 4,
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 60,
+              "justifyContent": "space-between",
+              "overflow": "hidden",
+              "position": "relative",
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "paddingHorizontal": "20%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#111A34",
+                "fontSize": 20,
+                "textAlign": "center",
+                "width": "100%",
+              }
+            }
+          >
+            支付
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "left": 0,
+              "maxHeight": 60,
+              "position": "absolute",
+              "width": "20%",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "color": "#333",
+                  "fontSize": 24,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "mand-mobile",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "white",
+            "paddingBottom": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "white",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "white",
+                "paddingBottom": 12.5,
+                "paddingTop": 32.5,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#666f83",
+                  "fontSize": 14,
+                  "textAlign": "center",
+                }
+              }
+            >
+              支付金额(元)
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#111A34",
+                  "fontFamily": "FD+_Number",
+                  "fontSize": 40,
+                  "letterSpacing": -1,
+                  "lineHeight": 60,
+                  "marginTop": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              0.00
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#666f83",
+                  "fontSize": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              关于支付金额的特殊说明
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#2F86F6",
+                "borderColor": "#2F86F6",
+                "borderRadius": 2,
+                "borderStyle": "solid",
+                "borderWidth": 0.5,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "center",
+                "marginBottom": 20,
+                "marginHorizontal": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 18,
+                      "paddingHorizontal": 3,
+                    },
+                    Object {
+                      "color": "#FFF",
+                    },
+                  ]
+                }
+              >
+                确认支付
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`renders correctly with channels 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onRequestClose={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={false}
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#000",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    pointerEvents="box-none"
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#f9fafb",
+              "borderTopLeftRadius": 4,
+              "borderTopRightRadius": 4,
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 60,
+              "justifyContent": "space-between",
+              "overflow": "hidden",
+              "position": "relative",
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "paddingHorizontal": "20%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#111A34",
+                "fontSize": 20,
+                "textAlign": "center",
+                "width": "100%",
+              }
+            }
+          >
+            支付
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "left": 0,
+              "maxHeight": 60,
+              "position": "absolute",
+              "width": "20%",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "color": "#333",
+                  "fontSize": 24,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "mand-mobile",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "white",
+            "paddingBottom": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "white",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "white",
+                "paddingBottom": 12.5,
+                "paddingTop": 32.5,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#666f83",
+                  "fontSize": 14,
+                  "textAlign": "center",
+                }
+              }
+            >
+              支付金额(元)
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#111A34",
+                  "fontFamily": "FD+_Number",
+                  "fontSize": 40,
+                  "letterSpacing": -1,
+                  "lineHeight": 60,
+                  "marginTop": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              0.00
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#666f83",
+                  "fontSize": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              关于支付金额的特殊说明
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "white",
+                "flexDirection": "column",
+                "paddingHorizontal": 30,
+                "paddingVertical": 20,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "paddingVertical": 5,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 24,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "mand-mobile",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "#41485d",
+                      "marginLeft": 24,
+                    }
+                  }
+                >
+                  招商银行(0056)
+                </Text>
+              </View>
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#2F86F6",
+                      "fontSize": 16,
+                    },
+                    undefined,
+                    Object {
+                      "fontFamily": "mand-mobile",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "marginTop": 5,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#666f83",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                更多支付方式
+              </Text>
+              <View
+                style={
+                  Object {
+                    "borderLeftColor": "transparent",
+                    "borderLeftWidth": 4,
+                    "borderRightColor": "transparent",
+                    "borderRightWidth": 4,
+                    "borderTopColor": "#666f83",
+                    "borderTopWidth": 8,
+                    "marginLeft": 5,
+                    "marginTop": 4,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#2F86F6",
+                "borderColor": "#2F86F6",
+                "borderRadius": 2,
+                "borderStyle": "solid",
+                "borderWidth": 0.5,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "center",
+                "marginBottom": 20,
+                "marginHorizontal": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 18,
+                      "paddingHorizontal": 3,
+                    },
+                    Object {
+                      "color": "#FFF",
+                    },
+                  ]
+                }
+              >
+                确认支付
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`renders correctly with custom renderChannels 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onRequestClose={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={false}
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#000",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    pointerEvents="box-none"
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#f9fafb",
+              "borderTopLeftRadius": 4,
+              "borderTopRightRadius": 4,
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 60,
+              "justifyContent": "space-between",
+              "overflow": "hidden",
+              "position": "relative",
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "paddingHorizontal": "20%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#111A34",
+                "fontSize": 20,
+                "textAlign": "center",
+                "width": "100%",
+              }
+            }
+          >
+            支付
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "left": 0,
+              "maxHeight": 60,
+              "position": "absolute",
+              "width": "20%",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "color": "#333",
+                  "fontSize": 24,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "mand-mobile",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "white",
+            "paddingBottom": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "white",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "white",
+                "paddingBottom": 12.5,
+                "paddingTop": 32.5,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#666f83",
+                  "fontSize": 14,
+                  "textAlign": "center",
+                }
+              }
+            >
+              支付金额(元)
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#111A34",
+                  "fontFamily": "FD+_Number",
+                  "fontSize": 40,
+                  "letterSpacing": -1,
+                  "lineHeight": 60,
+                  "marginTop": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              0.00
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#666f83",
+                  "fontSize": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              关于支付金额的特殊说明
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "white",
+                "flexDirection": "column",
+                "paddingHorizontal": 30,
+                "paddingVertical": 20,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 24,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "mand-mobile",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "#41485d",
+                      "marginLeft": 24,
+                    }
+                  }
+                >
+                  招商银行(0056)
+                </Text>
+              </View>
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 16,
+                    },
+                    undefined,
+                    Object {
+                      "fontFamily": "mand-mobile",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "marginTop": 5,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#666f83",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                更多支付方式
+              </Text>
+              <View
+                style={
+                  Object {
+                    "borderLeftColor": "transparent",
+                    "borderLeftWidth": 4,
+                    "borderRightColor": "transparent",
+                    "borderRightWidth": 4,
+                    "borderTopColor": "#666f83",
+                    "borderTopWidth": 8,
+                    "marginLeft": 5,
+                    "marginTop": 4,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#2F86F6",
+                "borderColor": "#2F86F6",
+                "borderRadius": 2,
+                "borderStyle": "solid",
+                "borderWidth": 0.5,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "center",
+                "marginBottom": 20,
+                "marginHorizontal": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 18,
+                      "paddingHorizontal": 3,
+                    },
+                    Object {
+                      "color": "#FFF",
+                    },
+                  ]
+                }
+              >
+                确认支付
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`renders correctly with default cashier 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onRequestClose={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={false}
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#000",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    pointerEvents="box-none"
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#f9fafb",
+              "borderTopLeftRadius": 4,
+              "borderTopRightRadius": 4,
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 60,
+              "justifyContent": "space-between",
+              "overflow": "hidden",
+              "position": "relative",
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "paddingHorizontal": "20%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#111A34",
+                "fontSize": 20,
+                "textAlign": "center",
+                "width": "100%",
+              }
+            }
+          >
+            支付
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "left": 0,
+              "maxHeight": 60,
+              "position": "absolute",
+              "width": "20%",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "color": "#333",
+                  "fontSize": 24,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "mand-mobile",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "white",
+            "paddingBottom": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "white",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "white",
+                "paddingBottom": 12.5,
+                "paddingTop": 32.5,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#666f83",
+                  "fontSize": 14,
+                  "textAlign": "center",
+                }
+              }
+            >
+              支付金额(元)
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#111A34",
+                  "fontFamily": "FD+_Number",
+                  "fontSize": 40,
+                  "letterSpacing": -1,
+                  "lineHeight": 60,
+                  "marginTop": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              0.00
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#666f83",
+                  "fontSize": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              关于支付金额的特殊说明
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#2F86F6",
+                "borderColor": "#2F86F6",
+                "borderRadius": 2,
+                "borderStyle": "solid",
+                "borderWidth": 0.5,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "center",
+                "marginBottom": 20,
+                "marginHorizontal": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 18,
+                      "paddingHorizontal": 3,
+                    },
+                    Object {
+                      "color": "#FFF",
+                    },
+                  ]
+                }
+              >
+                确认支付
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "white",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "paddingBottom": 12.5,
+        "paddingTop": 32.5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#666f83",
+          "fontSize": 14,
+          "textAlign": "center",
+        }
+      }
+    >
+      支付金额(元)
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#111A34",
+          "fontFamily": "FD+_Number",
+          "fontSize": 40,
+          "letterSpacing": -1,
+          "lineHeight": 60,
+          "marginTop": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      0.00
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#666f83",
+          "fontSize": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      关于支付金额的特殊说明
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with paymentAmount 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onRequestClose={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={false}
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#000",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    pointerEvents="box-none"
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#f9fafb",
+              "borderTopLeftRadius": 4,
+              "borderTopRightRadius": 4,
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 60,
+              "justifyContent": "space-between",
+              "overflow": "hidden",
+              "position": "relative",
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "paddingHorizontal": "20%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#111A34",
+                "fontSize": 20,
+                "textAlign": "center",
+                "width": "100%",
+              }
+            }
+          >
+            支付
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "left": 0,
+              "maxHeight": 60,
+              "position": "absolute",
+              "width": "20%",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "color": "#333",
+                  "fontSize": 24,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "mand-mobile",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "white",
+            "paddingBottom": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "white",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "white",
+                "paddingBottom": 12.5,
+                "paddingTop": 32.5,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#666f83",
+                  "fontSize": 14,
+                  "textAlign": "center",
+                }
+              }
+            >
+              支付金额(元)
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#111A34",
+                  "fontFamily": "FD+_Number",
+                  "fontSize": 40,
+                  "letterSpacing": -1,
+                  "lineHeight": 60,
+                  "marginTop": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              1000.00
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#666f83",
+                  "fontSize": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              关于支付金额的特殊说明
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#2F86F6",
+                "borderColor": "#2F86F6",
+                "borderRadius": 2,
+                "borderStyle": "solid",
+                "borderWidth": 0.5,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "center",
+                "marginBottom": 20,
+                "marginHorizontal": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 18,
+                      "paddingHorizontal": 3,
+                    },
+                    Object {
+                      "color": "#FFF",
+                    },
+                  ]
+                }
+              >
+                确认支付
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`renders correctly with paymentAmount 2`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onRequestClose={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={false}
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#000",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    pointerEvents="box-none"
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#f9fafb",
+              "borderTopLeftRadius": 4,
+              "borderTopRightRadius": 4,
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 60,
+              "justifyContent": "space-between",
+              "overflow": "hidden",
+              "position": "relative",
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "paddingHorizontal": "20%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#111A34",
+                "fontSize": 20,
+                "textAlign": "center",
+                "width": "100%",
+              }
+            }
+          >
+            支付
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "left": 0,
+              "maxHeight": 60,
+              "position": "absolute",
+              "width": "20%",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "color": "#333",
+                  "fontSize": 24,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "mand-mobile",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "white",
+            "paddingBottom": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "white",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "white",
+                "paddingBottom": 12.5,
+                "paddingTop": 32.5,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#666f83",
+                  "fontSize": 14,
+                  "textAlign": "center",
+                }
+              }
+            >
+              支付金额(元)
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#111A34",
+                  "fontFamily": "FD+_Number",
+                  "fontSize": 40,
+                  "letterSpacing": -1,
+                  "lineHeight": 60,
+                  "marginTop": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              10.00
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#666f83",
+                  "fontSize": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              关于支付金额的特殊说明
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#2F86F6",
+                "borderColor": "#2F86F6",
+                "borderRadius": 2,
+                "borderStyle": "solid",
+                "borderWidth": 0.5,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "center",
+                "marginBottom": 20,
+                "marginHorizontal": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 18,
+                      "paddingHorizontal": 3,
+                    },
+                    Object {
+                      "color": "#FFF",
+                    },
+                  ]
+                }
+              >
+                确认支付
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;

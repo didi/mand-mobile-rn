@@ -1,0 +1,2726 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with alignCenter 1`] = `
+<View
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+          Object {
+            "paddingVertical": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          交通银行(尾号3089)
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "lineHeight": 16.799999999999997,
+                "marginTop": 4,
+              },
+            ]
+          }
+        >
+          选项摘要描述
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+          Object {
+            "paddingVertical": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          招商银行(尾号2342)
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "lineHeight": 16.799999999999997,
+                "marginTop": 4,
+              },
+            ]
+          }
+        >
+          选项摘要描述
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+          Object {
+            "paddingVertical": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#C5CAD5",
+              },
+            ]
+          }
+        >
+          建设银行(尾号4321)
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "lineHeight": 16.799999999999997,
+                "marginTop": 4,
+              },
+              Object {
+                "color": "#C5CAD5",
+              },
+            ]
+          }
+        >
+          选项摘要描述
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with custom icon 1`] = `
+<View
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+          Object {
+            "paddingVertical": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+            ]
+          }
+        >
+          交通银行(尾号3089)
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "lineHeight": 16.799999999999997,
+                "marginTop": 4,
+              },
+            ]
+          }
+        >
+          选项摘要描述
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "marginLeft": 6,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 14,
+              },
+              Array [
+                Object {
+                  "color": "#2F86F6",
+                },
+              ],
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          svg={false}
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+          Object {
+            "paddingVertical": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+            ]
+          }
+        >
+          招商银行(尾号2342)
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "lineHeight": 16.799999999999997,
+                "marginTop": 4,
+              },
+            ]
+          }
+        >
+          选项摘要描述
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "marginLeft": 6,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 14,
+              },
+              Array [
+                Object {
+                  "color": "#2F86F6",
+                },
+              ],
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          svg={false}
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+          Object {
+            "paddingVertical": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+              Object {
+                "color": "#C5CAD5",
+              },
+            ]
+          }
+        >
+          建设银行(尾号4321)
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "lineHeight": 16.799999999999997,
+                "marginTop": 4,
+              },
+              Object {
+                "color": "#C5CAD5",
+              },
+            ]
+          }
+        >
+          选项摘要描述
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "marginLeft": 6,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 14,
+              },
+              Array [
+                Object {
+                  "color": "#2F86F6",
+                },
+              ],
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          svg={false}
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with custom icon 2 1`] = `
+<View
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+          Object {
+            "paddingVertical": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexShrink": 0,
+            "marginRight": 16,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 14,
+              },
+              Array [
+                Object {
+                  "color": "#2F86F6",
+                },
+              ],
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          svg={false}
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+            ]
+          }
+        >
+          交通银行(尾号3089)
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "lineHeight": 16.799999999999997,
+                "marginTop": 4,
+              },
+            ]
+          }
+        >
+          选项摘要描述
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+          Object {
+            "paddingVertical": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexShrink": 0,
+            "marginRight": 16,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 14,
+              },
+              Array [
+                Object {
+                  "color": "#2F86F6",
+                },
+              ],
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          svg={false}
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+            ]
+          }
+        >
+          招商银行(尾号2342)
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "lineHeight": 16.799999999999997,
+                "marginTop": 4,
+              },
+            ]
+          }
+        >
+          选项摘要描述
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+          Object {
+            "paddingVertical": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexShrink": 0,
+            "marginRight": 16,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 14,
+              },
+              Array [
+                Object {
+                  "color": "#2F86F6",
+                },
+              ],
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          svg={false}
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+              Object {
+                "color": "#C5CAD5",
+              },
+            ]
+          }
+        >
+          建设银行(尾号4321)
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "lineHeight": 16.799999999999997,
+                "marginTop": 4,
+              },
+              Object {
+                "color": "#C5CAD5",
+              },
+            ]
+          }
+        >
+          选项摘要描述
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+          Object {
+            "paddingVertical": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexShrink": 0,
+            "marginRight": 16,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 16,
+              },
+              Array [
+                Object {
+                  "color": "#2F86F6",
+                },
+              ],
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          svg={false}
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+            ]
+          }
+        >
+          交通银行(尾号3089)
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "lineHeight": 16.799999999999997,
+                "marginTop": 4,
+              },
+            ]
+          }
+        >
+          选项摘要描述
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+          Object {
+            "paddingVertical": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexShrink": 0,
+            "marginRight": 16,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 16,
+              },
+              Array [
+                Object {
+                  "color": "#2F86F6",
+                },
+              ],
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          svg={false}
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+            ]
+          }
+        >
+          招商银行(尾号2342)
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "lineHeight": 16.799999999999997,
+                "marginTop": 4,
+              },
+            ]
+          }
+        >
+          选项摘要描述
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+          Object {
+            "paddingVertical": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexShrink": 0,
+            "marginRight": 16,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 16,
+              },
+              Array [
+                Object {
+                  "color": "#2F86F6",
+                },
+              ],
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          svg={false}
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+              Object {
+                "color": "#C5CAD5",
+              },
+            ]
+          }
+        >
+          建设银行(尾号4321)
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "lineHeight": 16.799999999999997,
+                "marginTop": 4,
+              },
+              Object {
+                "color": "#C5CAD5",
+              },
+            ]
+          }
+        >
+          选项摘要描述
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with empty icon 1`] = `
+<View
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+          Object {
+            "paddingVertical": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+            ]
+          }
+        >
+          交通银行(尾号3089)
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "lineHeight": 16.799999999999997,
+                "marginTop": 4,
+              },
+            ]
+          }
+        >
+          选项摘要描述
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+          Object {
+            "paddingVertical": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+            ]
+          }
+        >
+          招商银行(尾号2342)
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "lineHeight": 16.799999999999997,
+                "marginTop": 4,
+              },
+            ]
+          }
+        >
+          选项摘要描述
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+          Object {
+            "paddingVertical": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+              Object {
+                "color": "#C5CAD5",
+              },
+            ]
+          }
+        >
+          建设银行(尾号4321)
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "lineHeight": 16.799999999999997,
+                "marginTop": 4,
+              },
+              Object {
+                "color": "#C5CAD5",
+              },
+            ]
+          }
+        >
+          选项摘要描述
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with empty inputLabel 1`] = `
+<View
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+          Object {
+            "paddingVertical": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexShrink": 0,
+            "marginRight": 16,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 16,
+              },
+              Array [
+                Object {
+                  "color": "#2F86F6",
+                },
+              ],
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          svg={false}
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+            ]
+          }
+        >
+          交通银行(尾号3089)
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "lineHeight": 16.799999999999997,
+                "marginTop": 4,
+              },
+            ]
+          }
+        >
+          选项摘要描述
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+          Object {
+            "paddingVertical": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexShrink": 0,
+            "marginRight": 16,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 16,
+              },
+              Array [
+                Object {
+                  "color": "#2F86F6",
+                },
+              ],
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          svg={false}
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+            ]
+          }
+        >
+          招商银行(尾号2342)
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "lineHeight": 16.799999999999997,
+                "marginTop": 4,
+              },
+            ]
+          }
+        >
+          选项摘要描述
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+          Object {
+            "paddingVertical": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexShrink": 0,
+            "marginRight": 16,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 16,
+              },
+              Array [
+                Object {
+                  "color": "#2F86F6",
+                },
+              ],
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          svg={false}
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+              Object {
+                "color": "#C5CAD5",
+              },
+            ]
+          }
+        >
+          建设银行(尾号4321)
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "lineHeight": 16.799999999999997,
+                "marginTop": 4,
+              },
+              Object {
+                "color": "#C5CAD5",
+              },
+            ]
+          }
+        >
+          选项摘要描述
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          style={Object {}}
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderBottomColor": "#E2E4EA",
+                  "borderBottomWidth": 1,
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "height": 50,
+                },
+                Object {
+                  "borderBottomColor": "#E2E4EA",
+                },
+                null,
+                null,
+              ]
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with empty options 1`] = `
+<View
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "center",
+    }
+  }
+/>
+`;
+
+exports[`renders correctly with input 1`] = `
+<View
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+          Object {
+            "paddingVertical": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexShrink": 0,
+            "marginRight": 16,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 16,
+              },
+              Array [
+                Object {
+                  "color": "#2F86F6",
+                },
+              ],
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          svg={false}
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+            ]
+          }
+        >
+          交通银行(尾号3089)
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "lineHeight": 16.799999999999997,
+                "marginTop": 4,
+              },
+            ]
+          }
+        >
+          选项摘要描述
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+          Object {
+            "paddingVertical": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexShrink": 0,
+            "marginRight": 16,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 16,
+              },
+              Array [
+                Object {
+                  "color": "#2F86F6",
+                },
+              ],
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          svg={false}
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+            ]
+          }
+        >
+          招商银行(尾号2342)
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "lineHeight": 16.799999999999997,
+                "marginTop": 4,
+              },
+            ]
+          }
+        >
+          选项摘要描述
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+          Object {
+            "paddingVertical": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexShrink": 0,
+            "marginRight": 16,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 16,
+              },
+              Array [
+                Object {
+                  "color": "#2F86F6",
+                },
+              ],
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          svg={false}
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+              Object {
+                "color": "#C5CAD5",
+              },
+            ]
+          }
+        >
+          建设银行(尾号4321)
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "lineHeight": 16.799999999999997,
+                "marginTop": 4,
+              },
+              Object {
+                "color": "#C5CAD5",
+              },
+            ]
+          }
+        >
+          选项摘要描述
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+            ]
+          }
+        >
+          其他
+        </Text>
+        <View
+          style={Object {}}
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderBottomColor": "#E2E4EA",
+                  "borderBottomWidth": 1,
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "height": 50,
+                },
+                Object {
+                  "borderBottomColor": "#E2E4EA",
+                },
+                null,
+                null,
+              ]
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with optionRender 1`] = `
+<View
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+          Object {
+            "paddingVertical": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexShrink": 0,
+            "marginRight": 16,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 16,
+              },
+              Array [
+                Object {
+                  "color": "#2F86F6",
+                },
+              ],
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          svg={false}
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+            ]
+          }
+        >
+          交通银行(尾号3089)
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "lineHeight": 16.799999999999997,
+                "marginTop": 4,
+              },
+            ]
+          }
+        >
+          选项摘要描述
+        </Text>
+        <Text>
+          交通银行(尾号3089)
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+          Object {
+            "paddingVertical": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexShrink": 0,
+            "marginRight": 16,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 16,
+              },
+              Array [
+                Object {
+                  "color": "#2F86F6",
+                },
+              ],
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          svg={false}
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+            ]
+          }
+        >
+          招商银行(尾号2342)
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "lineHeight": 16.799999999999997,
+                "marginTop": 4,
+              },
+            ]
+          }
+        >
+          选项摘要描述
+        </Text>
+        <Text>
+          招商银行(尾号2342)
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+          Object {
+            "paddingVertical": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexShrink": 0,
+            "marginRight": 16,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 16,
+              },
+              Array [
+                Object {
+                  "color": "#2F86F6",
+                },
+              ],
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          svg={false}
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+              Object {
+                "color": "#C5CAD5",
+              },
+            ]
+          }
+        >
+          建设银行(尾号4321)
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#858B9C",
+                "fontSize": 12,
+                "lineHeight": 16.799999999999997,
+                "marginTop": 4,
+              },
+              Object {
+                "color": "#C5CAD5",
+              },
+            ]
+          }
+        >
+          选项摘要描述
+        </Text>
+        <Text>
+          建设银行(尾号4321)
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with wrong props 1`] = `
+<View
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "center",
+    }
+  }
+/>
+`;

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/MDTitleViewHeight"
+    android:background="?attr/MDTitleViewBackground"
+    android:gravity="center_vertical">
+
+    <FrameLayout
+        android:id="@+id/md_fl_back"
+        android:layout_width="?attr/MDTitleViewHeight"
+        android:layout_height="?attr/MDTitleViewHeight">
+
+        <ImageView
+            android:id="@+id/md_iv_back"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_gravity="center"
+            android:src="?attr/MDTitleViewCancelIcon" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/md_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxEms="11"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="@string/md_all_images"
+            android:textColor="?attr/MDTitleViewTitleTextColor"
+            android:textSize="?attr/MDTitleViewTitleTextSize" />
+
+        <ImageView
+            android:id="@+id/md_iv_title_arrow"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="6dp"
+            android:src="?attr/MDImageFolderArrowUpIcon"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/md_fl_check"
+        android:layout_width="?attr/MDTitleViewHeight"
+        android:layout_height="?attr/MDTitleViewHeight"
+        android:layout_alignParentRight="true">
+
+        <ImageView
+            android:id="@+id/md_iv_check"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_gravity="center"
+            android:src="?attr/MDPreviewCheckedIcon"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</RelativeLayout>
+
+

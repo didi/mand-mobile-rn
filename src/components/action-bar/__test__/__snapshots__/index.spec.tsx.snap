@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#ffffff",
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "paddingHorizontal": 20,
+      "paddingVertical": 10,
+      "width": "100%",
+      "zIndex": 100,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly with slot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#ffffff",
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "paddingHorizontal": 20,
+      "paddingVertical": 10,
+      "width": "100%",
+      "zIndex": 100,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 50,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <Text>
+      test
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly with styles is null 1`] = `
+<View>
+  <View />
+</View>
+`;

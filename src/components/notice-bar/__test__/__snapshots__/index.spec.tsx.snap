@@ -1,0 +1,1134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with activity type 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(89, 158, 248, .08)",
+          "display": "flex",
+          "flexDirection": "row",
+          "minHeight": 32,
+          "paddingLeft": 16,
+          "position": "relative",
+          "zIndex": 1301,
+        },
+        undefined,
+        Object {
+          "backgroundColor": "#FFEDDE",
+        },
+        Object {},
+      ]
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "margin": "auto",
+          "overflow": "hidden",
+          "width": "auto",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2F86F6",
+              "fontSize": 13,
+            },
+            Object {
+              "color": "#FF843D",
+            },
+            Object {},
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with custom style 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ddd",
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(89, 158, 248, .08)",
+          "display": "flex",
+          "flexDirection": "row",
+          "minHeight": 32,
+          "paddingLeft": 16,
+          "position": "relative",
+          "zIndex": 1301,
+        },
+        undefined,
+        Object {},
+        Object {},
+      ]
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "margin": "auto",
+          "overflow": "hidden",
+          "width": "auto",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2F86F6",
+              "fontSize": 13,
+            },
+            Object {},
+            Object {},
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with default type 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(89, 158, 248, .08)",
+          "display": "flex",
+          "flexDirection": "row",
+          "minHeight": 32,
+          "paddingLeft": 16,
+          "position": "relative",
+          "zIndex": 1301,
+        },
+        undefined,
+        Object {},
+        Object {},
+      ]
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "margin": "auto",
+          "overflow": "hidden",
+          "width": "auto",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2F86F6",
+              "fontSize": 13,
+            },
+            Object {},
+            Object {},
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(89, 158, 248, .08)",
+          "display": "flex",
+          "flexDirection": "row",
+          "minHeight": 32,
+          "paddingLeft": 16,
+          "position": "relative",
+          "zIndex": 1301,
+        },
+        undefined,
+        Object {},
+        Object {},
+      ]
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "margin": "auto",
+          "overflow": "hidden",
+          "width": "auto",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2F86F6",
+              "fontSize": 13,
+            },
+            Object {},
+            Object {},
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with empty style 1`] = `
+<View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(89, 158, 248, .08)",
+          "display": "flex",
+          "flexDirection": "row",
+          "minHeight": 32,
+          "paddingLeft": 16,
+          "position": "relative",
+          "zIndex": 1301,
+        },
+        undefined,
+        Object {},
+        Object {},
+      ]
+    }
+  >
+    <View
+      onLayout={[Function]}
+    >
+      <Text
+        style={
+          Array [
+            undefined,
+            Object {},
+            Object {},
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with icon 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(89, 158, 248, .08)",
+          "display": "flex",
+          "flexDirection": "row",
+          "minHeight": 32,
+          "paddingLeft": 16,
+          "position": "relative",
+          "zIndex": 1301,
+        },
+        undefined,
+        Object {},
+        Object {},
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "paddingRight": 6,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#2F86F6",
+              "fontSize": 18,
+            },
+            undefined,
+            Object {
+              "fontFamily": "mand-mobile",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        type="MandMobile"
+      >
+        
+      </Text>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "margin": "auto",
+          "overflow": "hidden",
+          "width": "auto",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2F86F6",
+              "fontSize": 13,
+            },
+            Object {},
+            Object {},
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with left 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(89, 158, 248, .08)",
+          "display": "flex",
+          "flexDirection": "row",
+          "minHeight": 32,
+          "paddingLeft": 16,
+          "position": "relative",
+          "zIndex": 1301,
+        },
+        undefined,
+        Object {},
+        Object {},
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "paddingRight": 6,
+        }
+      }
+    >
+      <Text>
+        test
+      </Text>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "margin": "auto",
+          "overflow": "hidden",
+          "width": "auto",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2F86F6",
+              "fontSize": 13,
+            },
+            Object {},
+            Object {},
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with mode 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(89, 158, 248, .08)",
+          "display": "flex",
+          "flexDirection": "row",
+          "minHeight": 32,
+          "paddingLeft": 16,
+          "position": "relative",
+          "zIndex": 1301,
+        },
+        undefined,
+        Object {},
+        Object {},
+      ]
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "margin": "auto",
+          "overflow": "hidden",
+          "width": "auto",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2F86F6",
+              "fontSize": 13,
+            },
+            Object {},
+            Object {},
+          ]
+        }
+      />
+    </View>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "opacity": 1,
+          "paddingRight": 16,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#2F86F6",
+              "fontSize": 18,
+            },
+            undefined,
+            Object {
+              "fontFamily": "mand-mobile",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        type="MandMobile"
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with multiRows 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(89, 158, 248, .08)",
+          "display": "flex",
+          "flexDirection": "row",
+          "minHeight": 32,
+          "paddingLeft": 16,
+          "position": "relative",
+          "zIndex": 1301,
+        },
+        undefined,
+        Object {},
+        Object {},
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "margin": "auto",
+          "overflow": "hidden",
+          "width": "auto",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2F86F6",
+              "fontSize": 13,
+            },
+            Object {},
+            Object {},
+            Object {
+              "lineHeight": 18,
+              "paddingBottom": 10,
+              "paddingTop": 10,
+            },
+          ]
+        }
+      >
+        testtesttesttesttesttesttesttesttesttest
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with no round 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(89, 158, 248, .08)",
+          "display": "flex",
+          "flexDirection": "row",
+          "minHeight": 32,
+          "paddingLeft": 16,
+          "position": "relative",
+          "zIndex": 1301,
+        },
+        false,
+        Object {},
+        Object {},
+      ]
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "margin": "auto",
+          "overflow": "hidden",
+          "width": "auto",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2F86F6",
+              "fontSize": 13,
+            },
+            Object {},
+            Object {},
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with onPress 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(89, 158, 248, .08)",
+          "display": "flex",
+          "flexDirection": "row",
+          "minHeight": 32,
+          "paddingLeft": 16,
+          "position": "relative",
+          "zIndex": 1301,
+        },
+        undefined,
+        Object {},
+        Object {},
+      ]
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "margin": "auto",
+          "overflow": "hidden",
+          "width": "auto",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2F86F6",
+              "fontSize": 13,
+            },
+            Object {},
+            Object {},
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with right 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(89, 158, 248, .08)",
+          "display": "flex",
+          "flexDirection": "row",
+          "minHeight": 32,
+          "paddingLeft": 16,
+          "position": "relative",
+          "zIndex": 1301,
+        },
+        undefined,
+        Object {},
+        Object {},
+      ]
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "margin": "auto",
+          "overflow": "hidden",
+          "width": "auto",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2F86F6",
+              "fontSize": 13,
+            },
+            Object {},
+            Object {},
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "paddingRight": 16,
+        }
+      }
+    >
+      <Text>
+        test
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with round 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(89, 158, 248, .08)",
+          "display": "flex",
+          "flexDirection": "row",
+          "minHeight": 32,
+          "paddingLeft": 16,
+          "position": "relative",
+          "zIndex": 1301,
+        },
+        Object {
+          "borderRadius": 16,
+        },
+        Object {},
+        Object {},
+      ]
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "margin": "auto",
+          "overflow": "hidden",
+          "width": "auto",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2F86F6",
+              "fontSize": 13,
+            },
+            Object {},
+            Object {},
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with scrollable 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(89, 158, 248, .08)",
+          "display": "flex",
+          "flexDirection": "row",
+          "minHeight": 32,
+          "paddingLeft": 16,
+          "position": "relative",
+          "zIndex": 1301,
+        },
+        undefined,
+        Object {},
+        Object {},
+      ]
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "margin": "auto",
+          "overflow": "hidden",
+          "width": "auto",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "left": 0,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2F86F6",
+                "fontSize": 13,
+              },
+              Object {},
+              Object {},
+            ]
+          }
+        >
+          testtesttesttesttesttesttesttesttesttest
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with security icon 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(89, 158, 248, .08)",
+          "display": "flex",
+          "flexDirection": "row",
+          "minHeight": 32,
+          "paddingLeft": 16,
+          "position": "relative",
+          "zIndex": 1301,
+        },
+        undefined,
+        Object {},
+        Object {},
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "paddingRight": 6,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#2F86F6",
+              "fontSize": 18,
+            },
+            undefined,
+            Object {
+              "fontFamily": "mand-mobile",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        type="MandMobile"
+      >
+        
+      </Text>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "margin": "auto",
+          "overflow": "hidden",
+          "width": "auto",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2F86F6",
+              "fontSize": 13,
+            },
+            Object {},
+            Object {},
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with time 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(89, 158, 248, .08)",
+          "display": "flex",
+          "flexDirection": "row",
+          "minHeight": 32,
+          "paddingLeft": 16,
+          "position": "relative",
+          "zIndex": 1301,
+        },
+        undefined,
+        Object {},
+        Object {},
+      ]
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "margin": "auto",
+          "overflow": "hidden",
+          "width": "auto",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2F86F6",
+              "fontSize": 13,
+            },
+            Object {},
+            Object {},
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with type 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(89, 158, 248, .08)",
+          "display": "flex",
+          "flexDirection": "row",
+          "minHeight": 32,
+          "paddingLeft": 16,
+          "position": "relative",
+          "zIndex": 1301,
+        },
+        undefined,
+        Object {},
+        Object {
+          "backgroundColor": "#FFEEEF",
+        },
+      ]
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "margin": "auto",
+          "overflow": "hidden",
+          "width": "auto",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2F86F6",
+              "fontSize": 13,
+            },
+            Object {},
+            Object {
+              "color": "#FF5B60",
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with warning type 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(89, 158, 248, .08)",
+          "display": "flex",
+          "flexDirection": "row",
+          "minHeight": 32,
+          "paddingLeft": 16,
+          "position": "relative",
+          "zIndex": 1301,
+        },
+        undefined,
+        Object {},
+        Object {
+          "backgroundColor": "#FFEEEF",
+        },
+      ]
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "margin": "auto",
+          "overflow": "hidden",
+          "width": "auto",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2F86F6",
+              "fontSize": 13,
+            },
+            Object {},
+            Object {
+              "color": "#FF5B60",
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;

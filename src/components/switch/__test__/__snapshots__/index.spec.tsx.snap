@@ -1,0 +1,288 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with Close 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#E2E4EA",
+        "borderRadius": 24,
+        "height": 24,
+        "position": "relative",
+        "width": 40,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFF",
+        "borderRadius": 10,
+        "height": 20,
+        "left": 2,
+        "marginTop": -10,
+        "position": "absolute",
+        "top": "50%",
+        "width": 20,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly with Open && Disabled 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#E2E4EA",
+        "borderRadius": 24,
+        "height": 24,
+        "position": "relative",
+        "width": 40,
+      },
+      Object {
+        "backgroundColor": "#2F86F6",
+      },
+      Object {
+        "opacity": 0.3,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFF",
+        "borderRadius": 10,
+        "height": 20,
+        "left": 18,
+        "marginTop": -10,
+        "position": "absolute",
+        "top": "50%",
+        "width": 20,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly with Open 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#E2E4EA",
+        "borderRadius": 24,
+        "height": 24,
+        "position": "relative",
+        "width": 40,
+      },
+      Object {
+        "backgroundColor": "#2F86F6",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFF",
+        "borderRadius": 10,
+        "height": 20,
+        "left": 18,
+        "marginTop": -10,
+        "position": "absolute",
+        "top": "50%",
+        "width": 20,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly with close &&  disabled 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#E2E4EA",
+        "borderRadius": 24,
+        "height": 24,
+        "position": "relative",
+        "width": 40,
+      },
+      Object {
+        "opacity": 0.3,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFF",
+        "borderRadius": 10,
+        "height": 20,
+        "left": 2,
+        "marginTop": -10,
+        "position": "absolute",
+        "top": "50%",
+        "width": 20,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly with close 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#E2E4EA",
+        "borderRadius": 24,
+        "height": 24,
+        "position": "relative",
+        "width": 40,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFF",
+        "borderRadius": 10,
+        "height": 20,
+        "left": 2,
+        "marginTop": -10,
+        "position": "absolute",
+        "top": "50%",
+        "width": 20,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#E2E4EA",
+        "borderRadius": 24,
+        "height": 24,
+        "position": "relative",
+        "width": 40,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFF",
+        "borderRadius": 10,
+        "height": 20,
+        "left": 2,
+        "marginTop": -10,
+        "position": "absolute",
+        "top": "50%",
+        "width": 20,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly with width && height 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#E2E4EA",
+        "borderRadius": 24,
+        "height": 24,
+        "position": "relative",
+        "width": 40,
+      },
+      Object {
+        "width": 80,
+      },
+      Object {
+        "height": 50,
+      },
+      Object {
+        "backgroundColor": "#2F86F6",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFF",
+        "borderRadius": 20,
+        "height": 40,
+        "left": 38,
+        "marginTop": -20,
+        "position": "absolute",
+        "top": "50%",
+        "width": 40,
+      }
+    }
+  />
+</View>
+`;

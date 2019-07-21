@@ -1,0 +1,1014 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with Fade mode 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "justifyContent": "center",
+        "overflow": "hidden",
+        "position": "relative",
+      },
+      Object {
+        "height": 200,
+        "width": 300,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "height": 300,
+        "overflow": "hidden",
+        "transform": Array [
+          Object {
+            "rotate": "90deg",
+          },
+        ],
+        "width": 200,
+      }
+    }
+  >
+    <RCTScrollView
+      contentContainerStyle={
+        Object {
+          "height": 300,
+        }
+      }
+      horizontal={true}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      pagingEnabled={true}
+      scrollEventThrottle={16}
+      showsHorizontalScrollIndicator={false}
+      style={
+        Object {
+          "height": 300,
+          "overflow": "hidden",
+          "width": 200,
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "height": 300,
+              "justifyContent": "center",
+              "overflow": "hidden",
+              "width": 200,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 200,
+                  "width": 300,
+                },
+                Object {
+                  "transform": Array [
+                    Object {
+                      "rotate": "-90deg",
+                    },
+                  ],
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "flex": 1,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": undefined,
+                    "width": undefined,
+                  },
+                ]
+              }
+            >
+              <Text>
+                一切都将逝去，只有死神永生。
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "height": 300,
+              "justifyContent": "center",
+              "overflow": "hidden",
+              "width": 200,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 200,
+                  "width": 300,
+                },
+                Object {
+                  "transform": Array [
+                    Object {
+                      "rotate": "-90deg",
+                    },
+                  ],
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "flex": 1,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": undefined,
+                    "width": undefined,
+                  },
+                ]
+              }
+            >
+              <Text>
+                给时光以生命，给岁月以文明。
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "height": 300,
+              "justifyContent": "center",
+              "overflow": "hidden",
+              "width": 200,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 200,
+                  "width": 300,
+                },
+                Object {
+                  "transform": Array [
+                    Object {
+                      "rotate": "-90deg",
+                    },
+                  ],
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "flex": 1,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": undefined,
+                    "width": undefined,
+                  },
+                ]
+              }
+            >
+              <Text>
+                你的无畏来源于无知。
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "height": 300,
+              "justifyContent": "center",
+              "overflow": "hidden",
+              "width": 200,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 200,
+                  "width": 300,
+                },
+                Object {
+                  "transform": Array [
+                    Object {
+                      "rotate": "-90deg",
+                    },
+                  ],
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "flex": 1,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": undefined,
+                    "width": undefined,
+                  },
+                ]
+              }
+            >
+              <Text>
+                一切都将逝去，只有死神永生。
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "height": 300,
+              "justifyContent": "center",
+              "overflow": "hidden",
+              "width": 200,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 200,
+                  "width": 300,
+                },
+                Object {
+                  "transform": Array [
+                    Object {
+                      "rotate": "-90deg",
+                    },
+                  ],
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "flex": 1,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": undefined,
+                    "width": undefined,
+                  },
+                ]
+              }
+            >
+              <Text>
+                给时光以生命，给岁月以文明。
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "flexDirection": "column",
+        "position": "absolute",
+        "right": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#ddd",
+            "height": 8,
+            "marginVertical": 1.2,
+            "width": 2,
+          },
+          Object {
+            "backgroundColor": "#2F86F6",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#ddd",
+            "height": 8,
+            "marginVertical": 1.2,
+            "width": 2,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#ddd",
+            "height": 8,
+            "marginVertical": 1.2,
+            "width": 2,
+          },
+        ]
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with Vertical mode 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "justifyContent": "center",
+        "overflow": "hidden",
+        "position": "relative",
+      },
+      Object {
+        "height": 200,
+        "width": 300,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "height": 300,
+        "overflow": "hidden",
+        "transform": Array [
+          Object {
+            "rotate": "90deg",
+          },
+        ],
+        "width": 200,
+      }
+    }
+  >
+    <RCTScrollView
+      contentContainerStyle={
+        Object {
+          "height": 300,
+        }
+      }
+      horizontal={true}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      pagingEnabled={true}
+      scrollEventThrottle={16}
+      showsHorizontalScrollIndicator={false}
+      style={
+        Object {
+          "height": 300,
+          "overflow": "hidden",
+          "width": 200,
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "height": 300,
+              "justifyContent": "center",
+              "overflow": "hidden",
+              "width": 200,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 200,
+                  "width": 300,
+                },
+                Object {
+                  "transform": Array [
+                    Object {
+                      "rotate": "-90deg",
+                    },
+                  ],
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "flex": 1,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": undefined,
+                    "width": undefined,
+                  },
+                ]
+              }
+            >
+              <Text>
+                给时光以生命，给岁月以文明。
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "height": 300,
+              "justifyContent": "center",
+              "overflow": "hidden",
+              "width": 200,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 200,
+                  "width": 300,
+                },
+                Object {
+                  "transform": Array [
+                    Object {
+                      "rotate": "-90deg",
+                    },
+                  ],
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "flex": 1,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": undefined,
+                    "width": undefined,
+                  },
+                ]
+              }
+            >
+              <Text>
+                你的无畏来源于无知。
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "height": 300,
+              "justifyContent": "center",
+              "overflow": "hidden",
+              "width": 200,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 200,
+                  "width": 300,
+                },
+                Object {
+                  "transform": Array [
+                    Object {
+                      "rotate": "-90deg",
+                    },
+                  ],
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "flex": 1,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": undefined,
+                    "width": undefined,
+                  },
+                ]
+              }
+            >
+              <Text>
+                一切都将逝去，只有死神永生。
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "flexDirection": "column",
+        "position": "absolute",
+        "right": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#ddd",
+            "height": 8,
+            "marginVertical": 1.2,
+            "width": 2,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#ddd",
+            "height": 8,
+            "marginVertical": 1.2,
+            "width": 2,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#ddd",
+            "height": 8,
+            "marginVertical": 1.2,
+            "width": 2,
+          },
+          Object {
+            "backgroundColor": "#2F86F6",
+          },
+        ]
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "justifyContent": "center",
+        "overflow": "hidden",
+        "position": "relative",
+      },
+      Object {
+        "height": 200,
+        "width": 300,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 200,
+        "overflow": "hidden",
+        "position": "relative",
+        "width": 300,
+      }
+    }
+  >
+    <RCTScrollView
+      contentContainerStyle={
+        Object {
+          "height": 200,
+        }
+      }
+      horizontal={true}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      pagingEnabled={true}
+      scrollEventThrottle={16}
+      showsHorizontalScrollIndicator={false}
+      style={
+        Object {
+          "height": 200,
+          "overflow": "hidden",
+          "width": 300,
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "height": 200,
+              "width": 300,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                  "justifyContent": "center",
+                },
+                Object {
+                  "height": undefined,
+                  "width": undefined,
+                },
+              ]
+            }
+          >
+            <Text>
+              一切都将逝去，只有死神永生。
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "height": 200,
+              "width": 300,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                  "justifyContent": "center",
+                },
+                Object {
+                  "height": undefined,
+                  "width": undefined,
+                },
+              ]
+            }
+          >
+            <Text>
+              给时光以生命，给岁月以文明。
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "height": 200,
+              "width": 300,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                  "justifyContent": "center",
+                },
+                Object {
+                  "height": undefined,
+                  "width": undefined,
+                },
+              ]
+            }
+          >
+            <Text>
+              你的无畏来源于无知。
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "height": 200,
+              "width": 300,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                  "justifyContent": "center",
+                },
+                Object {
+                  "height": undefined,
+                  "width": undefined,
+                },
+              ]
+            }
+          >
+            <Text>
+              一切都将逝去，只有死神永生。
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "height": 200,
+              "width": 300,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                  "justifyContent": "center",
+                },
+                Object {
+                  "height": undefined,
+                  "width": undefined,
+                },
+              ]
+            }
+          >
+            <Text>
+              给时光以生命，给岁月以文明。
+            </Text>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "bottom": 10,
+        "flexDirection": "row",
+        "position": "absolute",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#ddd",
+            "height": 2,
+            "marginHorizontal": 1.5,
+            "width": 8,
+          },
+          Object {
+            "backgroundColor": "#2F86F6",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#ddd",
+            "height": 2,
+            "marginHorizontal": 1.5,
+            "width": 8,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#ddd",
+            "height": 2,
+            "marginHorizontal": 1.5,
+            "width": 8,
+          },
+        ]
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with empty children 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "justifyContent": "center",
+        "overflow": "hidden",
+        "position": "relative",
+      },
+      Object {
+        "height": 200,
+        "width": 300,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 200,
+        "overflow": "hidden",
+        "position": "relative",
+        "width": 300,
+      }
+    }
+  >
+    <RCTScrollView
+      contentContainerStyle={
+        Object {
+          "height": 200,
+        }
+      }
+      horizontal={true}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      pagingEnabled={true}
+      scrollEventThrottle={16}
+      showsHorizontalScrollIndicator={false}
+      style={
+        Object {
+          "height": 200,
+          "overflow": "hidden",
+          "width": 300,
+        }
+      }
+    >
+      <View />
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "bottom": 10,
+        "flexDirection": "row",
+        "position": "absolute",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly with one item 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "justifyContent": "center",
+        "overflow": "hidden",
+        "position": "relative",
+      },
+      Object {
+        "height": 200,
+        "width": 300,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 200,
+        "overflow": "hidden",
+        "position": "relative",
+        "width": 300,
+      }
+    }
+  >
+    <RCTScrollView
+      contentContainerStyle={
+        Object {
+          "height": 200,
+        }
+      }
+      horizontal={true}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      pagingEnabled={true}
+      scrollEventThrottle={16}
+      showsHorizontalScrollIndicator={false}
+      style={
+        Object {
+          "height": 200,
+          "overflow": "hidden",
+          "width": 300,
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "height": 200,
+              "width": 300,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                  "justifyContent": "center",
+                },
+                Object {
+                  "height": undefined,
+                  "width": undefined,
+                },
+              ]
+            }
+          >
+            <Text>
+              Blank
+            </Text>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "bottom": 10,
+        "flexDirection": "row",
+        "position": "absolute",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#ddd",
+            "height": 2,
+            "marginHorizontal": 1.5,
+            "width": 8,
+          },
+        ]
+      }
+    />
+  </View>
+</View>
+`;

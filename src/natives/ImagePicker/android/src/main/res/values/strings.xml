@@ -1,0 +1,14 @@
+<resources>
+    <string name="md_all_images">所有图片</string>
+    <string name="md_max_images_tip">最多可以选择%1$d张图片</string>
+    <string name="md_preview">预览</string>
+    <string name="md_selected_images">确定(%1$d/%2$d)</string>
+    <string name="md_confirm">确定</string>
+    <string name="md_empty">无照片</string>
+    <string name="md_min_images">图片最低选择不能少于%1$d张</string>
+    <string name="md_refused_sd">读取内存卡权限被拒绝</string>
+    <string name="md_refused_camera">获取系统相机权限被拒绝</string>
+    <string name="md_only_support_single_image">仅支持单张图片裁剪</string>
+    <string name="md_crop">裁剪</string>
+
+</resources>

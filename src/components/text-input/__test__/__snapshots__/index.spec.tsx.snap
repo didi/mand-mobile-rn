@@ -1,0 +1,437 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly with default 1`] = `
+<TextInput
+  allowFontScaling={true}
+  keyboardType="default"
+  underlineColorAndroid="transparent"
+/>
+`;
+
+exports[`renders correctly in android 1`] = `
+<View
+  style={
+    Array [
+      undefined,
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      },
+    ]
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    keyboardType="default"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onFocus={[Function]}
+    underlineColorAndroid="transparent"
+  />
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 30,
+        "justifyContent": "center",
+        "opacity": 1,
+        "width": 30,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly with clear button in android 1`] = `
+<View
+  style={
+    Array [
+      undefined,
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      },
+    ]
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    clearButtonMode="never"
+    keyboardType="default"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onFocus={[Function]}
+    underlineColorAndroid="transparent"
+  />
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 30,
+        "justifyContent": "center",
+        "opacity": 1,
+        "width": 30,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly with clear button in android 2`] = `
+<View
+  style={
+    Array [
+      undefined,
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      },
+    ]
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    clearButtonMode="always"
+    keyboardType="default"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onFocus={[Function]}
+    underlineColorAndroid="transparent"
+  />
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 30,
+        "justifyContent": "center",
+        "opacity": 1,
+        "width": 30,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": "#C5CAD5",
+            "fontSize": 16,
+          },
+          undefined,
+          Object {
+            "fontFamily": "mand-mobile",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+      type="MandMobile"
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with clear button in android 3`] = `
+<View
+  style={
+    Array [
+      undefined,
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      },
+    ]
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    clearButtonMode="while-editing"
+    keyboardType="default"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onFocus={[Function]}
+    underlineColorAndroid="transparent"
+  />
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 30,
+        "justifyContent": "center",
+        "opacity": 1,
+        "width": 30,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly with clear button in android 4`] = `
+<View
+  style={
+    Array [
+      undefined,
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      },
+    ]
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    clearButtonMode="unless-editing"
+    keyboardType="default"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onFocus={[Function]}
+    underlineColorAndroid="transparent"
+  />
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 30,
+        "justifyContent": "center",
+        "opacity": 1,
+        "width": 30,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": "#C5CAD5",
+            "fontSize": 16,
+          },
+          undefined,
+          Object {
+            "fontFamily": "mand-mobile",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+      type="MandMobile"
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with custom text 1`] = `
+<TextInput
+  allowFontScaling={true}
+  keyboardType="default"
+  underlineColorAndroid="transparent"
+/>
+`;
+
+exports[`renders correctly with custom text render 1`] = `
+<TextInput
+  allowFontScaling={true}
+  keyboardType="default"
+  underlineColorAndroid="transparent"
+/>
+`;
+
+exports[`renders correctly with native keyboard type 1`] = `
+<View
+  style={
+    Array [
+      undefined,
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      },
+    ]
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    keyboardType="default"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onFocus={[Function]}
+    underlineColorAndroid="transparent"
+  />
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 30,
+        "justifyContent": "center",
+        "opacity": 1,
+        "width": 30,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly with native keyboard type 2`] = `
+<View
+  style={
+    Array [
+      undefined,
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      },
+    ]
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    keyboardType="default"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onFocus={[Function]}
+    underlineColorAndroid="transparent"
+  />
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 30,
+        "justifyContent": "center",
+        "opacity": 1,
+        "width": 30,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly with native keyboard type 3`] = `
+<View
+  style={
+    Array [
+      undefined,
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      },
+    ]
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    keyboardType="default"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onFocus={[Function]}
+    underlineColorAndroid="transparent"
+  />
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 30,
+        "justifyContent": "center",
+        "opacity": 1,
+        "width": 30,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly with ok text 1`] = `
+<TextInput
+  allowFontScaling={true}
+  keyboardType="default"
+  underlineColorAndroid="transparent"
+/>
+`;
+
+exports[`renders correctly with shuffle keys 1`] = `
+<TextInput
+  allowFontScaling={true}
+  keyboardType="default"
+  underlineColorAndroid="transparent"
+/>
+`;
+
+exports[`test ummount function 1`] = `null`;
+
+exports[`test ummount function with web 1`] = `null`;

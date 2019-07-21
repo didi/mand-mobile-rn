@@ -1,0 +1,593 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+            ]
+          }
+        >
+          西瓜
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+            ]
+          }
+        >
+          苹果
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+            ]
+          }
+        >
+          香蕉
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+            ]
+          }
+        >
+          橙子
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
+              Object {
+                "color": "#C5CAD5",
+              },
+            ]
+          }
+        >
+          西红柿
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with defaults 2`] = `
+<View
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          西瓜
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          苹果
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          香蕉
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          橙子
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E2E4EA",
+            "borderBottomWidth": 0.5,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+            "position": "relative",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#C5CAD5",
+              },
+            ]
+          }
+        >
+          西红柿
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with empty options 1`] = `null`;

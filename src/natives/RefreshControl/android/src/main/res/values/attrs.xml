@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MDRefreshProgressView">
+        <attr name="background_ring_color" format="color" />
+        <attr name="foreground_ring_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="MDRefreshHeaderView">
+        <attr name="pr_background_ring_color" format="color" />
+        <attr name="pr_foreground_ring_color" format="color" />
+        <attr name="pull_down_to_refresh_text" format="string" />
+        <attr name="release_to_refresh_text" format="string" />
+        <attr name="refreshing_text" format="string" />
+        <attr name="refresh_finish_text" format="string" />
+        <attr name="state_text_color" format="color" />
+        <attr name="state_text_size" format="dimension" />
+        <attr name="time_text_color" format="color" />
+        <attr name="time_text_size" format="dimension" />
+        <attr name="header_padding" format="dimension" />
+        <attr name="header_background_color" format="color" />
+        <attr name="hidden_state" format="boolean" />
+        <attr name="hidden_time" format="boolean" />
+        <attr name="last_update_pattern" format="string" />
+    </declare-styleable>
+</resources>

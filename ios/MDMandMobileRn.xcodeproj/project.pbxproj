@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94DDFF0022D5CFEE00D93DFC /* RCTScrollView+MDRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFEFC22D5CFEE00D93DFC /* RCTScrollView+MDRefreshControl.m */; };
+		94DDFF0122D5CFEE00D93DFC /* RCTConvert+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFEFF22D5CFEE00D93DFC /* RCTConvert+Refresh.m */; };
+		94DDFF2122D5D0D400D93DFC /* MDImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFF0222D5D0D400D93DFC /* MDImagePicker.m */; };
+		94DDFF2222D5D0D400D93DFC /* MDPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFF0522D5D0D400D93DFC /* MDPhotoPreviewController.m */; };
+		94DDFF2322D5D0D400D93DFC /* UIView+MDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFF0722D5D0D400D93DFC /* UIView+MDExtension.m */; };
+		94DDFF2422D5D0D400D93DFC /* MDImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFF0822D5D0D400D93DFC /* MDImagePickerController.m */; };
+		94DDFF2522D5D0D400D93DFC /* NSDictionary+MDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFF0A22D5D0D400D93DFC /* NSDictionary+MDExtension.m */; };
+		94DDFF2622D5D0D400D93DFC /* MDImageCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFF0D22D5D0D400D93DFC /* MDImageCropManager.m */; };
+		94DDFF2722D5D0D400D93DFC /* MDAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFF0F22D5D0D400D93DFC /* MDAssetCell.m */; };
+		94DDFF2822D5D0D400D93DFC /* MDPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFF1022D5D0D400D93DFC /* MDPhotoPickerController.m */; };
+		94DDFF2922D5D0D400D93DFC /* MDProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFF1122D5D0D400D93DFC /* MDProgressView.m */; };
+		94DDFF2A22D5D0D400D93DFC /* MDImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFF1322D5D0D400D93DFC /* MDImageManager.m */; };
+		94DDFF2B22D5D0D400D93DFC /* MDCommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFF1622D5D0D400D93DFC /* MDCommonTools.m */; };
+		94DDFF2C22D5D0D400D93DFC /* MDPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFF1722D5D0D400D93DFC /* MDPhotoPreviewCell.m */; };
+		94DDFF2D22D5D0D400D93DFC /* MDAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFF1922D5D0D400D93DFC /* MDAssetModel.m */; };
+		94DDFF2E22D5D0D400D93DFC /* MDAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFF1D22D5D0D400D93DFC /* MDAlbumCell.m */; };
+		94DDFF2F22D5D0D400D93DFC /* MDAlbumPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFF1E22D5D0D400D93DFC /* MDAlbumPickerController.m */; };
+		94DDFFBB22D5D72600D93DFC /* MDNumberKeyboardAdaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFFB522D5D72600D93DFC /* MDNumberKeyboardAdaptor.m */; };
+		94DDFFBC22D5D72600D93DFC /* MDNumberKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFFB722D5D72600D93DFC /* MDNumberKeyboard.m */; };
+		94DDFFBD22D5D72600D93DFC /* MDNumberKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFFBA22D5D72600D93DFC /* MDNumberKeyboardView.m */; };
+		94F9457521CA3FE500DE3716 /* UIColor+MDStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F9455F21CA3FE500DE3716 /* UIColor+MDStyle.m */; };
+		94F9457621CA3FE500DE3716 /* MDFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F9456021CA3FE500DE3716 /* MDFont.m */; };
+		94F9457721CA3FE500DE3716 /* MDUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F9456121CA3FE500DE3716 /* MDUtility.m */; };
+		94F9457B21CA3FE500DE3716 /* MDRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F9456F21CA3FE500DE3716 /* MDRefreshControl.m */; };
+		94F9457C21CA3FE500DE3716 /* RCTScrollView+MDRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F9457121CA3FE500DE3716 /* RCTScrollView+MDRefreshControl.m */; };
+		94F9457D21CA3FE500DE3716 /* MDRefreshControlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F9457221CA3FE500DE3716 /* MDRefreshControlManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		134814201AA4EA6300B7C361 /* libMDMandMobileRn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMDMandMobileRn.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		94DDFEFC22D5CFEE00D93DFC /* RCTScrollView+MDRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTScrollView+MDRefreshControl.m"; sourceTree = "<group>"; };
+		94DDFEFD22D5CFEE00D93DFC /* RCTConvert+Refresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+Refresh.h"; sourceTree = "<group>"; };
+		94DDFEFE22D5CFEE00D93DFC /* RCTScrollView+MDRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTScrollView+MDRefreshControl.h"; sourceTree = "<group>"; };
+		94DDFEFF22D5CFEE00D93DFC /* RCTConvert+Refresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+Refresh.m"; sourceTree = "<group>"; };
+		94DDFF0222D5D0D400D93DFC /* MDImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MDImagePicker.m; path = ../src/natives/ImagePicker/ios/MDImagePicker.m; sourceTree = "<group>"; };
+		94DDFF0322D5D0D400D93DFC /* MDImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MDImagePicker.h; path = ../src/natives/ImagePicker/ios/MDImagePicker.h; sourceTree = "<group>"; };
+		94DDFF0522D5D0D400D93DFC /* MDPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoPreviewController.m; sourceTree = "<group>"; };
+		94DDFF0622D5D0D400D93DFC /* MDImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDImageManager.h; sourceTree = "<group>"; };
+		94DDFF0722D5D0D400D93DFC /* UIView+MDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MDExtension.m"; sourceTree = "<group>"; };
+		94DDFF0822D5D0D400D93DFC /* MDImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDImagePickerController.m; sourceTree = "<group>"; };
+		94DDFF0922D5D0D400D93DFC /* MDAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAssetModel.h; sourceTree = "<group>"; };
+		94DDFF0A22D5D0D400D93DFC /* NSDictionary+MDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MDExtension.m"; sourceTree = "<group>"; };
+		94DDFF0B22D5D0D400D93DFC /* MDPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPhotoPreviewCell.h; sourceTree = "<group>"; };
+		94DDFF0C22D5D0D400D93DFC /* MDCommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCommonTools.h; sourceTree = "<group>"; };
+		94DDFF0D22D5D0D400D93DFC /* MDImageCropManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDImageCropManager.m; sourceTree = "<group>"; };
+		94DDFF0E22D5D0D400D93DFC /* MDAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAlbumCell.h; sourceTree = "<group>"; };
+		94DDFF0F22D5D0D400D93DFC /* MDAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAssetCell.m; sourceTree = "<group>"; };
+		94DDFF1022D5D0D400D93DFC /* MDPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoPickerController.m; sourceTree = "<group>"; };
+		94DDFF1122D5D0D400D93DFC /* MDProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDProgressView.m; sourceTree = "<group>"; };
+		94DDFF1222D5D0D400D93DFC /* MDAlbumPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAlbumPickerController.h; sourceTree = "<group>"; };
+		94DDFF1322D5D0D400D93DFC /* MDImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDImageManager.m; sourceTree = "<group>"; };
+		94DDFF1422D5D0D400D93DFC /* MDPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPhotoPreviewController.h; sourceTree = "<group>"; };
+		94DDFF1522D5D0D400D93DFC /* MDImageCropManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDImageCropManager.h; sourceTree = "<group>"; };
+		94DDFF1622D5D0D400D93DFC /* MDCommonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCommonTools.m; sourceTree = "<group>"; };
+		94DDFF1722D5D0D400D93DFC /* MDPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoPreviewCell.m; sourceTree = "<group>"; };
+		94DDFF1822D5D0D400D93DFC /* NSDictionary+MDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MDExtension.h"; sourceTree = "<group>"; };
+		94DDFF1922D5D0D400D93DFC /* MDAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAssetModel.m; sourceTree = "<group>"; };
+		94DDFF1A22D5D0D400D93DFC /* MDImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDImagePickerController.h; sourceTree = "<group>"; };
+		94DDFF1B22D5D0D400D93DFC /* UIView+MDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MDExtension.h"; sourceTree = "<group>"; };
+		94DDFF1C22D5D0D400D93DFC /* MDAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAssetCell.h; sourceTree = "<group>"; };
+		94DDFF1D22D5D0D400D93DFC /* MDAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAlbumCell.m; sourceTree = "<group>"; };
+		94DDFF1E22D5D0D400D93DFC /* MDAlbumPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAlbumPickerController.m; sourceTree = "<group>"; };
+		94DDFF1F22D5D0D400D93DFC /* MDProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDProgressView.h; sourceTree = "<group>"; };
+		94DDFF2022D5D0D400D93DFC /* MDPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPhotoPickerController.h; sourceTree = "<group>"; };
+		94DDFF3222D5D13800D93DFC /* md_keyboard_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "md_keyboard_delete@2x.png"; sourceTree = "<group>"; };
+		94DDFF3322D5D13800D93DFC /* md_ic_stepper_sub@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "md_ic_stepper_sub@2x.png"; sourceTree = "<group>"; };
+		94DDFF3422D5D13800D93DFC /* md_image_picker_take_picture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "md_image_picker_take_picture@2x.png"; sourceTree = "<group>"; };
+		94DDFF3522D5D13800D93DFC /* md_image_picker_blue_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "md_image_picker_blue_icon@2x.png"; sourceTree = "<group>"; };
+		94DDFF3622D5D13800D93DFC /* md_ic_stepper_sub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = md_ic_stepper_sub.png; sourceTree = "<group>"; };
+		94DDFF3722D5D13800D93DFC /* md_ic_stepper_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = md_ic_stepper_add.png; sourceTree = "<group>"; };
+		94DDFF3822D5D13800D93DFC /* md_keyboard_delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "md_keyboard_delete@3x.png"; sourceTree = "<group>"; };
+		94DDFF3922D5D13800D93DFC /* md_image_picker_original_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "md_image_picker_original_default@2x.png"; sourceTree = "<group>"; };
+		94DDFF3A22D5D13800D93DFC /* md_image_picker_navi_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "md_image_picker_navi_back@2x.png"; sourceTree = "<group>"; };
+		94DDFF3B22D5D13800D93DFC /* md_image_picker_unselect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "md_image_picker_unselect@2x.png"; sourceTree = "<group>"; };
+		94DDFF3C22D5D13800D93DFC /* md_image_picker_unselect_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "md_image_picker_unselect_gray@2x.png"; sourceTree = "<group>"; };
+		94DDFF3D22D5D13800D93DFC /* md_keyboard_pack @3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "md_keyboard_pack @3x.png"; sourceTree = "<group>"; };
+		94DDFF3E22D5D13800D93DFC /* md_image_picker_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "md_image_picker_arrow@2x.png"; sourceTree = "<group>"; };
+		94DDFF3F22D5D13800D93DFC /* md_ic_stepper_add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "md_ic_stepper_add@2x.png"; sourceTree = "<group>"; };
+		94DDFF4022D5D13800D93DFC /* md_image_picker_original_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "md_image_picker_original_select@2x.png"; sourceTree = "<group>"; };
+		94DDFF4122D5D13800D93DFC /* md_keyboard_pack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "md_keyboard_pack@2x.png"; sourceTree = "<group>"; };
+		94DDFF4322D5D13800D93DFC /* FD+_Number.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FD+_Number.otf"; sourceTree = "<group>"; };
+		94DDFF4422D5D13800D93DFC /* mand-mobile.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mand-mobile.ttf"; sourceTree = "<group>"; };
+		94DDFF4522D5D13800D93DFC /* DIN Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN Medium.ttf"; sourceTree = "<group>"; };
+		94DDFF4622D5D13800D93DFC /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		94DDFF4722D5D13800D93DFC /* selection.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = selection.json; sourceTree = "<group>"; };
+		94DDFFB522D5D72600D93DFC /* MDNumberKeyboardAdaptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MDNumberKeyboardAdaptor.m; path = ../src/natives/NumberKeyboard/ios/MDNumberKeyboardAdaptor.m; sourceTree = "<group>"; };
+		94DDFFB622D5D72600D93DFC /* MDNumberKeyboardAdaptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MDNumberKeyboardAdaptor.h; path = ../src/natives/NumberKeyboard/ios/MDNumberKeyboardAdaptor.h; sourceTree = "<group>"; };
+		94DDFFB722D5D72600D93DFC /* MDNumberKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MDNumberKeyboard.m; path = ../src/natives/NumberKeyboard/ios/MDNumberKeyboard.m; sourceTree = "<group>"; };
+		94DDFFB822D5D72600D93DFC /* MDNumberKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MDNumberKeyboardView.h; path = ../src/natives/NumberKeyboard/ios/MDNumberKeyboardView.h; sourceTree = "<group>"; };
+		94DDFFB922D5D72600D93DFC /* MDNumberKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MDNumberKeyboard.h; path = ../src/natives/NumberKeyboard/ios/MDNumberKeyboard.h; sourceTree = "<group>"; };
+		94DDFFBA22D5D72600D93DFC /* MDNumberKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MDNumberKeyboardView.m; path = ../src/natives/NumberKeyboard/ios/MDNumberKeyboardView.m; sourceTree = "<group>"; };
+		94F9455E21CA3FE500DE3716 /* MDUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDUtility.h; sourceTree = "<group>"; };
+		94F9455F21CA3FE500DE3716 /* UIColor+MDStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MDStyle.m"; sourceTree = "<group>"; };
+		94F9456021CA3FE500DE3716 /* MDFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDFont.m; sourceTree = "<group>"; };
+		94F9456121CA3FE500DE3716 /* MDUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDUtility.m; sourceTree = "<group>"; };
+		94F9456221CA3FE500DE3716 /* MDFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDFont.h; sourceTree = "<group>"; };
+		94F9456321CA3FE500DE3716 /* UIColor+MDStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MDStyle.h"; sourceTree = "<group>"; };
+		94F9456F21CA3FE500DE3716 /* MDRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRefreshControl.m; sourceTree = "<group>"; };
+		94F9457021CA3FE500DE3716 /* MDRefreshControlManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRefreshControlManager.h; sourceTree = "<group>"; };
+		94F9457121CA3FE500DE3716 /* RCTScrollView+MDRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTScrollView+MDRefreshControl.m"; sourceTree = "<group>"; };
+		94F9457221CA3FE500DE3716 /* MDRefreshControlManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRefreshControlManager.m; sourceTree = "<group>"; };
+		94F9457321CA3FE500DE3716 /* MDRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRefreshControl.h; sourceTree = "<group>"; };
+		94F9457421CA3FE500DE3716 /* RCTScrollView+MDRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTScrollView+MDRefreshControl.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134814211AA4EA7D00B7C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134814201AA4EA6300B7C361 /* libMDMandMobileRn.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				94CFD64A2241123C00977616 /* ImagePicker */,
+				94CFD63F224111EA00977616 /* NumberKeyboard */,
+				94F9455C21CA3FE500DE3716 /* Core */,
+				94F9456C21CA3FE500DE3716 /* RefreshControl */,
+				134814211AA4EA7D00B7C361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94CFD63F224111EA00977616 /* NumberKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				94DDFFB922D5D72600D93DFC /* MDNumberKeyboard.h */,
+				94DDFFB722D5D72600D93DFC /* MDNumberKeyboard.m */,
+				94DDFFB622D5D72600D93DFC /* MDNumberKeyboardAdaptor.h */,
+				94DDFFB522D5D72600D93DFC /* MDNumberKeyboardAdaptor.m */,
+				94DDFFB822D5D72600D93DFC /* MDNumberKeyboardView.h */,
+				94DDFFBA22D5D72600D93DFC /* MDNumberKeyboardView.m */,
+			);
+			name = NumberKeyboard;
+			sourceTree = "<group>";
+		};
+		94CFD64A2241123C00977616 /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				94DDFF0322D5D0D400D93DFC /* MDImagePicker.h */,
+				94DDFF0222D5D0D400D93DFC /* MDImagePicker.m */,
+				94DDFF0422D5D0D400D93DFC /* MDImagePickerController */,
+			);
+			name = ImagePicker;
+			sourceTree = "<group>";
+		};
+		94DDFF0422D5D0D400D93DFC /* MDImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				94DDFF0522D5D0D400D93DFC /* MDPhotoPreviewController.m */,
+				94DDFF0622D5D0D400D93DFC /* MDImageManager.h */,
+				94DDFF0722D5D0D400D93DFC /* UIView+MDExtension.m */,
+				94DDFF0822D5D0D400D93DFC /* MDImagePickerController.m */,
+				94DDFF0922D5D0D400D93DFC /* MDAssetModel.h */,
+				94DDFF0A22D5D0D400D93DFC /* NSDictionary+MDExtension.m */,
+				94DDFF0B22D5D0D400D93DFC /* MDPhotoPreviewCell.h */,
+				94DDFF0C22D5D0D400D93DFC /* MDCommonTools.h */,
+				94DDFF0D22D5D0D400D93DFC /* MDImageCropManager.m */,
+				94DDFF0E22D5D0D400D93DFC /* MDAlbumCell.h */,
+				94DDFF0F22D5D0D400D93DFC /* MDAssetCell.m */,
+				94DDFF1022D5D0D400D93DFC /* MDPhotoPickerController.m */,
+				94DDFF1122D5D0D400D93DFC /* MDProgressView.m */,
+				94DDFF1222D5D0D400D93DFC /* MDAlbumPickerController.h */,
+				94DDFF1322D5D0D400D93DFC /* MDImageManager.m */,
+				94DDFF1422D5D0D400D93DFC /* MDPhotoPreviewController.h */,
+				94DDFF1522D5D0D400D93DFC /* MDImageCropManager.h */,
+				94DDFF1622D5D0D400D93DFC /* MDCommonTools.m */,
+				94DDFF1722D5D0D400D93DFC /* MDPhotoPreviewCell.m */,
+				94DDFF1822D5D0D400D93DFC /* NSDictionary+MDExtension.h */,
+				94DDFF1922D5D0D400D93DFC /* MDAssetModel.m */,
+				94DDFF1A22D5D0D400D93DFC /* MDImagePickerController.h */,
+				94DDFF1B22D5D0D400D93DFC /* UIView+MDExtension.h */,
+				94DDFF1C22D5D0D400D93DFC /* MDAssetCell.h */,
+				94DDFF1D22D5D0D400D93DFC /* MDAlbumCell.m */,
+				94DDFF1E22D5D0D400D93DFC /* MDAlbumPickerController.m */,
+				94DDFF1F22D5D0D400D93DFC /* MDProgressView.h */,
+				94DDFF2022D5D0D400D93DFC /* MDPhotoPickerController.h */,
+			);
+			name = MDImagePickerController;
+			path = ../src/natives/ImagePicker/ios/MDImagePickerController;
+			sourceTree = "<group>";
+		};
+		94DDFF3022D5D11200D93DFC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				94DDFF4222D5D13800D93DFC /* fonts */,
+				94DDFF3122D5D13800D93DFC /* image */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		94DDFF3122D5D13800D93DFC /* image */ = {
+			isa = PBXGroup;
+			children = (
+				94DDFF3222D5D13800D93DFC /* md_keyboard_delete@2x.png */,
+				94DDFF3322D5D13800D93DFC /* md_ic_stepper_sub@2x.png */,
+				94DDFF3422D5D13800D93DFC /* md_image_picker_take_picture@2x.png */,
+				94DDFF3522D5D13800D93DFC /* md_image_picker_blue_icon@2x.png */,
+				94DDFF3622D5D13800D93DFC /* md_ic_stepper_sub.png */,
+				94DDFF3722D5D13800D93DFC /* md_ic_stepper_add.png */,
+				94DDFF3822D5D13800D93DFC /* md_keyboard_delete@3x.png */,
+				94DDFF3922D5D13800D93DFC /* md_image_picker_original_default@2x.png */,
+				94DDFF3A22D5D13800D93DFC /* md_image_picker_navi_back@2x.png */,
+				94DDFF3B22D5D13800D93DFC /* md_image_picker_unselect@2x.png */,
+				94DDFF3C22D5D13800D93DFC /* md_image_picker_unselect_gray@2x.png */,
+				94DDFF3D22D5D13800D93DFC /* md_keyboard_pack @3x.png */,
+				94DDFF3E22D5D13800D93DFC /* md_image_picker_arrow@2x.png */,
+				94DDFF3F22D5D13800D93DFC /* md_ic_stepper_add@2x.png */,
+				94DDFF4022D5D13800D93DFC /* md_image_picker_original_select@2x.png */,
+				94DDFF4122D5D13800D93DFC /* md_keyboard_pack@2x.png */,
+			);
+			name = image;
+			path = ../../../assets/image;
+			sourceTree = "<group>";
+		};
+		94DDFF4222D5D13800D93DFC /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				94DDFF4322D5D13800D93DFC /* FD+_Number.otf */,
+				94DDFF4422D5D13800D93DFC /* mand-mobile.ttf */,
+				94DDFF4522D5D13800D93DFC /* DIN Medium.ttf */,
+				94DDFF4622D5D13800D93DFC /* Localizable.strings */,
+				94DDFF4722D5D13800D93DFC /* selection.json */,
+			);
+			name = fonts;
+			path = ../../../assets/fonts;
+			sourceTree = "<group>";
+		};
+		94F9455C21CA3FE500DE3716 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				94DDFF3022D5D11200D93DFC /* Resources */,
+				94F9455D21CA3FE500DE3716 /* Classes */,
+			);
+			name = Core;
+			path = ../src/natives/Core;
+			sourceTree = "<group>";
+		};
+		94F9455D21CA3FE500DE3716 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				94F9456221CA3FE500DE3716 /* MDFont.h */,
+				94F9456021CA3FE500DE3716 /* MDFont.m */,
+				94F9455E21CA3FE500DE3716 /* MDUtility.h */,
+				94F9456121CA3FE500DE3716 /* MDUtility.m */,
+				94F9456321CA3FE500DE3716 /* UIColor+MDStyle.h */,
+				94F9455F21CA3FE500DE3716 /* UIColor+MDStyle.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		94F9456C21CA3FE500DE3716 /* RefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				94F9456E21CA3FE500DE3716 /* ios */,
+			);
+			name = RefreshControl;
+			path = ../src/natives/RefreshControl;
+			sourceTree = "<group>";
+		};
+		94F9456E21CA3FE500DE3716 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				94F9457321CA3FE500DE3716 /* MDRefreshControl.h */,
+				94F9456F21CA3FE500DE3716 /* MDRefreshControl.m */,
+				94F9457021CA3FE500DE3716 /* MDRefreshControlManager.h */,
+				94F9457221CA3FE500DE3716 /* MDRefreshControlManager.m */,
+				94DDFEFD22D5CFEE00D93DFC /* RCTConvert+Refresh.h */,
+				94DDFEFF22D5CFEE00D93DFC /* RCTConvert+Refresh.m */,
+				94DDFEFE22D5CFEE00D93DFC /* RCTScrollView+MDRefreshControl.h */,
+				94DDFEFC22D5CFEE00D93DFC /* RCTScrollView+MDRefreshControl.m */,
+				94F9457421CA3FE500DE3716 /* RCTScrollView+MDRefreshControl.h */,
+				94F9457121CA3FE500DE3716 /* RCTScrollView+MDRefreshControl.m */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* MDMandMobileRn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "MDMandMobileRn" */;
+			buildPhases = (
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDMandMobileRn;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libMDMandMobileRn.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "MDMandMobileRn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* MDMandMobileRn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F9457521CA3FE500DE3716 /* UIColor+MDStyle.m in Sources */,
+				94DDFF2622D5D0D400D93DFC /* MDImageCropManager.m in Sources */,
+				94DDFFBB22D5D72600D93DFC /* MDNumberKeyboardAdaptor.m in Sources */,
+				94F9457D21CA3FE500DE3716 /* MDRefreshControlManager.m in Sources */,
+				94DDFF2922D5D0D400D93DFC /* MDProgressView.m in Sources */,
+				94DDFF2E22D5D0D400D93DFC /* MDAlbumCell.m in Sources */,
+				94DDFF2722D5D0D400D93DFC /* MDAssetCell.m in Sources */,
+				94F9457621CA3FE500DE3716 /* MDFont.m in Sources */,
+				94DDFF2522D5D0D400D93DFC /* NSDictionary+MDExtension.m in Sources */,
+				94DDFF2322D5D0D400D93DFC /* UIView+MDExtension.m in Sources */,
+				94DDFF0022D5CFEE00D93DFC /* RCTScrollView+MDRefreshControl.m in Sources */,
+				94DDFF2D22D5D0D400D93DFC /* MDAssetModel.m in Sources */,
+				94F9457C21CA3FE500DE3716 /* RCTScrollView+MDRefreshControl.m in Sources */,
+				94DDFF2122D5D0D400D93DFC /* MDImagePicker.m in Sources */,
+				94DDFFBC22D5D72600D93DFC /* MDNumberKeyboard.m in Sources */,
+				94F9457B21CA3FE500DE3716 /* MDRefreshControl.m in Sources */,
+				94DDFF0122D5CFEE00D93DFC /* RCTConvert+Refresh.m in Sources */,
+				94DDFF2422D5D0D400D93DFC /* MDImagePickerController.m in Sources */,
+				94DDFF2222D5D0D400D93DFC /* MDPhotoPreviewController.m in Sources */,
+				94DDFF2C22D5D0D400D93DFC /* MDPhotoPreviewCell.m in Sources */,
+				94DDFF2822D5D0D400D93DFC /* MDPhotoPickerController.m in Sources */,
+				94DDFF2F22D5D0D400D93DFC /* MDAlbumPickerController.m in Sources */,
+				94DDFF2B22D5D0D400D93DFC /* MDCommonTools.m in Sources */,
+				94DDFFBD22D5D72600D93DFC /* MDNumberKeyboardView.m in Sources */,
+				94DDFF2A22D5D0D400D93DFC /* MDImageManager.m in Sources */,
+				94F9457721CA3FE500DE3716 /* MDUtility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = MDMandMobileRn;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = MDMandMobileRn;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "MDMandMobileRn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "MDMandMobileRn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}

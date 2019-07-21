@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with cur 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F9FAFB",
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#F9FAFB",
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "position": "relative",
+      }
+    }
+  >
+    <RCTScrollView
+      horizontal={true}
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "minWidth": "100%",
+            }
+          }
+        />
+      </View>
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      Object {
+        "overflow": "hidden",
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly with custom style 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ddd",
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#F9FAFB",
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "position": "relative",
+      }
+    }
+  >
+    <RCTScrollView
+      horizontal={true}
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "minWidth": "100%",
+            }
+          }
+        />
+      </View>
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      Object {
+        "overflow": "hidden",
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F9FAFB",
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#F9FAFB",
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "position": "relative",
+      }
+    }
+  >
+    <RCTScrollView
+      horizontal={true}
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "minWidth": "100%",
+            }
+          }
+        />
+      </View>
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      Object {
+        "overflow": "hidden",
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly with empty style 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#F9FAFB",
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "position": "relative",
+      }
+    }
+  >
+    <RCTScrollView
+      horizontal={true}
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "minWidth": "100%",
+            }
+          }
+        />
+      </View>
+    </RCTScrollView>
+  </View>
+  <View />
+</View>
+`;
+
+exports[`renders correctly with hasInk 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F9FAFB",
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#F9FAFB",
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "position": "relative",
+      }
+    }
+  >
+    <RCTScrollView
+      horizontal={true}
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "minWidth": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#2F86F6",
+                "bottom": 0,
+                "height": 1.5,
+                "left": 0,
+                "position": "absolute",
+                "width": 10,
+              }
+            }
+          />
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      Object {
+        "overflow": "hidden",
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+  />
+</View>
+`;

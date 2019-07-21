@@ -1,0 +1,318 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with props 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onRequestClose={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={true}
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#000",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    pointerEvents="box-none"
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+        "transform": Array [
+          Object {
+            "translateY": 1334,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#F9FAFB",
+              "borderTopLeftRadius": 4,
+              "borderTopRightRadius": 4,
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 60,
+              "justifyContent": "space-between",
+              "overflow": "hidden",
+              "position": "relative",
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "paddingHorizontal": "20%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#111A34",
+                "fontSize": 20,
+                "textAlign": "center",
+                "width": "100%",
+              }
+            }
+          >
+            标题
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFF",
+            "paddingBottom": 0,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFF",
+              "borderBottomColor": "#E2E4EA",
+              "borderBottomWidth": 0.5,
+              "justifyContent": "center",
+              "marginLeft": 16,
+              "marginRight": 16,
+              "paddingBottom": 16,
+              "paddingTop": 16,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#41485D",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            选项1
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFF",
+              "borderBottomColor": "#E2E4EA",
+              "borderBottomWidth": 0.5,
+              "justifyContent": "center",
+              "marginLeft": 16,
+              "marginRight": 16,
+              "paddingBottom": 16,
+              "paddingTop": 16,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#41485D",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            选项2
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFF",
+              "borderBottomColor": "#E2E4EA",
+              "borderBottomWidth": 0.5,
+              "justifyContent": "center",
+              "marginLeft": 16,
+              "marginRight": 16,
+              "paddingBottom": 16,
+              "paddingTop": 16,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#2F86F6",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            选项3
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFF",
+              "borderBottomColor": "#E2E4EA",
+              "borderBottomWidth": 0.5,
+              "justifyContent": "center",
+              "marginLeft": 16,
+              "marginRight": 16,
+              "paddingBottom": 16,
+              "paddingTop": 16,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#C5CAD5",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            选项4
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFF",
+              "borderBottomColor": "#E2E4EA",
+              "borderBottomWidth": 0.5,
+              "justifyContent": "center",
+              "marginLeft": 16,
+              "marginRight": 16,
+              "paddingBottom": 16,
+              "paddingTop": 16,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#41485D",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            选项5
+          </Text>
+        </View>
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFF",
+              "color": "#666f83",
+              "fontSize": 16,
+              "marginTop": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          取消
+        </Text>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;

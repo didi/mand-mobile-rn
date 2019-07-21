@@ -1,0 +1,377 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with current 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F9FAFB",
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "position": "relative",
+    }
+  }
+>
+  <RCTScrollView
+    horizontal={true}
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-around",
+            "minWidth": "100%",
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`renders correctly with custom 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F9FAFB",
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "position": "relative",
+    }
+  }
+>
+  <RCTScrollView
+    horizontal={true}
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-around",
+            "minWidth": "100%",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onLayout={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexShrink": 0,
+              "height": 40,
+              "justifyContent": "center",
+              "opacity": 1,
+              "paddingLeft": 10,
+              "position": "relative",
+            }
+          }
+        >
+          <Text
+            cur={0}
+            index={0}
+            item={
+              Object {
+                "label": "标签1",
+                "name": 0,
+              }
+            }
+          >
+            test
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onLayout={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexShrink": 0,
+              "height": 40,
+              "justifyContent": "center",
+              "opacity": 1,
+              "paddingLeft": 10,
+              "position": "relative",
+            }
+          }
+        >
+          <Text
+            cur={0}
+            index={1}
+            item={
+              Object {
+                "label": "标签2",
+                "name": 1,
+              }
+            }
+          >
+            test
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`renders correctly with custom style 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ddd",
+      "position": "relative",
+    }
+  }
+>
+  <RCTScrollView
+    horizontal={true}
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-around",
+            "minWidth": "100%",
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F9FAFB",
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "position": "relative",
+    }
+  }
+>
+  <RCTScrollView
+    horizontal={true}
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-around",
+            "minWidth": "100%",
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`renders correctly with empty style 1`] = `
+<View>
+  <RCTScrollView
+    horizontal={true}
+  >
+    <View>
+      <View />
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`renders correctly with event 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F9FAFB",
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "position": "relative",
+    }
+  }
+>
+  <RCTScrollView
+    horizontal={true}
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-around",
+            "minWidth": "100%",
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`renders correctly with hasInk 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F9FAFB",
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "position": "relative",
+    }
+  }
+>
+  <RCTScrollView
+    horizontal={true}
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-around",
+            "minWidth": "100%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#2F86F6",
+              "bottom": 0,
+              "height": 1.5,
+              "left": 0,
+              "position": "absolute",
+              "width": 10,
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`renders correctly with items 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F9FAFB",
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "position": "relative",
+    }
+  }
+>
+  <RCTScrollView
+    horizontal={true}
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-around",
+            "minWidth": "100%",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onLayout={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexShrink": 0,
+              "height": 40,
+              "justifyContent": "center",
+              "opacity": 1,
+              "paddingLeft": 10,
+              "position": "relative",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#666f83",
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                },
+                null,
+                Object {
+                  "color": "#2F86F6",
+                },
+              ]
+            }
+          >
+            标签1
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onLayout={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexShrink": 0,
+              "height": 40,
+              "justifyContent": "center",
+              "opacity": 1,
+              "paddingLeft": 10,
+              "position": "relative",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#666f83",
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                },
+                null,
+                null,
+              ]
+            }
+          >
+            标签2
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

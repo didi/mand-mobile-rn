@@ -1,0 +1,93 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+#
+.idea
+.gradle
+local.properties
+*.iml
+build/
+!/build
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+
+# node.js
+#
+node_modules/
+
+# Jest
+#
+.jest/
+.coverage/
+
+dist
+node_modules
+# yarn.lock
+# package-lock.json
+
+# samples
+#
+samples/node_modules
+# samples/yarn.lock
+samples/.cache
+samples/web/build
+samples/npm-debug.log*
+samples/yarn-error.log*
+samples/ios/Pods/
+samples/ios/build/
+samples/ios/Podfile.lock
+samples/android/app/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# YARN/NPM
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+**/android/**/.*
+**/.project
+**/.settings

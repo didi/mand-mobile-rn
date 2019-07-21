@@ -1,0 +1,31 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+ext {
+    buildToolsVersion = '28.0.3'
+    minSdkVersion = 16
+    compileSdkVersion = 27
+    targetSdkVersion = 26
+    supportLibVersion = '27.1.1'
+}
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.1'
+        classpath 'com.hujiang.aspectjx:gradle-android-plugin-aspectjx:2.0.4'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        mavenLocal()
+        maven { url 'https://jitpack.io' }
+        maven { url "${project.rootDir}/node_modules/react-native/android" }
+    }
+}

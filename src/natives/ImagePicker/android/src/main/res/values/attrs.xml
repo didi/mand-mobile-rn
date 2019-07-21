@@ -1,0 +1,29 @@
+<resources>
+    <attr name="MDTitleViewHeight" format="dimension" />
+    <attr name="MDTitleViewBackground" format="reference|color" />
+    <attr name="MDTitleViewCancelMarginLeft" format="dimension" />
+    <attr name="MDTitleViewCancelIcon" format="reference" />
+    <attr name="MDTitleViewBackIcon" format="reference" />
+    <attr name="MDTitleViewTitleTextColor" format="reference|color" />
+    <attr name="MDTitleViewTitleTextSize" format="dimension" />
+
+    <attr name="MDImageFolderArrowUpIcon" format="reference" />
+    <attr name="MDImageFolderArrowDownIcon" format="reference" />
+    <attr name="MDImageFoldersBackground" format="reference|color" />
+    <attr name="MDImageFolderTitle" format="reference|color" />
+    <attr name="MDImageFolderDividerLine" format="reference|color" />
+
+    <attr name="MDCameraIcon" format="reference" />
+    <attr name="MDImageCheckedIcon" format="reference" />
+
+    <attr name="MDPreviewBottomBackground" format="reference|color" />
+    <attr name="MDPreviewTextColor" format="color" />
+    <attr name="MDConfirmTextBackground" format="reference" />
+    <attr name="MDConfirmTextColor" format="color" />
+
+    <attr name="MDPreviewCheckedIcon" format="reference" />
+    <attr name="MDTitleViewCheckMarginRight" format="dimension" />
+
+    <attr name="MDCropTitle" format="string" />
+    <attr name="MDTitleViewOKIcon" format="reference" />
+</resources>

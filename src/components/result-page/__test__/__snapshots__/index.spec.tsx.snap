@@ -1,0 +1,473 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with custom buttons 1`] = `
+<View>
+  <Image
+    source={
+      Object {
+        "uri": "https://manhattan.didistatic.com/static/manhattan/mand-mobile/result-page/2.0/empty.png",
+      }
+    }
+  />
+  <Text>
+    主文案
+  </Text>
+  <Text
+    style={
+      Array [
+        undefined,
+        Object {
+          "marginTop": 0,
+        },
+      ]
+    }
+  >
+    副文案
+  </Text>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFF",
+        "borderColor": "#2F86F6",
+        "borderRadius": 2,
+        "borderStyle": "solid",
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "height": 32,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+              "paddingHorizontal": 2,
+            },
+            Object {
+              "color": "#2F86F6",
+            },
+          ]
+        }
+      >
+        刷新试试
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with custom buttons 2`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://manhattan.didistatic.com/static/manhattan/mand-mobile/result-page/2.0/empty.png",
+      }
+    }
+    style={
+      Object {
+        "height": 130,
+        "marginBottom": 20,
+        "width": 130,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "color": "#111A34",
+        "fontSize": 16,
+        "marginVertical": 20,
+      }
+    }
+  >
+    主文案
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#858B9C",
+          "fontSize": 14,
+          "marginVertical": 20,
+        },
+        Object {
+          "marginTop": 0,
+        },
+      ]
+    }
+  >
+    副文案
+  </Text>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFF",
+          "borderColor": "#2F86F6",
+          "borderRadius": 2,
+          "borderStyle": "solid",
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "height": 32,
+          "justifyContent": "center",
+          "marginHorizontal": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 14,
+                "paddingHorizontal": 2,
+              },
+              Object {
+                "color": "#2F86F6",
+              },
+            ]
+          }
+        >
+          刷新试试
+        </Text>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFF",
+          "borderColor": "#C5CAD5",
+          "borderRadius": 2,
+          "borderStyle": "solid",
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "height": 32,
+          "justifyContent": "center",
+          "marginHorizontal": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 14,
+                "paddingHorizontal": 2,
+              },
+              Object {
+                "color": "#41485D",
+              },
+            ]
+          }
+        >
+          返回试试
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with custom image 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://manhattan.didistatic.com/static/manhattan/mand-mobile/result-page/2.0/empty.png",
+      }
+    }
+    style={
+      Object {
+        "height": 130,
+        "marginBottom": 20,
+        "width": 130,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "color": "#111A34",
+        "fontSize": 16,
+        "marginVertical": 20,
+      }
+    }
+  >
+    主信息
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#858B9C",
+          "fontSize": 14,
+          "marginVertical": 20,
+        },
+        Object {
+          "marginTop": 0,
+        },
+      ]
+    }
+  >
+    副标题
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with custom text and subtext 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://manhattan.didistatic.com/static/manhattan/mand-mobile/result-page/2.0/empty.png",
+      }
+    }
+    style={
+      Object {
+        "height": 130,
+        "marginBottom": 20,
+        "width": 130,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "color": "#111A34",
+        "fontSize": 16,
+        "marginVertical": 20,
+      }
+    }
+  >
+    主信息
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#858B9C",
+          "fontSize": 14,
+          "marginVertical": 20,
+        },
+        Object {
+          "marginTop": 0,
+        },
+      ]
+    }
+  >
+    副标题
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://manhattan.didistatic.com/static/manhattan/mand-mobile/result-page/2.0/empty.png",
+      }
+    }
+    style={
+      Object {
+        "height": 130,
+        "marginBottom": 20,
+        "width": 130,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "color": "#111A34",
+        "fontSize": 16,
+        "marginVertical": 20,
+      }
+    }
+  >
+    暂无信息
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with defaults 2`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://manhattan.didistatic.com/static/manhattan/mand-mobile/result-page/2.0/lost.png",
+      }
+    }
+    style={
+      Object {
+        "height": 130,
+        "marginBottom": 20,
+        "width": 130,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "color": "#111A34",
+        "fontSize": 16,
+        "marginVertical": 20,
+      }
+    }
+  >
+    您要访问的页面已丢失
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with defaults 3`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://manhattan.didistatic.com/static/manhattan/mand-mobile/result-page/2.0/network.png",
+      }
+    }
+    style={
+      Object {
+        "height": 130,
+        "marginBottom": 20,
+        "width": 130,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "color": "#111A34",
+        "fontSize": 16,
+        "marginVertical": 20,
+      }
+    }
+  >
+    网络连接异常
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with empty type 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+/>
+`;
+
+exports[`renders correctly with not exists type 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+/>
+`;
+
+exports[`renders correctly with not exists type 2`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+/>
+`;

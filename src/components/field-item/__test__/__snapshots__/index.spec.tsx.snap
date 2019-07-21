@@ -1,0 +1,1019 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with addon 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#E2E4EA",
+        "borderBottomWidth": 1,
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "minHeight": 54,
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "flexShrink": 0,
+            "fontSize": 16,
+            "lineHeight": 16,
+            "marginRight": 5,
+          },
+          Object {},
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "position": "relative",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 16,
+              "fontWeight": "500",
+              "lineHeight": 16,
+            },
+            Object {},
+            Object {},
+            Object {},
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexShrink": 0,
+          "justifyContent": "flex-end",
+          "marginLeft": 6,
+          "position": "relative",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#858B9C",
+            "fontSize": 14,
+          }
+        }
+      >
+        次要信息
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with alignRight 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#E2E4EA",
+        "borderBottomWidth": 1,
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "minHeight": 54,
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "flexShrink": 0,
+            "fontSize": 16,
+            "lineHeight": 16,
+            "marginRight": 5,
+          },
+          Object {},
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "position": "relative",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 16,
+              "fontWeight": "500",
+              "lineHeight": 16,
+            },
+            Object {},
+            Object {
+              "textAlign": "right",
+            },
+            Object {},
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexShrink": 0,
+          "justifyContent": "flex-end",
+          "marginLeft": 6,
+          "position": "relative",
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with arrow 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#E2E4EA",
+        "borderBottomWidth": 1,
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "minHeight": 54,
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "flexShrink": 0,
+            "fontSize": 16,
+            "lineHeight": 16,
+            "marginRight": 5,
+          },
+          Object {},
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "position": "relative",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 16,
+              "fontWeight": "500",
+              "lineHeight": 16,
+            },
+            Object {},
+            Object {},
+            Object {},
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexShrink": 0,
+          "justifyContent": "flex-end",
+          "marginLeft": 6,
+          "position": "relative",
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 13,
+            },
+            Object {
+              "color": "#858B9C",
+              "fontSize": 14,
+            },
+            Object {
+              "fontFamily": "mand-mobile",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        type="MandMobile"
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with child 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#E2E4EA",
+        "borderBottomWidth": 1,
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "minHeight": 54,
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "flexShrink": 0,
+            "fontSize": 16,
+            "lineHeight": 16,
+            "marginRight": 5,
+          },
+          Object {},
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "position": "relative",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 16,
+              "fontWeight": "500",
+              "lineHeight": 16,
+            },
+            Object {},
+            Object {},
+            Object {},
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexShrink": 0,
+          "justifyContent": "flex-end",
+          "marginLeft": 6,
+          "position": "relative",
+        }
+      }
+    />
+  </View>
+  <Text>
+    这是子内容区域
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with content 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#E2E4EA",
+        "borderBottomWidth": 1,
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "minHeight": 54,
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "flexShrink": 0,
+            "fontSize": 16,
+            "lineHeight": 16,
+            "marginRight": 5,
+          },
+          Object {},
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "position": "relative",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 16,
+              "fontWeight": "500",
+              "lineHeight": 16,
+            },
+            Object {},
+            Object {},
+            Object {},
+          ]
+        }
+      >
+        内容文本
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexShrink": 0,
+          "justifyContent": "flex-end",
+          "marginLeft": 6,
+          "position": "relative",
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#E2E4EA",
+        "borderBottomWidth": 1,
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "minHeight": 54,
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "flexShrink": 0,
+            "fontSize": 16,
+            "lineHeight": 16,
+            "marginRight": 5,
+          },
+          Object {},
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "position": "relative",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 16,
+              "fontWeight": "500",
+              "lineHeight": 16,
+            },
+            Object {},
+            Object {},
+            Object {},
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexShrink": 0,
+          "justifyContent": "flex-end",
+          "marginLeft": 6,
+          "position": "relative",
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with disabled 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#E2E4EA",
+        "borderBottomWidth": 1,
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "minHeight": 54,
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "flexShrink": 0,
+            "fontSize": 16,
+            "lineHeight": 16,
+            "marginRight": 5,
+          },
+          Object {},
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "position": "relative",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 16,
+              "fontWeight": "500",
+              "lineHeight": 16,
+            },
+            Object {
+              "color": "#C5CAD5",
+            },
+            Object {},
+            Object {},
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexShrink": 0,
+          "justifyContent": "flex-end",
+          "marginLeft": 6,
+          "position": "relative",
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with empty style 1`] = `
+<View>
+  <View>
+    <Text
+      style={
+        Array [
+          undefined,
+          Object {},
+        ]
+      }
+    />
+    <View>
+      <Text
+        style={
+          Array [
+            undefined,
+            Object {},
+            Object {},
+            Object {},
+          ]
+        }
+      />
+    </View>
+    <View />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with left 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#E2E4EA",
+        "borderBottomWidth": 1,
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "minHeight": 54,
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "flexShrink": 0,
+            "fontSize": 16,
+            "lineHeight": 16,
+            "marginRight": 5,
+          },
+          Object {},
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexShrink": 0,
+          "justifyContent": "flex-start",
+          "marginRight": 6,
+        }
+      }
+    >
+      <Text>
+        test
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "position": "relative",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 16,
+              "fontWeight": "500",
+              "lineHeight": 16,
+            },
+            Object {},
+            Object {},
+            Object {},
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexShrink": 0,
+          "justifyContent": "flex-end",
+          "marginLeft": 6,
+          "position": "relative",
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with onPress 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#E2E4EA",
+        "borderBottomWidth": 1,
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "minHeight": 54,
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "flexShrink": 0,
+            "fontSize": 16,
+            "lineHeight": 16,
+            "marginRight": 5,
+          },
+          Object {},
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "position": "relative",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 16,
+              "fontWeight": "500",
+              "lineHeight": 16,
+            },
+            Object {},
+            Object {},
+            Object {},
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexShrink": 0,
+          "justifyContent": "flex-end",
+          "marginLeft": 6,
+          "position": "relative",
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with placeholder 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#E2E4EA",
+        "borderBottomWidth": 1,
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "minHeight": 54,
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "flexShrink": 0,
+            "fontSize": 16,
+            "lineHeight": 16,
+            "marginRight": 5,
+          },
+          Object {},
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "position": "relative",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 16,
+              "fontWeight": "500",
+              "lineHeight": 16,
+            },
+            Object {},
+            Object {},
+            Object {
+              "color": "#C5CAD5",
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        提示文本
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexShrink": 0,
+          "justifyContent": "flex-end",
+          "marginLeft": 6,
+          "position": "relative",
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with solid 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#E2E4EA",
+        "borderBottomWidth": 1,
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "minHeight": 54,
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "flexShrink": 0,
+            "fontSize": 16,
+            "lineHeight": 16,
+            "marginRight": 5,
+          },
+          Object {
+            "width": 80,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "position": "relative",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 16,
+              "fontWeight": "500",
+              "lineHeight": 16,
+            },
+            Object {},
+            Object {},
+            Object {},
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexShrink": 0,
+          "justifyContent": "flex-end",
+          "marginLeft": 6,
+          "position": "relative",
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with title 1`] = `
+<View
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#E2E4EA",
+        "borderBottomWidth": 1,
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "minHeight": 54,
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "flexShrink": 0,
+            "fontSize": 16,
+            "lineHeight": 16,
+            "marginRight": 5,
+          },
+          Object {},
+        ]
+      }
+    >
+      标题区域
+    </Text>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "position": "relative",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 16,
+              "fontWeight": "500",
+              "lineHeight": 16,
+            },
+            Object {},
+            Object {},
+            Object {},
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexShrink": 0,
+          "justifyContent": "flex-end",
+          "marginLeft": 6,
+          "position": "relative",
+        }
+      }
+    />
+  </View>
+</View>
+`;

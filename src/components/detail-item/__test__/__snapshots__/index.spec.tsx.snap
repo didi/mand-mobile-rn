@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with bold 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "paddingBottom": 6,
+      "paddingTop": 6,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "color": "#858B9C",
+          "flexShrink": 0,
+          "fontSize": 14,
+        },
+        Object {
+          "color": "#41485D",
+          "fontWeight": "bold",
+        },
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly with content & bold 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "paddingBottom": 6,
+      "paddingTop": 6,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "color": "#858B9C",
+          "flexShrink": 0,
+          "fontSize": 14,
+        },
+        Object {
+          "color": "#41485D",
+          "fontWeight": "bold",
+        },
+      ]
+    }
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "color": "#41485D",
+          "flex": 1,
+          "fontSize": 14,
+          "justifyContent": "flex-end",
+          "marginLeft": 6,
+          "textAlign": "right",
+        },
+        Object {
+          "color": "#41485D",
+          "fontWeight": "bold",
+        },
+      ]
+    }
+  >
+    test
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with content 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "paddingBottom": 6,
+      "paddingTop": 6,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "color": "#858B9C",
+          "flexShrink": 0,
+          "fontSize": 14,
+        },
+        Object {},
+      ]
+    }
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "color": "#41485D",
+          "flex": 1,
+          "fontSize": 14,
+          "justifyContent": "flex-end",
+          "marginLeft": 6,
+          "textAlign": "right",
+        },
+        Object {},
+      ]
+    }
+  >
+    test
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "paddingBottom": 6,
+      "paddingTop": 6,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "color": "#858B9C",
+          "flexShrink": 0,
+          "fontSize": 14,
+        },
+        Object {},
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly with styles 1`] = `
+<View>
+  <Text
+    style={
+      Array [
+        undefined,
+        Object {},
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly with styles is null 1`] = `
+<View>
+  <Text
+    style={
+      Array [
+        undefined,
+        Object {},
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly with title 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "paddingBottom": 6,
+      "paddingTop": 6,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "color": "#858B9C",
+          "flexShrink": 0,
+          "fontSize": 14,
+        },
+        Object {},
+      ]
+    }
+  >
+    test
+  </Text>
+</View>
+`;

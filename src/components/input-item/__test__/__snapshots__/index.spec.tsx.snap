@@ -1,0 +1,1881 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Material input with text 1`] = `
+<View
+  style={Object {}}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 50,
+        },
+        Object {
+          "borderBottomColor": "#E2E4EA",
+        },
+        Object {
+          "height": 60,
+        },
+        null,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "color": "#111A34",
+            "fontSize": 16,
+            "height": 60,
+            "overflow": "hidden",
+            "paddingBottom": 4,
+            "paddingLeft": 0,
+            "paddingTop": 28,
+            "position": "relative",
+            "textAlign": "left",
+            "width": "100%",
+          },
+          Object {},
+        ]
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        dense={false}
+        duration={200}
+        keyboardType="default"
+        multiline={false}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholderTextColor="#C5CAD5"
+        style={
+          Array [
+            Object {
+              "bottom": 8,
+              "color": "#111a34",
+              "fontSize": 16,
+              "fontWeight": "500",
+              "position": "absolute",
+              "width": "100%",
+            },
+            Object {},
+            Object {},
+          ]
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "color": "#C5CAD5",
+            "fontSize": 16,
+            "left": 0,
+            "position": "absolute",
+            "top": 32,
+          }
+        }
+      >
+        投保人姓名
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`render correctly with error message 1`] = `
+<View
+  style={Object {}}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 50,
+        },
+        Object {
+          "borderBottomColor": "#FF5257",
+        },
+        null,
+        null,
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#111A34",
+          "fontSize": 16,
+        }
+      }
+    >
+      手机号码
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      clearButtonMode="while-editing"
+      keyboardType="default"
+      maxLength={13}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="手机号码"
+      placeholderTextColor="#C5CAD5"
+      secureTextEntry={false}
+      style={
+        Array [
+          Object {
+            "color": "#111A34",
+            "flex": 1,
+            "fontSize": 16,
+          },
+          Object {
+            "marginLeft": 0,
+            "marginRight": 0,
+            "paddingLeft": 20,
+            "textAlign": "left",
+          },
+          Object {
+            "fontFamily": undefined,
+            "fontSize": undefined,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#FF5257",
+          "fontSize": 12,
+          "marginVertical": 10,
+        }
+      }
+    >
+      手机号码无效
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`render correcttly with left and right slot 1`] = `
+<View
+  style={Object {}}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 50,
+        },
+        Object {
+          "borderBottomColor": "#E2E4EA",
+        },
+        null,
+        null,
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 24,
+          },
+          undefined,
+          Object {
+            "fontFamily": "mand-mobile",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+      type="MandMobile"
+    >
+      
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      clearButtonMode="never"
+      keyboardType="default"
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="left/right slot"
+      placeholderTextColor="#C5CAD5"
+      secureTextEntry={false}
+      style={
+        Array [
+          Object {
+            "color": "#111A34",
+            "flex": 1,
+            "fontSize": 16,
+          },
+          Object {
+            "marginLeft": 10,
+            "marginRight": 10,
+            "paddingLeft": 0,
+            "textAlign": "left",
+          },
+          Object {
+            "fontFamily": undefined,
+            "fontSize": undefined,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": "gray",
+            "fontSize": 24,
+          },
+          undefined,
+          Object {
+            "fontFamily": "mand-mobile",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+      type="MandMobile"
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`render with Material input 1`] = `
+<View
+  style={Object {}}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 50,
+        },
+        Object {
+          "borderBottomColor": "#E2E4EA",
+        },
+        Object {
+          "height": 60,
+        },
+        null,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "color": "#111A34",
+            "fontSize": 16,
+            "height": 60,
+            "overflow": "hidden",
+            "paddingBottom": 4,
+            "paddingLeft": 0,
+            "paddingTop": 28,
+            "position": "relative",
+            "textAlign": "left",
+            "width": "100%",
+          },
+          Object {},
+        ]
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        dense={false}
+        duration={200}
+        keyboardType="default"
+        multiline={false}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholderTextColor="#C5CAD5"
+        style={
+          Array [
+            Object {
+              "bottom": 8,
+              "color": "#111a34",
+              "fontSize": 16,
+              "fontWeight": "500",
+              "position": "absolute",
+              "width": "100%",
+            },
+            Object {},
+            Object {},
+          ]
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "color": "#C5CAD5",
+            "fontSize": 16,
+            "left": 0,
+            "position": "absolute",
+            "top": 32,
+          }
+        }
+      >
+        投保人姓名
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`render with clear button 1`] = `
+<View
+  style={Object {}}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 50,
+        },
+        Object {
+          "borderBottomColor": "#E2E4EA",
+        },
+        null,
+        null,
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#111A34",
+          "fontSize": 16,
+        }
+      }
+    >
+      清空按钮
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      clearButtonMode="while-editing"
+      keyboardType="default"
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="normal text"
+      placeholderTextColor="#C5CAD5"
+      secureTextEntry={false}
+      style={
+        Array [
+          Object {
+            "color": "#111A34",
+            "flex": 1,
+            "fontSize": 16,
+          },
+          Object {
+            "marginLeft": 0,
+            "marginRight": 0,
+            "paddingLeft": 20,
+            "textAlign": "left",
+          },
+          Object {
+            "fontFamily": undefined,
+            "fontSize": undefined,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+</View>
+`;
+
+exports[`render with financial number keyboard 1`] = `
+<View
+  style={Object {}}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 50,
+        },
+        Object {
+          "borderBottomColor": "#E2E4EA",
+        },
+        null,
+        null,
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#111A34",
+          "fontSize": 16,
+        }
+      }
+    >
+      金融键盘
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      clearButtonMode="while-editing"
+      keyboardType="default"
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="financial number keyboard"
+      placeholderTextColor="#C5CAD5"
+      secureTextEntry={false}
+      style={
+        Array [
+          Object {
+            "color": "#111A34",
+            "flex": 1,
+            "fontSize": 16,
+          },
+          Object {
+            "marginLeft": 0,
+            "marginRight": 0,
+            "paddingLeft": 20,
+            "textAlign": "left",
+          },
+          Object {
+            "fontFamily": undefined,
+            "fontSize": undefined,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly normal input 1`] = `
+<View
+  style={Object {}}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 50,
+        },
+        Object {
+          "borderBottomColor": "#E2E4EA",
+        },
+        null,
+        null,
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#111A34",
+          "fontSize": 16,
+        }
+      }
+    >
+      普通文本
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      clearButtonMode="never"
+      keyboardType="default"
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="普通文本"
+      placeholderTextColor="#C5CAD5"
+      secureTextEntry={false}
+      style={
+        Array [
+          Object {
+            "color": "#111A34",
+            "flex": 1,
+            "fontSize": 16,
+          },
+          Object {
+            "marginLeft": 0,
+            "marginRight": 0,
+            "paddingLeft": 20,
+            "textAlign": "left",
+          },
+          Object {
+            "fontFamily": undefined,
+            "fontSize": undefined,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+      value="我输入的内容"
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  style={Object {}}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 50,
+        },
+        Object {
+          "borderBottomColor": "#E2E4EA",
+        },
+        null,
+        null,
+      ]
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      clearButtonMode="never"
+      keyboardType="default"
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholderTextColor="#C5CAD5"
+      secureTextEntry={false}
+      style={
+        Array [
+          Object {
+            "color": "#111A34",
+            "flex": 1,
+            "fontSize": 16,
+          },
+          Object {
+            "marginLeft": 0,
+            "marginRight": 0,
+            "paddingLeft": 0,
+            "textAlign": "left",
+          },
+          Object {
+            "fontFamily": undefined,
+            "fontSize": undefined,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with different input item type 1`] = `
+<View
+  style={Object {}}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 50,
+        },
+        Object {
+          "borderBottomColor": "#E2E4EA",
+        },
+        null,
+        null,
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#111A34",
+          "fontSize": 16,
+        }
+      }
+    >
+      银行卡
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      clearButtonMode="never"
+      keyboardType="default"
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="bankCard xxxx xxxx xxxx xxxx"
+      placeholderTextColor="#C5CAD5"
+      secureTextEntry={false}
+      style={
+        Array [
+          Object {
+            "color": "#111A34",
+            "flex": 1,
+            "fontSize": 16,
+          },
+          Object {
+            "marginLeft": 0,
+            "marginRight": 0,
+            "paddingLeft": 20,
+            "textAlign": "left",
+          },
+          Object {
+            "fontFamily": undefined,
+            "fontSize": undefined,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with different input item type 2`] = `
+<View
+  style={Object {}}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 50,
+        },
+        Object {
+          "borderBottomColor": "#E2E4EA",
+        },
+        null,
+        null,
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#111A34",
+          "fontSize": 16,
+        }
+      }
+    >
+      银行卡
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      clearButtonMode="never"
+      keyboardType="default"
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="bankCard xxxx xxxx xxxx xxxx"
+      placeholderTextColor="#C5CAD5"
+      secureTextEntry={true}
+      style={
+        Array [
+          Object {
+            "color": "#111A34",
+            "flex": 1,
+            "fontSize": 16,
+          },
+          Object {
+            "marginLeft": 0,
+            "marginRight": 0,
+            "paddingLeft": 20,
+            "textAlign": "left",
+          },
+          Object {
+            "fontFamily": undefined,
+            "fontSize": undefined,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with different input item type 3`] = `
+<View
+  style={Object {}}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 50,
+        },
+        Object {
+          "borderBottomColor": "#E2E4EA",
+        },
+        null,
+        null,
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#111A34",
+          "fontSize": 16,
+        }
+      }
+    >
+      银行卡
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      clearButtonMode="never"
+      keyboardType="default"
+      maxLength={13}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="bankCard xxxx xxxx xxxx xxxx"
+      placeholderTextColor="#C5CAD5"
+      secureTextEntry={false}
+      style={
+        Array [
+          Object {
+            "color": "#111A34",
+            "flex": 1,
+            "fontSize": 16,
+          },
+          Object {
+            "marginLeft": 0,
+            "marginRight": 0,
+            "paddingLeft": 20,
+            "textAlign": "left",
+          },
+          Object {
+            "fontFamily": undefined,
+            "fontSize": undefined,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with different input item type 4`] = `
+<View
+  style={Object {}}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 50,
+        },
+        Object {
+          "borderBottomColor": "#E2E4EA",
+        },
+        null,
+        null,
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#111A34",
+          "fontSize": 16,
+        }
+      }
+    >
+      银行卡
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      clearButtonMode="never"
+      keyboardType="default"
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="bankCard xxxx xxxx xxxx xxxx"
+      placeholderTextColor="#C5CAD5"
+      secureTextEntry={false}
+      style={
+        Array [
+          Object {
+            "color": "#111A34",
+            "flex": 1,
+            "fontSize": 16,
+          },
+          Object {
+            "marginLeft": 0,
+            "marginRight": 0,
+            "paddingLeft": 20,
+            "textAlign": "left",
+          },
+          Object {
+            "fontFamily": undefined,
+            "fontSize": undefined,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with different input item type 5`] = `
+<View
+  style={Object {}}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 50,
+        },
+        Object {
+          "borderBottomColor": "#E2E4EA",
+        },
+        null,
+        null,
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#111A34",
+          "fontSize": 16,
+        }
+      }
+    >
+      银行卡
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      clearButtonMode="never"
+      keyboardType="default"
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="bankCard xxxx xxxx xxxx xxxx"
+      placeholderTextColor="#C5CAD5"
+      secureTextEntry={false}
+      style={
+        Array [
+          Object {
+            "color": "#111A34",
+            "flex": 1,
+            "fontSize": 16,
+          },
+          Object {
+            "marginLeft": 0,
+            "marginRight": 0,
+            "paddingLeft": 20,
+            "textAlign": "left",
+          },
+          Object {
+            "fontFamily": undefined,
+            "fontSize": undefined,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with different input item type 6`] = `
+<View
+  style={Object {}}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 50,
+        },
+        Object {
+          "borderBottomColor": "#E2E4EA",
+        },
+        null,
+        null,
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#111A34",
+          "fontSize": 16,
+        }
+      }
+    >
+      银行卡
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      clearButtonMode="never"
+      keyboardType="default"
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="bankCard xxxx xxxx xxxx xxxx"
+      placeholderTextColor="#C5CAD5"
+      secureTextEntry={false}
+      style={
+        Array [
+          Object {
+            "color": "#111A34",
+            "flex": 1,
+            "fontSize": 16,
+          },
+          Object {
+            "marginLeft": 0,
+            "marginRight": 0,
+            "paddingLeft": 20,
+            "textAlign": "left",
+          },
+          Object {
+            "fontFamily": undefined,
+            "fontSize": undefined,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with disabled input item 1`] = `
+<View
+  style={Object {}}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 50,
+        },
+        Object {
+          "borderBottomColor": "#E2E4EA",
+        },
+        null,
+        null,
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#111A34",
+          "fontSize": 16,
+        }
+      }
+    >
+      禁用表单
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#111A34",
+            "flex": 1,
+            "fontSize": 16,
+          },
+          Object {
+            "fontWeight": "300",
+            "opacity": 0.3,
+            "paddingLeft": 20,
+          },
+        ]
+      }
+    >
+      禁用表单
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with highlight input item 1`] = `
+<View
+  style={Object {}}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 50,
+        },
+        Object {
+          "borderBottomColor": "#E2E4EA",
+        },
+        null,
+        null,
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#111A34",
+          "fontSize": 16,
+        }
+      }
+    >
+      高亮表单
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      clearButtonMode="never"
+      keyboardType="default"
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="高亮表单"
+      placeholderTextColor="#C5CAD5"
+      secureTextEntry={false}
+      style={
+        Array [
+          Object {
+            "color": "#111A34",
+            "flex": 1,
+            "fontSize": 16,
+          },
+          Object {
+            "marginLeft": 0,
+            "marginRight": 0,
+            "paddingLeft": 20,
+            "textAlign": "left",
+          },
+          Object {
+            "fontFamily": undefined,
+            "fontSize": undefined,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with input item 1`] = `
+<View
+  style={Object {}}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 50,
+        },
+        Object {
+          "borderBottomColor": "#E2E4EA",
+        },
+        null,
+        null,
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#111A34",
+          "fontSize": 16,
+        }
+      }
+    >
+      文本居中
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      clearButtonMode="never"
+      keyboardType="default"
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="文本居中"
+      placeholderTextColor="#C5CAD5"
+      secureTextEntry={false}
+      style={
+        Array [
+          Object {
+            "color": "#111A34",
+            "flex": 1,
+            "fontSize": 16,
+          },
+          Object {
+            "marginLeft": 0,
+            "marginRight": 0,
+            "paddingLeft": 20,
+            "textAlign": "center",
+          },
+          Object {
+            "fontFamily": undefined,
+            "fontSize": undefined,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with input item 2`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MDInputItem
+    align="center"
+    amount={false}
+    clearable={false}
+    disabled={false}
+    highlight={false}
+    keyboardType="default"
+    material={false}
+    placeholder="文本居中"
+    readonly={false}
+    size="normal"
+    styles={
+      Object {
+        "briefText": Object {
+          "color": "#666f83",
+          "fontSize": 12,
+          "marginVertical": 10,
+        },
+        "container": Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 50,
+        },
+        "errorText": Object {
+          "color": "#FF5257",
+          "fontSize": 12,
+          "marginVertical": 10,
+        },
+        "inputText": Object {
+          "color": "#111A34",
+          "flex": 1,
+          "fontSize": 16,
+        },
+        "titleText": Object {
+          "color": "#111A34",
+          "fontSize": 16,
+        },
+        "wrapper": Object {},
+      }
+    }
+    title="文本居中"
+    type="text"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderBottomColor": "#E2E4EA",
+                "borderBottomWidth": 1,
+                "display": "flex",
+                "flexDirection": "row",
+                "height": 50,
+              },
+              Object {
+                "borderBottomColor": "#E2E4EA",
+              },
+              null,
+              null,
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#111A34",
+                "fontSize": 16,
+              }
+            }
+          >
+            文本居中
+          </Text>
+          <MDTextInput
+            clearButtonMode="never"
+            keyboardType="default"
+            okText="确认"
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            placeholder="文本居中"
+            placeholderTextColor="#C5CAD5"
+            secureTextEntry={false}
+            shuffle={false}
+            style={
+              Array [
+                Object {
+                  "color": "#111A34",
+                  "flex": 1,
+                  "fontSize": 16,
+                },
+                Object {
+                  "marginLeft": 0,
+                  "marginRight": 0,
+                  "paddingLeft": 20,
+                  "textAlign": "center",
+                },
+                Object {
+                  "fontFamily": undefined,
+                  "fontSize": undefined,
+                },
+              ]
+            }
+            textRender={[Function]}
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>,
+        null,
+      ],
+      "style": Object {},
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Text
+              style={
+                Object {
+                  "color": "#111A34",
+                  "fontSize": 16,
+                }
+              }
+            >
+              文本居中
+            </Text>,
+            undefined,
+            <MDTextInput
+              clearButtonMode="never"
+              keyboardType="default"
+              okText="确认"
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              placeholder="文本居中"
+              placeholderTextColor="#C5CAD5"
+              secureTextEntry={false}
+              shuffle={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#111A34",
+                    "flex": 1,
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingLeft": 20,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "fontFamily": undefined,
+                    "fontSize": undefined,
+                  },
+                ]
+              }
+              textRender={[Function]}
+              underlineColorAndroid="transparent"
+              value=""
+            />,
+            undefined,
+          ],
+          "style": Array [
+            Object {
+              "alignItems": "center",
+              "borderBottomColor": "#E2E4EA",
+              "borderBottomWidth": 1,
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 50,
+            },
+            Object {
+              "borderBottomColor": "#E2E4EA",
+            },
+            null,
+            null,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "文本居中",
+              "style": Object {
+                "color": "#111A34",
+                "fontSize": 16,
+              },
+            },
+            "ref": null,
+            "rendered": "文本居中",
+            "type": [Function],
+          },
+          undefined,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "clearButtonMode": "never",
+              "keyboardType": "default",
+              "maxLength": undefined,
+              "okText": "确认",
+              "onBlur": [Function],
+              "onChangeText": [Function],
+              "onFocus": [Function],
+              "placeholder": "文本居中",
+              "placeholderTextColor": "#C5CAD5",
+              "secureTextEntry": false,
+              "shuffle": false,
+              "style": Array [
+                Object {
+                  "color": "#111A34",
+                  "flex": 1,
+                  "fontSize": 16,
+                },
+                Object {
+                  "marginLeft": 0,
+                  "marginRight": 0,
+                  "paddingLeft": 20,
+                  "textAlign": "center",
+                },
+                Object {
+                  "fontFamily": undefined,
+                  "fontSize": undefined,
+                },
+              ],
+              "textRender": [Function],
+              "underlineColorAndroid": "transparent",
+              "value": "",
+            },
+            "ref": [Function],
+            "rendered": null,
+            "type": [Function],
+          },
+          undefined,
+        ],
+        "type": [Function],
+      },
+      null,
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderBottomColor": "#E2E4EA",
+                  "borderBottomWidth": 1,
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "height": 50,
+                },
+                Object {
+                  "borderBottomColor": "#E2E4EA",
+                },
+                null,
+                null,
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#111A34",
+                  "fontSize": 16,
+                }
+              }
+            >
+              文本居中
+            </Text>
+            <MDTextInput
+              clearButtonMode="never"
+              keyboardType="default"
+              okText="确认"
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              placeholder="文本居中"
+              placeholderTextColor="#C5CAD5"
+              secureTextEntry={false}
+              shuffle={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#111A34",
+                    "flex": 1,
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingLeft": 20,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "fontFamily": undefined,
+                    "fontSize": undefined,
+                  },
+                ]
+              }
+              textRender={[Function]}
+              underlineColorAndroid="transparent"
+              value=""
+            />
+          </View>,
+          null,
+        ],
+        "style": Object {},
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Text
+                style={
+                  Object {
+                    "color": "#111A34",
+                    "fontSize": 16,
+                  }
+                }
+              >
+                文本居中
+              </Text>,
+              undefined,
+              <MDTextInput
+                clearButtonMode="never"
+                keyboardType="default"
+                okText="确认"
+                onBlur={[Function]}
+                onChangeText={[Function]}
+                onFocus={[Function]}
+                placeholder="文本居中"
+                placeholderTextColor="#C5CAD5"
+                secureTextEntry={false}
+                shuffle={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#111A34",
+                      "flex": 1,
+                      "fontSize": 16,
+                    },
+                    Object {
+                      "marginLeft": 0,
+                      "marginRight": 0,
+                      "paddingLeft": 20,
+                      "textAlign": "center",
+                    },
+                    Object {
+                      "fontFamily": undefined,
+                      "fontSize": undefined,
+                    },
+                  ]
+                }
+                textRender={[Function]}
+                underlineColorAndroid="transparent"
+                value=""
+              />,
+              undefined,
+            ],
+            "style": Array [
+              Object {
+                "alignItems": "center",
+                "borderBottomColor": "#E2E4EA",
+                "borderBottomWidth": 1,
+                "display": "flex",
+                "flexDirection": "row",
+                "height": 50,
+              },
+              Object {
+                "borderBottomColor": "#E2E4EA",
+              },
+              null,
+              null,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "文本居中",
+                "style": Object {
+                  "color": "#111A34",
+                  "fontSize": 16,
+                },
+              },
+              "ref": null,
+              "rendered": "文本居中",
+              "type": [Function],
+            },
+            undefined,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "clearButtonMode": "never",
+                "keyboardType": "default",
+                "maxLength": undefined,
+                "okText": "确认",
+                "onBlur": [Function],
+                "onChangeText": [Function],
+                "onFocus": [Function],
+                "placeholder": "文本居中",
+                "placeholderTextColor": "#C5CAD5",
+                "secureTextEntry": false,
+                "shuffle": false,
+                "style": Array [
+                  Object {
+                    "color": "#111A34",
+                    "flex": 1,
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingLeft": 20,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "fontFamily": undefined,
+                    "fontSize": undefined,
+                  },
+                ],
+                "textRender": [Function],
+                "underlineColorAndroid": "transparent",
+                "value": "",
+              },
+              "ref": [Function],
+              "rendered": null,
+              "type": [Function],
+            },
+            undefined,
+          ],
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`renders correctly with input item align center 1`] = `
+<View
+  style={Object {}}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 50,
+        },
+        Object {
+          "borderBottomColor": "#E2E4EA",
+        },
+        null,
+        null,
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#111A34",
+          "fontSize": 16,
+        }
+      }
+    >
+      文本居中
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      clearButtonMode="never"
+      keyboardType="default"
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="文本居中"
+      placeholderTextColor="#C5CAD5"
+      secureTextEntry={false}
+      style={
+        Array [
+          Object {
+            "color": "#111A34",
+            "flex": 1,
+            "fontSize": 16,
+          },
+          Object {
+            "marginLeft": 0,
+            "marginRight": 0,
+            "paddingLeft": 20,
+            "textAlign": "center",
+          },
+          Object {
+            "fontFamily": undefined,
+            "fontSize": undefined,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with readonly input item 1`] = `
+<View
+  style={Object {}}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 50,
+        },
+        Object {
+          "borderBottomColor": "#E2E4EA",
+        },
+        null,
+        null,
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#111A34",
+          "fontSize": 16,
+        }
+      }
+    >
+      只读表单
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#111A34",
+            "flex": 1,
+            "fontSize": 16,
+          },
+          Object {
+            "fontWeight": "500",
+            "opacity": 1,
+            "paddingLeft": 20,
+          },
+        ]
+      }
+    >
+      只读表单
+    </Text>
+  </View>
+</View>
+`;

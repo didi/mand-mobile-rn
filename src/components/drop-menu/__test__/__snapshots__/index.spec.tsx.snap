@@ -1,0 +1,661 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+      },
+      Object {
+        "backgroundColor": "#F00",
+      },
+    ]
+  }
+>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "borderWidth": 0,
+          "flexGrow": 1,
+        },
+        Object {},
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "padding": 10,
+          "zIndex": 99,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666f83",
+              "fontSize": 16,
+              "fontWeight": "500",
+              "padding": 5,
+              "textAlign": "center",
+            },
+            Object {},
+          ]
+        }
+      >
+        一级选项1
+      </Text>
+      <View
+        style={
+          Object {
+            "transform": Array [
+              Object {
+                "rotateZ": "0deg",
+              },
+            ],
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "black",
+                "fontSize": 16,
+              },
+              undefined,
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with defaults and isShow 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+      },
+      Object {
+        "backgroundColor": "#F00",
+      },
+    ]
+  }
+>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "borderWidth": 0,
+          "flexGrow": 1,
+        },
+        Object {},
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "padding": 10,
+          "zIndex": 99,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666f83",
+              "fontSize": 16,
+              "fontWeight": "500",
+              "padding": 5,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#2F86F6",
+            },
+          ]
+        }
+      >
+        一级选项1
+      </Text>
+      <View
+        style={
+          Object {
+            "transform": Array [
+              Object {
+                "rotateZ": "0deg",
+              },
+            ],
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "black",
+                "fontSize": 16,
+              },
+              undefined,
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with disabled 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "borderWidth": 0,
+          "flexGrow": 1,
+        },
+        Object {},
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "padding": 10,
+          "zIndex": 99,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666f83",
+              "fontSize": 16,
+              "fontWeight": "500",
+              "padding": 5,
+              "textAlign": "center",
+            },
+            Object {},
+          ]
+        }
+      >
+        1.8L
+      </Text>
+      <View
+        style={
+          Object {
+            "transform": Array [
+              Object {
+                "rotateZ": "0deg",
+              },
+            ],
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "black",
+                "fontSize": 16,
+              },
+              undefined,
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "borderWidth": 0,
+          "flexGrow": 1,
+        },
+        Object {
+          "opacity": 0.3,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "padding": 10,
+          "zIndex": 99,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666f83",
+              "fontSize": 16,
+              "fontWeight": "500",
+              "padding": 5,
+              "textAlign": "center",
+            },
+            Object {},
+          ]
+        }
+      >
+        自动挡
+      </Text>
+      <View
+        style={
+          Object {
+            "transform": Array [
+              Object {
+                "rotateZ": "0deg",
+              },
+            ],
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "black",
+                "fontSize": 16,
+              },
+              undefined,
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with empty data 1`] = `<View />`;
+
+exports[`renders correctly with init 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+      },
+      Object {
+        "backgroundColor": "#F00",
+      },
+    ]
+  }
+>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "borderWidth": 0,
+          "flexGrow": 1,
+        },
+        Object {},
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "padding": 10,
+          "zIndex": 99,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666f83",
+              "fontSize": 16,
+              "fontWeight": "500",
+              "padding": 5,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#2F86F6",
+            },
+          ]
+        }
+      >
+        1.4T
+      </Text>
+      <View
+        style={
+          Object {
+            "transform": Array [
+              Object {
+                "rotateZ": "0deg",
+              },
+            ],
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "black",
+                "fontSize": 16,
+              },
+              undefined,
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "borderWidth": 0,
+          "flexGrow": 1,
+        },
+        Object {},
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "padding": 10,
+          "zIndex": 99,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666f83",
+              "fontSize": 16,
+              "fontWeight": "500",
+              "padding": 5,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#2F86F6",
+            },
+          ]
+        }
+      >
+        自动挡
+      </Text>
+      <View
+        style={
+          Object {
+            "transform": Array [
+              Object {
+                "rotateZ": "0deg",
+              },
+            ],
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "black",
+                "fontSize": 16,
+              },
+              undefined,
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with no data 1`] = `<View />`;
+
+exports[`renders correctly with optionRender 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "borderWidth": 0,
+          "flexGrow": 1,
+        },
+        Object {},
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "padding": 10,
+          "zIndex": 99,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666f83",
+              "fontSize": 16,
+              "fontWeight": "500",
+              "padding": 5,
+              "textAlign": "center",
+            },
+            Object {},
+          ]
+        }
+      >
+        一级选项1
+      </Text>
+      <View
+        style={
+          Object {
+            "transform": Array [
+              Object {
+                "rotateZ": "0deg",
+              },
+            ],
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "black",
+                "fontSize": 16,
+              },
+              undefined,
+              Object {
+                "fontFamily": "mand-mobile",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          type="MandMobile"
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

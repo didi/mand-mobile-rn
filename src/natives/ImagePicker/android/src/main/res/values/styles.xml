@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/md_grey</item>
+        <item name="colorPrimaryDark">@color/md_grey</item>
+        <item name="colorAccent">@color/md_grey</item>
+    </style>
+
+    <style name="MDLoadingDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/md_modal_in</item>
+        <item name="android:windowExitAnimation">@anim/md_modal_out</item>
+    </style>
+
+    <style name="MDLoadingDialogTheme" parent="android:Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+
+    <!--默认样式-->
+    <style name="MDDefaultTheme" parent="AppTheme">
+        <!--标题栏背景色-->
+        <item name="colorPrimary">@android:color/white</item>
+        <!--状态栏背景色-->
+        <item name="colorPrimaryDark">@android:color/darker_gray</item>
+
+        <!--顶部标题栏-->
+        <!--标题栏高度-->
+        <item name="MDTitleViewHeight">44dp</item>
+        <!--标题栏背景色-->
+        <item name="MDTitleViewBackground">@android:color/white</item>
+        <!--标题栏取消icon-->
+        <item name="MDTitleViewCancelIcon">@drawable/md_ic_cancel</item>
+        <!--标题栏返回icon-->
+        <item name="MDTitleViewBackIcon">@drawable/md_ic_black_back</item>
+        <!--标题栏标题颜色-->
+        <item name="MDTitleViewTitleTextColor">@color/md_black_11</item>
+        <!--标题栏标题大小-->
+        <item name="MDTitleViewTitleTextSize">18sp</item>
+
+        <!--中部选择相册-->
+        <!--相册标题右侧的箭头-->
+        <item name="MDImageFolderArrowUpIcon">@drawable/md_ic_arrow_up</item>
+        <item name="MDImageFolderArrowDownIcon">@drawable/md_ic_arrow_down</item>
+        <!--选择相册背景色-->
+        <item name="MDImageFoldersBackground">@android:color/white</item>
+        <!--选择相册标题颜色-->
+        <item name="MDImageFolderTitle">@color/md_black_11</item>
+        <!--选择相册分割线-->
+        <item name="MDImageFolderDividerLine">@color/md_grey_e2</item>
+        <!--相册拍照Icon-->
+        <item name="MDCameraIcon">@drawable/md_ic_camera</item>
+        <!--照片选中-->
+        <item name="MDImageCheckedIcon">@drawable/md_ic_image_checked_selector</item>
+
+        <!--底部-->
+        <!--底部预览背景色-->
+        <item name="MDPreviewBottomBackground">@android:color/white</item>
+        <!--底部预览文字颜色-->
+        <item name="MDPreviewTextColor">@color/md_preview_text_selector</item>
+        <!--底部确定背景-->
+        <item name="MDConfirmTextBackground">@drawable/md_bg_blue_btn_selector</item>
+        <!--底部确定文字颜色-->
+        <item name="MDConfirmTextColor">@android:color/white</item>
+
+        <!--选择预览页面-->
+        <!--选中未选中-->
+        <item name="MDPreviewCheckedIcon">@drawable/md_ic_preview_checked_selector</item>
+
+        <!--裁剪页面-->
+        <!--裁剪标题-->
+        <item name="MDCropTitle">@string/md_crop</item>
+        <item name="MDTitleViewOKIcon">@drawable/md_ic_ok</item>
+    </style>
+
+</resources>

@@ -1,0 +1,718 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly with children 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 2,
+        "display": "flex",
+        "justifyContent": "center",
+      },
+      Object {
+        "backgroundColor": "transparent",
+        "borderColor": "#fc9153",
+        "borderStyle": "solid",
+        "borderWidth": 1,
+      },
+      Object {
+        "borderRadius": 0,
+        "height": 25.666665,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 20,
+          "with": 20,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with different shape 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 2,
+        "display": "flex",
+        "justifyContent": "center",
+      },
+      Object {
+        "backgroundColor": "transparent",
+        "borderColor": "#fc9153",
+        "borderStyle": "solid",
+        "borderWidth": 1,
+      },
+      Object {
+        "borderRadius": 0,
+        "height": 25.666665,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    0
+     tag
+  </View>
+</View>
+`;
+
+exports[`renders correctly with different shape 2`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 2,
+        "display": "flex",
+        "justifyContent": "center",
+      },
+      Object {
+        "backgroundColor": "transparent",
+        "borderColor": "#fc9153",
+        "borderStyle": "solid",
+        "borderWidth": 1,
+      },
+      Object {
+        "borderRadius": 12.8333325,
+        "height": 25.666665,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    1
+     tag
+  </View>
+</View>
+`;
+
+exports[`renders correctly with different shape 3`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 2,
+        "display": "flex",
+        "justifyContent": "center",
+      },
+      Object {
+        "backgroundColor": "transparent",
+        "borderColor": "#fc9153",
+        "borderStyle": "solid",
+        "borderWidth": 1,
+      },
+      Object {
+        "borderRadius": 2,
+        "height": 25.666665,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    2
+     tag
+  </View>
+</View>
+`;
+
+exports[`renders correctly with different shape 4`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 2,
+        "display": "flex",
+        "justifyContent": "center",
+      },
+      Object {
+        "backgroundColor": "transparent",
+        "borderColor": "#fc9153",
+        "borderStyle": "solid",
+        "borderWidth": 1,
+      },
+      Object {
+        "borderBottomLeftRadius": 25.666665,
+        "height": 25.666665,
+        "overflow": "hidden",
+        "width": 25.666665,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    3
+     tag
+  </View>
+</View>
+`;
+
+exports[`renders correctly with different shape 5`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 2,
+        "display": "flex",
+        "justifyContent": "center",
+      },
+      Object {
+        "backgroundColor": "transparent",
+        "borderColor": "#fc9153",
+        "borderStyle": "solid",
+        "borderWidth": 1,
+      },
+      Object {
+        "height": 25.666665,
+        "paddingHorizontal": 0,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderBottomColor": "#fc9153",
+          "borderBottomLeftRadius": 0,
+          "borderBottomRightRadius": 5,
+          "borderLeftColor": "white",
+          "borderRightColor": "#fc9153",
+          "borderTopColor": "#fc9153",
+          "borderTopLeftRadius": 0,
+          "borderTopRightRadius": 5,
+          "borderWidth": 1,
+          "height": 10,
+          "left": -1,
+          "position": "absolute",
+          "width": 5,
+        }
+      }
+    />
+    4
+     tag
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderBottomColor": "#fc9153",
+          "borderBottomLeftRadius": 5,
+          "borderBottomRightRadius": 0,
+          "borderLeftColor": "#fc9153",
+          "borderRightColor": "white",
+          "borderTopColor": "#fc9153",
+          "borderTopLeftRadius": 5,
+          "borderTopRightRadius": 0,
+          "borderWidth": 1,
+          "height": 10,
+          "position": "absolute",
+          "right": -1,
+          "width": 5,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with different shape 6`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 2,
+        "display": "flex",
+        "justifyContent": "center",
+      },
+      Object {
+        "backgroundColor": "transparent",
+        "borderColor": "#fc9153",
+        "borderStyle": "solid",
+        "borderWidth": 1,
+      },
+      Object {
+        "borderBottomLeftRadius": 0,
+        "borderRadius": 12.8333325,
+        "height": 25.666665,
+        "width": 25.666665,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    5
+     tag
+  </View>
+</View>
+`;
+
+exports[`renders correctly with different sharp 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 2,
+        "display": "flex",
+        "justifyContent": "center",
+      },
+      Object {
+        "backgroundColor": "transparent",
+        "borderColor": "#fc9153",
+        "borderStyle": "solid",
+        "borderWidth": 1,
+      },
+      Object {
+        "borderRadius": 12.8333325,
+        "borderTopLeftRadius": 0,
+        "height": 25.666665,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    0
+     tag
+  </View>
+</View>
+`;
+
+exports[`renders correctly with different sharp 2`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 2,
+        "display": "flex",
+        "justifyContent": "center",
+      },
+      Object {
+        "backgroundColor": "transparent",
+        "borderColor": "#fc9153",
+        "borderStyle": "solid",
+        "borderWidth": 1,
+      },
+      Object {
+        "borderRadius": 12.8333325,
+        "borderTopRightRadius": 0,
+        "height": 25.666665,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    1
+     tag
+  </View>
+</View>
+`;
+
+exports[`renders correctly with different sharp 3`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 2,
+        "display": "flex",
+        "justifyContent": "center",
+      },
+      Object {
+        "backgroundColor": "transparent",
+        "borderColor": "#fc9153",
+        "borderStyle": "solid",
+        "borderWidth": 1,
+      },
+      Object {
+        "borderBottomLeftRadius": 0,
+        "borderRadius": 12.8333325,
+        "height": 25.666665,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    2
+     tag
+  </View>
+</View>
+`;
+
+exports[`renders correctly with different sharp 4`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 2,
+        "display": "flex",
+        "justifyContent": "center",
+      },
+      Object {
+        "backgroundColor": "transparent",
+        "borderColor": "#fc9153",
+        "borderStyle": "solid",
+        "borderWidth": 1,
+      },
+      Object {
+        "borderBottomRightRadius": 0,
+        "borderRadius": 12.8333325,
+        "height": 25.666665,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    3
+     tag
+  </View>
+</View>
+`;
+
+exports[`renders correctly with different size 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 2,
+        "display": "flex",
+        "justifyContent": "center",
+      },
+      Object {
+        "backgroundColor": "transparent",
+        "borderColor": "#fc9153",
+        "borderStyle": "solid",
+        "borderWidth": 1,
+      },
+      Object {
+        "borderRadius": 0,
+        "height": 13.333335,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    0
+     tag
+  </View>
+</View>
+`;
+
+exports[`renders correctly with different size 2`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 2,
+        "display": "flex",
+        "justifyContent": "center",
+      },
+      Object {
+        "backgroundColor": "transparent",
+        "borderColor": "#fc9153",
+        "borderStyle": "solid",
+        "borderWidth": 1,
+      },
+      Object {
+        "borderRadius": 0,
+        "height": 20.333335,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    1
+     tag
+  </View>
+</View>
+`;
+
+exports[`renders correctly with different size 3`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 2,
+        "display": "flex",
+        "justifyContent": "center",
+      },
+      Object {
+        "backgroundColor": "transparent",
+        "borderColor": "#fc9153",
+        "borderStyle": "solid",
+        "borderWidth": 1,
+      },
+      Object {
+        "borderRadius": 0,
+        "height": 25.666665,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    2
+     tag
+  </View>
+</View>
+`;
+
+exports[`renders correctly with different type 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 2,
+        "display": "flex",
+        "justifyContent": "center",
+      },
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderWidth": 0,
+      },
+      Object {
+        "borderRadius": 0,
+        "height": 25.666665,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    0
+     tag
+  </View>
+</View>
+`;
+
+exports[`renders correctly with different type 2`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 2,
+        "display": "flex",
+        "justifyContent": "center",
+      },
+      Object {
+        "backgroundColor": "transparent",
+        "borderColor": "#fc9153",
+        "borderStyle": "solid",
+        "borderWidth": 1,
+      },
+      Object {
+        "borderRadius": 0,
+        "height": 25.666665,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    1
+     tag
+  </View>
+</View>
+`;
+
+exports[`renders correctly with gradient style 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      4294734675,
+      4294742355,
+    ]
+  }
+  endPoint={
+    Object {
+      "x": 1,
+      "y": 0.5,
+    }
+  }
+  locations={null}
+  startPoint={
+    Object {
+      "x": 0,
+      "y": 0.5,
+    }
+  }
+  style={
+    Array [
+      Object {
+        "borderRadius": 2,
+        "display": "flex",
+        "justifyContent": "center",
+      },
+      Object {
+        "backgroundColor": "transparent",
+        "borderColor": "#fc9153",
+        "borderStyle": "solid",
+        "borderWidth": 1,
+      },
+      Object {
+        "borderRadius": 0,
+        "height": 25.666665,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#fc9153",
+            "fontWeight": "normal",
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#fc9153",
+            "fontSize": 13,
+            "fontWeight": "normal",
+            "padding": 5,
+          },
+        ]
+      }
+    >
+      99
+    </Text>
+  </View>
+</BVLinearGradient>
+`;

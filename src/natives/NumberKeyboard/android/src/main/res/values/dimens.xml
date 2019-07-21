@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--键盘的总高度-->
+    <!--按键高度-->
+    <dimen name="mand_mobile_rn_keyboard_key_height">54dp</dimen>
+    <dimen name="mand_mobile_rn_keyboard_key_height_double">108dp</dimen>
+    <dimen name="mand_mobile_rn_keyboard_key_text_size">28sp</dimen>
+    <dimen name="mand_mobile_rn_keyboard_label_text_size">18sp</dimen>
+    <!--按键字号-->
+</resources>

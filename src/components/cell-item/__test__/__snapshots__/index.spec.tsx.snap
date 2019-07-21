@@ -1,0 +1,558 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering fails when sytles is null 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+>
+  <View
+    style={
+      Array [
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly with "arrow" and "disable" 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 0.5,
+          "borderStyle": "solid",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingVertical": 16,
+          "position": "relative",
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 16,
+              "lineHeight": 19.2,
+            },
+            Object {
+              "color": "#C5CAD5",
+            },
+          ]
+        }
+      >
+        普通条目
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "marginLeft": 6,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 16,
+            },
+            Object {
+              "color": "#C5CAD5",
+              "marginLeft": 3,
+              "marginRight": -3,
+            },
+            Object {
+              "fontFamily": "mand-mobile",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        type="MandMobile"
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with "brief" and "addon" 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 0.5,
+          "borderStyle": "solid",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingVertical": 16,
+          "position": "relative",
+          "width": "100%",
+        },
+        Object {
+          "paddingVertical": 18,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 16,
+              "lineHeight": 19.2,
+            },
+          ]
+        }
+      >
+        招商银行(尾号2342)
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#858B9C",
+              "fontSize": 12,
+              "lineHeight": 16.799999999999997,
+              "marginTop": 4,
+            },
+          ]
+        }
+      >
+        展示摘要描述
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "marginLeft": 6,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#858B9C",
+              "fontSize": 14,
+            },
+          ]
+        }
+      >
+        附加文案
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with "children" 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 0.5,
+          "borderStyle": "solid",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingVertical": 16,
+          "position": "relative",
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#E6E6E6",
+              "height": 24,
+              "width": 24,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#2F86F6",
+              "fontSize": 16,
+              "marginLeft": 15,
+            }
+          }
+        >
+          信用付
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "marginLeft": 6,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 16,
+            },
+            Object {
+              "color": "#C5CAD5",
+              "marginLeft": 3,
+              "marginRight": -3,
+            },
+            Object {
+              "fontFamily": "mand-mobile",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        type="MandMobile"
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with "title" 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 0.5,
+          "borderStyle": "solid",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingVertical": 16,
+          "position": "relative",
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 16,
+              "lineHeight": 19.2,
+            },
+          ]
+        }
+      >
+        普通条目
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 0.5,
+          "borderStyle": "solid",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingVertical": 16,
+          "position": "relative",
+          "width": "100%",
+        },
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly with solt 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#E2E4EA",
+          "borderBottomWidth": 0.5,
+          "borderStyle": "solid",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingVertical": 16,
+          "position": "relative",
+          "width": "100%",
+        },
+        Object {
+          "paddingVertical": 18,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexShrink": 0,
+          "marginRight": 16,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#E6E6E6",
+            "borderRadius": 22,
+            "height": 44,
+            "width": 44,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#111A34",
+              "fontSize": 16,
+              "lineHeight": 19.2,
+            },
+          ]
+        }
+      >
+        招商银行(尾号2342)
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#858B9C",
+              "fontSize": 12,
+              "lineHeight": 16.799999999999997,
+              "marginTop": 4,
+            },
+          ]
+        }
+      >
+        展示摘要描述
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "marginLeft": 6,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#E6E6E6",
+            "borderRadius": 22,
+            "height": 44,
+            "width": 44,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingVertical": 16,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#858B9C",
+          "fontSize": 12,
+        }
+      }
+    >
+      面向金融场景的Vue移动端UI组件库，丰富、灵活、实用，快速搭建优质的金融类产品，让复杂的金融场景变简单。基于「合理、好用」设计价值观，从交互操作、视觉抽象、图形可视等角度共同解决问题。
+    </Text>
+  </View>
+</View>
+`;
