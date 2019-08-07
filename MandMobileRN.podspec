@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
                       DESC
   spec.homepage     = "https://github.com/didi/mand-mobile-rn"
   spec.license      = "MIT"
-  spec.authors      = { "renhongyu", "huangbinxing", "zhuchu", "weijiangmin", "youzicong", "liuwei" }
+  spec.authors      = { "ringlong" => "266949@qq.com", "hbxeagle" => "hbxeagle@gmail.com", "liujb" => "liujiangbei88@gmail.com", "zhuchu" => "zhuochuhy@163.com", "KennethYo" => "youzicong@gmail.com", "liuwei" => "574613441@qq.com", "tryao" => "tryao66@gmail.com" }
   spec.platform     = :ios
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/didi/mand-mobile-rn.git", :tag => spec.version }

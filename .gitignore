@@ -73,7 +73,6 @@ samples/npm-debug.log*
 samples/yarn-error.log*
 samples/ios/Pods/
 samples/ios/build/
-samples/ios/Podfile.lock
 samples/android/app/build
 
 # misc
