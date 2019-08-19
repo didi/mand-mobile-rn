@@ -1,12 +1,12 @@
 var path = require('path')
 
-function settingGradlePatch(mandMobilPath,natives) {
+function settingGradlePatch(natives) {
   var patch = ''
 
   for (native of natives) {
     patch += `
 include ':${native.moduleName}'
-project(':${native.moduleName}').projectDir = new File(rootProject.projectDir, '../${mandMobilPath}/${native.modulePath}')`
+project(':${native.moduleName}').projectDir = new File(rootProject.projectDir, '../node_modules/mand-mobile-rn/${native.modulePath}')`
   }
 
   return {

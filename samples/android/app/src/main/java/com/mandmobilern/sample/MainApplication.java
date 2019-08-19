@@ -9,7 +9,6 @@ import com.mandmobile.react.refreshcontrol.MDRefreshControlPackage;
 
 import com.BV.LinearGradient.LinearGradientPackage;
 import com.facebook.react.ReactApplication;
-import com.samples.BuildConfig;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
