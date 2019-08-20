@@ -16,6 +16,7 @@ export default class ControlInputDemo extends React.Component {
             title="金融键盘"
             placeholder="financial number keyboard"
             keyboardType="standard"
+            numberKeyboard
             clearable
           />
           <MDInputItem
