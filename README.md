@@ -7,7 +7,7 @@
 ## 链接
 
 - [首页](https://didi.github.io/mand-mobile-rn/)
-- [开发指南](docs/development.md)
+- [开发指南](documents/development.md)
 - [更新日志](CHANGELOG.md)
 - [更多](https://github.com/mand-mobile-rn)
 
