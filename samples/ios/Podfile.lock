@@ -23,7 +23,7 @@ PODS:
   - MandMobileRN/MDRefreshControl (0.1.0):
     - MJRefresh (~> 3.1)
     - React
-  - MJRefresh (3.2.0)
+  - MJRefresh (3.1.15.7)
   - React (0.59.4):
     - React/Core (= 0.59.4)
   - React/ART (0.59.4):
@@ -144,7 +144,7 @@ SPEC CHECKSUMS:
   Folly: de497beb10f102453a1afa9edbf8cf8a251890de
   glog: aefd1eb5dda2ab95ba0938556f34b98e2da3a60d
   MandMobileRN: 20aa1aa71c2e4ca806ae2405e45f6e61c4667e69
-  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
   React: 5cb71fb1a15b5ce04794ab49e24b48ebe4c94e65
   RNGestureHandler: b65d391f4f570178d657b99a16ec99d09b8656b0
   RNSVG: 9cb6e958c4b6a1f58185ac72a350b148947d6fed

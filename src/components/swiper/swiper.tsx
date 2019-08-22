@@ -1,5 +1,12 @@
 import React, { createRef, ReactNode } from 'react';
-import { Animated, ScrollView, StyleSheet, View, ViewStyle } from 'react-native';
+import {
+  Animated,
+  InteractionManager,
+  ScrollView,
+  StyleSheet,
+  View,
+  ViewStyle,
+} from 'react-native';
 import { swiper } from '../../_styles/themes/default.components';
 
 export interface IMDSwiperProps {
@@ -17,13 +24,9 @@ export interface IMDSwiperProps {
 }
 
 interface IMDSwiperState {
-  scrollX: Animated.AnimatedValue;
   opacityAnim: Animated.AnimatedValue;
   opacitys: Animated.AnimatedValue[];
-  ready: boolean;
-  dragging: boolean;
   userScrolling: boolean;
-  isInitial: boolean;
   index: number;
   fromIndex: number;
   toIndex: number;
@@ -36,6 +39,7 @@ interface IMDSwiperState {
   noDrag: boolean;
   isStoped: boolean;
   autoplay: number;
+  ready: boolean;
 }
 
 export interface IMDSwiperStyle {
@@ -226,13 +230,9 @@ export default class MDSwiperCommon extends React.Component<
     opacitys[defaultIndex || 0] = 1;
 
     this.state = {
-      scrollX: new Animated.Value(0),
       opacityAnim: new Animated.Value(0),
       opacitys,
-      ready: false,
-      dragging: false,
       userScrolling: false,
-      isInitial: false,
       index: defaultIndex || 0,
       fromIndex: 0,
       toIndex: 0,
@@ -245,19 +245,37 @@ export default class MDSwiperCommon extends React.Component<
       noDrag: false,
       isStoped: false,
       autoplay: autoplay || 3000,
+      ready: false,
     };
   }
 
   public componentDidMount () {
-    this.initItems();
-    this.setState(
-      {
-        ready: true,
-      },
-      () => {
+    const { children } = this.props;
+
+    // @ts-ignore
+    if (!children || !children.length) {
+      return;
+    }
+
+    this.getDimension();
+
+    this.initState(() => {
+      if (this.isSlide()) {
+        this.calcuItemCount(() => {
+          InteractionManager.runAfterInteractions(() => {
+            this.setState({
+              ready: true
+            }, () => {
+              this.translate(this.state.index, false);
+              this.startPlay();
+            });
+          });
+        });
+      } else {
+        this.opacity(false);
         this.startPlay();
       }
-    );
+    });
   }
 
   public componentWillUnmount () {
@@ -377,6 +395,7 @@ export default class MDSwiperCommon extends React.Component<
       height,
       position: 'relative',
       overflow: 'hidden',
+      opacity: this.state.ready ? 1 : 0,
     };
 
     let _scrollStyle: ViewStyle = {
@@ -422,10 +441,6 @@ export default class MDSwiperCommon extends React.Component<
           style={_scrollStyle}
           onMomentumScrollEnd={this.onScrollEnd.bind(this)}
           onScrollBeginDrag={this.onBeginDrag.bind(this)}
-          onScrollEndDrag={this.onEndDrag.bind(this)}
-          onScroll={Animated.event([
-            { nativeEvent: { contentOffset: { x: this.state.scrollX } } },
-          ])}
         >
           {_children}
         </ScrollView>
@@ -461,11 +476,16 @@ export default class MDSwiperCommon extends React.Component<
 
   protected onScrollEnd (e: any) {
     const { onBeforeChange } = this.props;
-    const { dimension, index, userScrolling } = this.state;
+    const { dimension, index, userScrolling, noDrag, isStoped } = this.state;
+
+    if (!userScrolling) {
+      this.afterTrans();
+      return;
+    }
 
     const contentOffset = this.solveContentOffset(e);
 
-    if (userScrolling) {
+    if (!noDrag) {
       const offset = contentOffset.x;
       this.setState(
         {
@@ -486,14 +506,16 @@ export default class MDSwiperCommon extends React.Component<
               toIndex: newToIndex,
             },
             () => {
+              if (!isStoped) {
+                this.startPlay();
+              }
+              this.afterTrans();
               onBeforeChange && onBeforeChange(newFromIndex, newToIndex);
             }
           );
         }
       );
     }
-
-    this.afterTrans();
   }
 
   protected onBeginDrag () {
@@ -504,18 +526,6 @@ export default class MDSwiperCommon extends React.Component<
       userScrolling: true,
     });
     this.clearTimer();
-  }
-
-  protected onEndDrag (e: any) {
-    const { noDrag, isStoped } = this.state;
-    if (noDrag) {
-      return;
-    }
-
-    if (!isStoped) {
-      this.startPlay();
-    }
-    this.onScrollEnd(e);
   }
 
   protected translate (index: number, animated = true) {
@@ -638,6 +648,7 @@ export default class MDSwiperCommon extends React.Component<
     const _lastIndex = _lenght - 1;
     const fromIndex = index === firstIndex ? lastIndex : index + 1;
     const toIndex = index;
+
     this.setState(
       {
         rItemCount,
@@ -655,41 +666,16 @@ export default class MDSwiperCommon extends React.Component<
     );
   }
 
-  protected initItems () {
-    const { children } = this.props;
-
-    // @ts-ignore
-    if (!children || !children.length) {
-      return;
-    }
-
-    this.getDimension();
-
-    this.initState(() => {
-      if (this.isSlide()) {
-        this.calcuItemCount(() => {
-          this.translate(this.state.index, false);
-        });
-      } else {
-        this.opacity(false);
-      }
-
-      this.setState({
-        isInitial: true,
-      });
-    });
-  }
-
   protected startPlay () {
     const { autoplay, isLoop } = this.props;
-    const { oItemCount, rItemCount, index, timer } = this.state;
+    const { oItemCount, rItemCount, index } = this.state;
 
     if (autoplay! > 0 && oItemCount > 1 && isLoop) {
       const _timer = setInterval(() => {
         if (!isLoop && index >= rItemCount - 1) {
           return this.clearTimer();
         }
-        this.next();
+        this.doTransition('next');
       }, this.state.autoplay);
 
       this.setState({

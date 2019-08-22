@@ -33,8 +33,8 @@ export default class MDSwiperAndroid extends MDSwiperCommon {
     return (
       <ViewPagerAndroid
         initialPage={index}
-        onPageScrollStateChanged={this.onPageChanged.bind(this)}
-        onPageSelected={this.onEndDrag.bind(this)}
+        onPageScroll={this.onPageScroll.bind(this)}
+        onPageScrollStateChanged={this.onPageScrollStateChanged.bind(this)}
         ref={this.viewPager}
         style={_style}
       >
@@ -43,23 +43,63 @@ export default class MDSwiperAndroid extends MDSwiperCommon {
     );
   }
 
-  protected onPageChanged (state: string) {
-    const { index, userScrolling } = this.state;
-    if (state === 'dragging') {
-      this.onBeginDrag();
-    } else if (state === 'idle') {
-      if (!userScrolling) {
-        this.onScrollEnd({ nativeEvent: { position: index } });
-      } else {
-        this.onEndDrag({ nativeEvent: { position: index } });
-      }
+  protected onPageScroll (event: any) {
+    if (!event.nativeEvent.offset) { // offset 为 0 表示，滑动结束
+      this.onScrollEnd(event);
     }
   }
 
-  protected solveContentOffset (e: any) {
-    const contentOffset = { x: 0, y: 0 };
-    contentOffset.x = e.nativeEvent.position * this.state.dimension;
-    return contentOffset;
+  protected onPageScrollStateChanged (event: any) {
+    const state = event.nativeEvent.pageScrollState;
+    const { noDrag } = this.state;
+    if (state === 'dragging') {
+      if (noDrag) {
+        return;
+      }
+      this.setState({
+        userScrolling: true,
+      });
+      this.clearTimer();
+    }
+  }
+
+  protected onScrollEnd (e: any) {
+    const { onBeforeChange } = this.props;
+    const { dimension, index, userScrolling, noDrag, isStoped } = this.state;
+
+    if (!userScrolling) {
+      this.afterTrans();
+      return;
+    }
+
+    if (!noDrag) {
+      const offset = e.nativeEvent.position * this.state.dimension;
+      this.setState(
+        {
+          userScrolling: false,
+        },
+        () => {
+          const towards = offset > dimension * index ? 'next' : 'prev';
+          const { newFromIndex, newToIndex, newIndex } = this.calcuNewIndex(
+            towards
+          );
+          this.setState(
+            {
+              index: newIndex,
+              fromIndex: newFromIndex,
+              toIndex: newToIndex,
+            },
+            () => {
+              if (!isStoped) {
+                this.startPlay(); // Android 下，打开 debug，setTimeout和setInterval的时间间隔会失效，表现为：不管延迟时间设置为多少，都是会马上执行或者没反应。
+              }
+              this.afterTrans();
+              onBeforeChange && onBeforeChange(newFromIndex, newToIndex);
+            }
+          );
+        }
+      );
+    }
   }
 
   protected translate (index: number, animated = true) {
