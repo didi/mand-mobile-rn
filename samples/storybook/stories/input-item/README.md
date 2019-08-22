@@ -25,7 +25,8 @@ render () {
 | 属性         | 说明                             | 类型                                  | 默认值            | 必须 | 备注                                                                                                                           |
 | ------------ | -------------------------------- | ------------------------------------- | ----------------- | ---- | ------------------------------------------------------------------------------------------------------------------------------ |
 | styles       | 自定义组件细节样式               | IMDInputItemStyles                    | MDInputItemStyles | N    | -                                                                                                                              |
-| title        | 表单左侧标题                     | string                                | -                 | N    | -                                                                                                                              |
+| title        | 表单左侧标题                     | string                                | -                 | N    | 表单左侧标题 可用left代替                                                                                                                              |
+| name        | 表单名称                     | string                                | -                 | N    | 表单名称 区分表单组件                                                                                                                             |
 | brief        | 表单描述                         | string                                | -                 | N    | -                                                                                                                              |
 | value        | 输入框初始值                     | string                                | -                 | N    | -                                                                                                                              |
 | keyboardType | 键盘类型                         | KeyboardTypeOptions \| MDKeyboardType | `default`         | N    | -                                                                                                                              |
@@ -44,9 +45,10 @@ render () {
 | errorSlot    | 错误提示控件                     | ReactNode                             | -                 | N    | -                                                                                                                              |
 | left         | 输入框左侧控件                   | ReactNode                             | -                 | N    | -                                                                                                                              |
 | right        | 输入框右侧控件                   | ReactNode                             | -                 | N    | -                                                                                                                              |
-| onChangeText | 文本变化回调                     | (text: string) => void                | `false`           | N    | -                                                                                                                              |
+| onChangeText | 文本变化回调                     | (name: string  \| undefined, text: string) => void                | -           | N    | -                                                                                                                              |
 | onFocus      | 获取焦点回调                     | () => void                            | -                 | N    | -                                                                                                                              |
 | onBlur       | 失去焦点回调                     | () => void                            | -                 | N    | -                                                                                                                              |
+| onConfirm | confirm回调                     | (name: string  \| undefined, text: string) => void                | -           | N    | -                                                                                                                              |
 
 ### 类型
 
