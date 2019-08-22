@@ -349,10 +349,13 @@ export default class MDInputItem extends React.Component<
     inputStyle: TextStyle
   ) {
     const _styles = this.props.styles;
+    const sty = Object.assign({}, _styles!.inputText, {
+      ...inputStyle
+    });
     return (
       <MDTextInput
         {...inputProps}
-        style={[_styles!.inputText, inputStyle]}
+        style={sty}
         ref={(ref) => (this.inputRef = ref)}
       />
     );

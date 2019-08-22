@@ -185,12 +185,14 @@ export default class MDTextInput extends React.Component<
   ) {
     const { onFocus, onBlur, onChangeText, maxLength, style, ...otherProps } = inputProps;
     // @ts-ignore
-    const { borderColor, borderWidth, ...otherStyles } = style;
+    const { borderColor, borderWidth, paddingLeft, ...otherStyles } = style;
+    console.log('style', style);
+    console.log('otherStyles', otherStyles);
     const { value } = this.state;
     return (
       <TextInput
         {...otherProps}
-        style={Platform.OS === 'ios' ? style : otherStyles}
+        style={otherStyles}
         maxLength={maxLength && maxLength > 0 ? maxLength : undefined}
         keyboardType={keyboardType}
         value={value}
@@ -212,7 +214,7 @@ export default class MDTextInput extends React.Component<
       <View
         style={[
           inputProps.style,
-          { display: 'flex', flexDirection: 'row', alignItems: 'center' },
+          { display: 'flex', flexDirection: 'row', alignItems: 'center', flex: 1 },
         ]}
       >
         {this.renderInput(inputProps, keyboardType)}
@@ -225,21 +227,22 @@ export default class MDTextInput extends React.Component<
     const { clearButtonMode } = this.props;
     const { value } = this.state;
     return (
-      <TouchableOpacity
-        style={{
-          width: 30,
-          height: 30,
-          justifyContent: 'center',
-          alignItems: 'center',
-        }}
-        onPress={() => {
-          this.setState({ value: '' });
-        }}
-      >
-        {this.showClearButton(clearButtonMode, value) ? (
+      this.showClearButton(clearButtonMode, value) ?
+      (
+        <TouchableOpacity
+          style={{
+            width: 30,
+            height: 30,
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+          onPress={() => {
+            this.setState({ value: '' });
+          }}
+        >
           <MDIcon name='clear' color={inputItem.icon} size={16} />
-        ) : null}
-      </TouchableOpacity>
+        </TouchableOpacity>
+      ) : null
     );
   }
 

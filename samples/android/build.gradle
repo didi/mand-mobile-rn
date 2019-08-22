@@ -10,12 +10,13 @@ ext {
 
 buildscript {
     repositories {
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter'}
         google()
         jcenter()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.3.1'
-        classpath 'com.hujiang.aspectjx:gradle-android-plugin-aspectjx:2.0.4'
     }
 }
 
