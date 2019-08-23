@@ -31,7 +31,7 @@ export { default as MDSwitch, MDSwitchStyles } from './components/switch';
 export { default as MDBill } from './components/bill';
 export { default as MDProgress } from './components/progress';
 export { default as MDTextInput } from './components/text-input';
-export { default as MDInputItem } from './components/input-item';
+export { default as MDInputItem, MDInputItemStyles } from './components/input-item';
 export {
   default as MDActionBar,
   MDActionBarStyles,
