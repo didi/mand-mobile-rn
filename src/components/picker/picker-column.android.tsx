@@ -241,7 +241,7 @@ export default class PickerColumn extends React.Component<
   }
 
   private getActiveValue () {
-    const item: any = this.props.column[this.selectIndex];
+    const item: any = this.props.column[this.selectIndex - 2];
     return item;
   }
 
