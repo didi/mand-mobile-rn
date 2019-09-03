@@ -287,9 +287,16 @@ export default class MDInputItem extends React.Component<
       textAlign: align,
       marginLeft: left ? 10 : 0,
       marginRight: right ? 10 : 0,
-      fontFamily: amount ? 'FD+_Number' : undefined,
-      fontSize: size === 'large' ? inputItem.fontSizeLarge : undefined,
+      // fontFamily: amount ? 'FD+_Number' : undefined,
+      // fontSize: size === 'large' ? inputItem.fontSizeLarge : undefined,
     };
+
+    if(!!amount){
+      inputStyle.fontFamily = 'FD+_Number';
+    }
+    if(size === 'large') {
+      inputStyle.fontSize = inputItem.fontSizeLarge;
+    }
 
     const keyboardType = this.keyboardTypeByType(type!);
 
