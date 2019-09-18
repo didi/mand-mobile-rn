@@ -1,6 +1,6 @@
 import React from 'react'
 import { StyleSheet, Text, ScrollView, View, FlatList } from 'react-native'
-import { MDRefreshControl, MDField, MDCellItem, MDSwitch, MDButton } from 'mand-mobile-rn'
+import { MDRefreshControl, MDField, MDCellItem, MDSwitch } from 'mand-mobile-rn'
 
 export class RefreshControlScreen extends React.Component {
   static navigationOptions = {
@@ -81,7 +81,14 @@ export class RefreshControlScreen extends React.Component {
           <MDCellItem
             title="手动刷新"
             right={
-              <MDButton onPress={() => { this.refreshControl.beginRefresh() }}>手动刷新</MDButton>
+              <MDSwitch
+                checked={this.state.refreshing}
+                width={50}
+                height={30}
+                onChange={(checked) => {
+                  this.setState({ refreshing: checked })
+                }}
+              />
             }
           />
         </MDField>
