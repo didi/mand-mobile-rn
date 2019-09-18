@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Platform, requireNativeComponent } from 'react-native';
+import { findNodeHandle, Platform, requireNativeComponent, UIManager } from 'react-native';
 
 const NativeRefreshControl =
   Platform.OS === 'web' ? undefined : requireNativeComponent('MDRefreshControl');
@@ -38,10 +38,36 @@ export default class MDRefreshControl extends React.Component<
     refreshingText: '刷新中...',
   };
 
+  public refreshControl: any = null;
+
   public render () {
     if (Platform.OS === 'web') {
       return null;
     }
-    return <NativeRefreshControl {...this.props} />;
+    return <NativeRefreshControl {...this.props} ref={(ref: any) => this.refreshControl = ref} />;
+  }
+
+  /**
+   * 开始刷新
+   */
+  public beginRefreshing () {
+    // @ts-ignore
+    UIManager.dispatchViewManagerCommand(
+      findNodeHandle(this.refreshControl),
+      this.refreshControl.viewConfig.Commands.beginRefreshing,
+      []
+    );
+  }
+
+  /**
+   * 停止刷新
+   */
+  public endRefreshing () {
+    // @ts-ignore
+    UIManager.dispatchViewManagerCommand(
+      findNodeHandle(this.refreshControl),
+      this.refreshControl.viewConfig.Commands.endRefreshing,
+      []
+    );
   }
 }
