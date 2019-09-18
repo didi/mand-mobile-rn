@@ -49,26 +49,4 @@ RCT_EXPORT_VIEW_PROPERTY(refreshText, NSString)
 RCT_EXPORT_VIEW_PROPERTY(refreshActiveText, NSString)
 RCT_EXPORT_VIEW_PROPERTY(refreshingText, NSString)
 
-RCT_EXPORT_METHOD(beginRefreshing:(nonnull NSNumber*) reactTag) {
-    [self.bridge.uiManager addUIBlock:^(RCTUIManager *uiManager, NSDictionary<NSNumber *,UIView *> *viewRegistry) {
-        MDRefreshControl *view = viewRegistry[reactTag];
-        if (!view || ![view isKindOfClass:[MDRefreshControl class]]) {
-            RCTLogError(@"Cannot find NativeView with tag #%@", reactTag);
-            return;
-        }
-        [view beginRefreshing];
-    }];
-}
-
-RCT_EXPORT_METHOD(endRefreshing:(nonnull NSNumber*) reactTag) {
-    [self.bridge.uiManager addUIBlock:^(RCTUIManager *uiManager, NSDictionary<NSNumber *,UIView *> *viewRegistry) {
-        MDRefreshControl *view = viewRegistry[reactTag];
-        if (!view || ![view isKindOfClass:[MDRefreshControl class]]) {
-            RCTLogError(@"Cannot find NativeView with tag #%@", reactTag);
-            return;
-        }
-        [view endRefreshing];
-    }];
-}
-
 @end
