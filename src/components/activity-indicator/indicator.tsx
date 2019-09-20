@@ -1,63 +1,9 @@
 import React, { PureComponent } from 'react';
-import {
-  Animated,
-  Easing,
-  EasingFunction,
-  StyleSheet,
-  View,
-  ViewStyle,
-} from 'react-native';
+import { Animated, Easing, View } from 'react-native';
 import { default as MDIndicatorAnimation } from './animation';
+import { IMDIndicatorProps, IMDIndicatorState, styles } from './indicator-interface';
 
 const hasLoopSupport = false;
-
-export interface IMDIndicatorProps {
-  styles?: IMDIndicatorStyle;
-  type?: 'roller' | 'spinner' | 'carousel';
-  color?: string;
-  size?: number;
-  easing?: EasingFunction;
-  duration?: number;
-  animating?: boolean;
-  interaction?: boolean;
-  count?: number;
-}
-
-interface IMDIndicatorState {
-  progress: Animated.Value;
-  animation?: Animated.CompositeAnimation;
-}
-
-export interface IMDIndicatorStyle {
-  wrapper?: ViewStyle;
-  container?: ViewStyle;
-  layer?: ViewStyle;
-  spinnerLayer?: ViewStyle;
-  carouseContainer?: ViewStyle;
-}
-
-export const MDIndicatorStyles: IMDIndicatorStyle = {
-  container: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  layer: {
-    ...StyleSheet.absoluteFillObject,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  spinnerLayer: {
-    ...StyleSheet.absoluteFillObject,
-    justifyContent: 'flex-start',
-    alignItems: 'center',
-  },
-  carouseContainer: {
-    flexDirection: 'row',
-  },
-};
-
-export const styles = StyleSheet.create<IMDIndicatorStyle>(MDIndicatorStyles);
 
 export default class MDIndicator extends PureComponent<
   IMDIndicatorProps,
