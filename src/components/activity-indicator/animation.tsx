@@ -1,6 +1,6 @@
 import React from 'react';
 import { Animated, Easing } from 'react-native';
-import { IMDIndicatorProps, styles } from './indicator';
+import { IMDIndicatorProps, styles } from './indicator-interface';
 
 export default {
   roller (index: number, progress: Animated.Value, props: IMDIndicatorProps) {
