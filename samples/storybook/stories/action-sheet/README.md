@@ -22,11 +22,11 @@ render () {
 | ------------ | ------------------ | ----------------------------------------------- | ------------------- | ---- | ---- |
 | styles       | 自定义组件细节样式 | IMDActionSheetStyle                             | MDActionSheetStyles | N    | -    |
 | title        | 面板标题           | string                                          | -                   | N    | -    |
-| options      | 面板选项           | IActionOptionSet[]                              | -                   | Y    | -    |
+| options      | 面板选项           | IMDActionOptionSet[]                              | -                   | Y    | -    |
 | isVisible    | 是否可见           | boolean                                         | `false`             | N    | -    |
 | cancelText   | 取消按钮文案       | string                                          | 取消                | N    | -    |
 | defaultIndex | 默认选中项         | number                                          | -                   | N    | -    |
-| onChoose     | 选项点击回调       | (index: number, data: IActionOptionSet) => void | -                   | N    | -    |
+| onChoose     | 选项点击回调       | (index: number, data: IMDActionOptionSet) => void | -                   | N    | -    |
 | onCancel     | 取消选择回调       | () => void                                      | -                   | N    | -    |
 
 ### 类型
@@ -44,7 +44,7 @@ render () {
 }
 ```
 
-- IActionOptionSet
+- IMDActionOptionSet
 
 ```js
 {

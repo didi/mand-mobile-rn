@@ -70,6 +70,7 @@ export { default as MDSwiperItem } from './components/swiper-item';
 export {
   default as MDActionSheet,
   MDActionSheetStyles,
+  IMDActionOptionSet
 } from './components/action-sheet';
 export { default as MDSelector, MDSelectorStyles } from './components/selector';
 export { default as MDPicker } from './components/picker';
