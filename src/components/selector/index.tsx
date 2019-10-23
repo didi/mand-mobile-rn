@@ -20,6 +20,7 @@ export interface IMDSelectorProps<T> {
   iconDisabled?: MDIcon; // 禁用图标(Selector type为Check时显示)
   options: T[];
   isVisible?: boolean;
+  showTitle?: boolean;
   defaultIndex?: number;
   iconPosition?: string;
   onChoose?: (index: number, data: T) => void;
