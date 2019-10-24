@@ -63,6 +63,7 @@ export const MDNoticeBarStyles: IMDNoticeBarStyle = {
     position: 'relative',
     minHeight: noticeBar.height,
     paddingLeft: noticeBar.borderRadius,
+    paddingRight: noticeBar.paddingRight,
   },
 
   noticeBarText: {
@@ -93,13 +94,12 @@ export const MDNoticeBarStyles: IMDNoticeBarStyle = {
   noticeBarLeft: {
     display: 'flex',
     alignItems: 'center',
-    paddingRight: noticeBar.paddingRight,
+    marginRight: noticeBar.marginRight,
   },
 
   noticeBarRight: {
     display: 'flex',
     alignItems: 'center',
-    paddingRight: noticeBar.borderRadius,
   },
 
   noticeBarEmpty: {
@@ -107,7 +107,8 @@ export const MDNoticeBarStyles: IMDNoticeBarStyle = {
   },
 
   noticeBarContent: {
-    flex: 1,
+    flexGrow: 1,
+    flexShrink: 1,
     margin: 'auto',
     width: 'auto',
     overflow: 'hidden',
@@ -158,10 +159,10 @@ export default class MDNoticeBar extends React.Component<
     const _content = this.renderContent(sty, multiRows, type, scrollable);
     const _right = this.renderRight(sty, right, mode, type);
     const styArr = [
-      styles.noticeBar,
-      round && styles.noticeBarRound,
-      type === 'activity' ? styles.activity : {},
-      type === 'warning' ? styles.warning : {},
+      sty.noticeBar,
+      round && sty.noticeBarRound,
+      type === 'activity' ? sty.activity : {},
+      type === 'warning' ? sty.warning : {},
     ];
     return this.state.isShow ? (
       <View style={styArr}>

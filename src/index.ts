@@ -2,7 +2,7 @@ export { scaleFont, scaleSize } from './_styles/themes/responsive';
 export { default as MDButton } from './components/button';
 export { default as MDAmount } from './components/amount';
 export { default as MDIcon } from './components/icon';
-export { default as MDNoticeBar } from './components/notice-bar';
+export { default as MDNoticeBar, MDNoticeBarStyles } from './components/notice-bar';
 export { default as MDRefreshControl } from './components/refresh-control';
 export { default as MDPopup } from './components/popup';
 export {
