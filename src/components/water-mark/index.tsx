@@ -1,4 +1,4 @@
-import React from 'react';
+;
 import { Dimensions, View } from 'react-native';
 import Svg, { G, Text as SvgText } from 'react-native-svg';
 const { width, height } = Dimensions.get('window');

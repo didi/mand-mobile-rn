@@ -2,7 +2,7 @@
 import { configure, shallow } from 'enzyme';
 // @ts-ignore
 import Adapter from 'enzyme-adapter-react-16';
-import React from 'react';
+;
 import renderer from 'react-test-renderer';
 import MDTabs, { MDTabsStyles } from '../index';
 const styles = Object.assign({}, MDTabsStyles, {

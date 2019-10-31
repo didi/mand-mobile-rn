@@ -1,4 +1,4 @@
-import React from 'react';
+;
 import {
   AppState,
   AppStateStatus,
@@ -43,7 +43,7 @@ const MDCountdownStyles: IMDCountdownStyle = {
 
 const styles = StyleSheet.create<IMDCountdownStyle>(MDCountdownStyles);
 
-/** 
+/**
  * 截取小数点后几位
  * @param src 输入数字
  * @param pos 保留小叔位数
@@ -80,7 +80,7 @@ export default class MDCountdown extends React.Component<
     }
     AppState.addEventListener('change', this.handleAppStateChange.bind(this));
   }
-  
+
   public componentWillUnmount () {
     this.interval && clearInterval(this.interval);
     if (Platform.OS === 'web') {
@@ -171,5 +171,5 @@ export default class MDCountdown extends React.Component<
 
   private setCountDown (countDown: number) {
     this.setState({ countDown });
-  } 
+  }
 }

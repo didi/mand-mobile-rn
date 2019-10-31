@@ -3,7 +3,7 @@ import { configure, shallow } from 'enzyme';
 // @ts-ignore
 import Adapter from 'enzyme-adapter-react-16';
 
-import React from 'react';
+;
 import { Text } from 'react-native';
 import renderer from 'react-test-renderer';
 import MDBill, { MDBillStyles } from '../index';

@@ -1,4 +1,4 @@
-import React from 'react';
+;
 import Svg, {
   Defs,
   G,

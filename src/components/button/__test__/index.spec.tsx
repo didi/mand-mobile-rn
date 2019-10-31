@@ -1,4 +1,4 @@
-import React from 'react';
+;
 import { Text, View } from 'react-native';
 import renderer from 'react-test-renderer';
 import MDButton, { MDButtonType } from '../index';

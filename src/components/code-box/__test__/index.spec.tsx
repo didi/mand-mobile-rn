@@ -1,6 +1,6 @@
 import { configure, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import React from 'react';
+;
 import { View } from 'react-native';
 import renderer from 'react-test-renderer';
 import MDCodeBox from '../index';

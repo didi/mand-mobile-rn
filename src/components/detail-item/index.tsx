@@ -1,4 +1,4 @@
-import React from 'react';
+;
 import { StyleSheet, Text, TextStyle, View, ViewStyle } from 'react-native';
 import { detailItem } from '../../_styles/themes/default.components';
 

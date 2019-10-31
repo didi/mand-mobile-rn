@@ -1,6 +1,6 @@
 import { configure, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import React from 'react';
+;
 import renderer from 'react-test-renderer';
 import OptionModel from '../../action-sheet/option-model';
 import MDIcon from '../../icon';
