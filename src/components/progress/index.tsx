@@ -1,8 +1,9 @@
 import * as React from 'react';
-import { Animated, Easing, View } from 'react-native';
+import { Animated, Easing, View, ViewStyle } from 'react-native';
 import { progress } from '../../_styles/themes/default.components';
 
 export interface IMDProgressProps {
+  styles?: ViewStyle;
   progress: number;
   animate?: boolean;
   height?: number;
@@ -66,7 +67,7 @@ export default class MDProgress extends React.Component<
   }
 
   public render () {
-    const { height, itemWidth, upperColor, underColor } = this.props;
+    const { styles, height, itemWidth, upperColor, underColor } = this.props;
     const fillWidth = this.state.curProgress.interpolate({
       inputRange: [0, 1],
       outputRange: [0 * itemWidth, 1 * itemWidth],
@@ -80,6 +81,7 @@ export default class MDProgress extends React.Component<
             backgroundColor: underColor,
             overflow: 'hidden',
           },
+          styles!,
         ]}
       >
         <Animated.View

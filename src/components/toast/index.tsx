@@ -45,8 +45,12 @@ export default function MDToast (params: IMDToastProps) {
   setting(content, duration, hasMask, icon, position);
 }
 
-MDToast.info = (content: string, duration?: number, hasMask?: boolean) => {
-  setting(content, duration, hasMask);
+MDToast.info = (content: string, duration?: number, hasMask?: boolean, icon?: ReactNode | string) => {
+  setting(content, duration, hasMask, icon);
+};
+
+MDToast.warn = (content: string, duration?: number, hasMask?: boolean) => {
+  setting(content, duration, hasMask, 'warn');
 };
 
 MDToast.succeed = (
