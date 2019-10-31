@@ -24,7 +24,7 @@ import RootView from '../root-view';
 
 import { IMDOptionSet } from '../types';
 
-interface IMDDropMenuProps {
+export interface IMDDropMenuProps {
   isShow?: boolean;
   style?: ViewStyle;
   data?: DropMenuData[];

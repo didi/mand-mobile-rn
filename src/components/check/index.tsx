@@ -13,7 +13,7 @@ import MDIcon from '../icon';
 
 import { IMDOptionValue } from '../types';
 
-interface IMDCheckProps {
+export interface IMDCheckProps {
   styles?: IMDCheckStyle;
   label: string;
   disabled?: boolean;

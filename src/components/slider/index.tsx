@@ -12,7 +12,7 @@ import { scaleFont } from '../../_styles/themes/responsive';
 
 const screenWidth = Dimensions.get('window').width;
 
-interface IMDSliderProps {
+export interface IMDSliderProps {
   styles?: IMDSliderStyle;
   width?: number; // 组件宽度
   circleSize?: number; // 滑块大小

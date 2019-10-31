@@ -12,6 +12,6 @@ if (Platform.OS === 'web') {
   exportsObject = MDSwiperIOS;
 }
 
-export { MDSwiperStyles } from './swiper';
+export { MDSwiperStyles, IMDSwiperProps } from './swiper';
 
 export default exportsObject;
