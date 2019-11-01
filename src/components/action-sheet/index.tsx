@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { Text, TextStyle } from 'react-native';
 import base from '../../_styles/themes/default.basic';
 import MDBaseSelector from '../selector/base-selector';

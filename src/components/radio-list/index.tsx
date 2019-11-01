@@ -6,7 +6,7 @@ import MDIcon from '../icon';
 import MDInputItem from '../input-item';
 import { IMDOptionSet, IMDOptionValue } from '../types';
 
-interface IMDRadioListProps {
+export interface IMDRadioListProps {
   style?: ViewStyle | ViewStyle[];
   options?: IMDOptionSet[];
   defaultValue?: IMDOptionValue;

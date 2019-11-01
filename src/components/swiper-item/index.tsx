@@ -1,7 +1,7 @@
-import React from 'react';
+import * as React from 'react';
 import { StyleSheet, View, ViewStyle } from 'react-native';
 
-interface IMDSwiperItemProps {
+export interface IMDSwiperItemProps {
   style?: ViewStyle;
   width?: number;
   height?: number;

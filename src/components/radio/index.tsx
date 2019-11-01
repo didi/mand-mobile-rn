@@ -13,7 +13,7 @@ import MDIcon from '../icon';
 
 import { IMDOptionValue } from '../types';
 
-interface IMDRadioProps {
+export interface IMDRadioProps {
   styles?: IMDRadioStyle;
   label: string | ReactNode;
   selected?: IMDOptionValue;

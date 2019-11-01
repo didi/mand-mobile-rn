@@ -2,7 +2,7 @@ import { Dimensions, NativeModules } from 'react-native';
 
 const { MDImagePicker } = NativeModules;
 
-interface IMDImagePickerOptions {
+export interface IMDImagePickerOptions {
   /**
    * 每行图片数
    */

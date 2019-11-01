@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import LinearGradient from 'react-native-linear-gradient';
 import { MDTag as MDTagAlias } from './tag';
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { ScrollView, View, ViewStyle } from 'react-native';
 
 import MDSwiperCommon from './swiper';

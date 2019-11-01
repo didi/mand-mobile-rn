@@ -1,9 +1,9 @@
-import React from 'react';
+import * as React from 'react';
 import Modal from 'react-native-modal';
 
 import { MDPopupPos, MDPopupTrans, PosToTrans, TransToAnim } from './types';
 
-interface IMDPopupProps {
+export interface IMDPopupProps {
   isVisible: boolean;
   hasMask?: boolean;
   maskOpacity?: number;
