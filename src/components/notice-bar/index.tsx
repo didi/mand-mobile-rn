@@ -282,6 +282,8 @@ export default class MDNoticeBar extends React.Component<
       this.setState({
         isShow: false,
       });
+    } else {
+      this.props.onPress && this.props.onPress(mode!);
     }
   }
 

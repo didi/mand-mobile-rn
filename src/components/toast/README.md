@@ -30,7 +30,18 @@ MDToast.info('操作反馈')
 | position | 展示位置                                       | string  | center | N    | -    |
 | hasMask  | 是否显示半透明遮罩                             | boolean | true   | N    | -    |
 
-### MDToast.info(content, duration, hasMask)
+### MDToast.info(content, duration, hasMask, icon)
+
+显示纯文本提示
+
+| 属性     | 说明               | 类型    | 默认值 | 必须 | 备注 |
+| :------- | :----------------- | :------ | :----- | :--- | :--- |
+| content  | 提示内容           | string  | -      | Y    | -    |
+| position | 展示位置           | string  | center | N    | -    |
+| hasMask  | 是否显示半透明遮罩 | boolean | true   | N    | -    |
+| icon  | 图标           | (ReactNode | string)  | -      | N   | -    |
+
+### MDToast.warn(content, duration, hasMask)
 
 显示纯文本提示
 
