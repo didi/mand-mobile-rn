@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import { dialog } from '../../_styles/themes/default.components';
 import guid from '../../_utils/guid';
 import MDIcon from '../icon';
@@ -8,7 +8,7 @@ import Dialog, { IMDDialogBtnModel } from './dialog';
 export interface IMDDialogProps {
   isVisible: boolean;
   closeable: boolean;
-  icon?: ReactNode;
+  icon?: React.ReactNode;
   iconColor?: string;
   title?: string;
   context: string;
@@ -153,7 +153,7 @@ MDDialog.hide = (key: string) => RootView.remove(key);
 const dialogWrapper = (
   isVisible: boolean,
   closeable: boolean,
-  icon: ReactNode,
+  icon: React.ReactNode,
   iconColor: string,
   title: string,
   context: string,

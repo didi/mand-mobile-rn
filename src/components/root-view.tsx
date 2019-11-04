@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import * as React from 'react';
 import { AppRegistry, ComponentProvider, StyleSheet } from 'react-native';
 
-let rootView: Component<any, any>;
+let rootView: React.Component<any, any>;
 const originRegister = AppRegistry.registerComponent;
 
-export default class RootView extends Component<any, any> {
+export default class RootView extends React.Component<any, any> {
   constructor (props: any) {
     super(props);
     rootView = this;

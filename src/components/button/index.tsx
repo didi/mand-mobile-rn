@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import {
   StyleSheet,
   Text,
@@ -37,7 +37,7 @@ export interface IMDButtonProps {
   icon?: string;
   iconPosition?: MDIconPosition;
   onPress?: (params: any) => void;
-  children?: ReactNode;
+  children?: React.ReactNode;
 }
 
 const styleByType = (type: MDButtonType | undefined, plain: boolean) => {
@@ -144,7 +144,7 @@ export default class MDButton extends React.Component<IMDButtonProps, {}> {
     const { underlayColor } = styleByType(type, !!plain);
     const flattenStyle: ViewStyle = StyleSheet.flatten(wrapperStyle);
 
-    // 用户传递ReactNode时，清除掉预设的backgroundColor以及borderWidth
+    // 用户传递React.React.ReactNode时，清除掉预设的backgroundColor以及borderWidth
     // if (children && typeof children !== 'string') {
     //   delete flattenStyle.backgroundColor;
     //   delete flattenStyle.borderWidth;

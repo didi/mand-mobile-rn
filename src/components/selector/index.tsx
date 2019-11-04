@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import base from '../../_styles/themes/default.basic';
 import {
   IMDOptionItemStyle,
@@ -12,8 +12,8 @@ export interface IMDSelectorProps<T> {
   styles?: IMDOptionItemStyle;
   type?: string;
   title?: string;
-  okText?: ReactNode;
-  cancelText?: ReactNode;
+  okText?: React.ReactNode;
+  cancelText?: React.ReactNode;
   maskClosable?: string;
   icon?: MDIcon; // 默认图标(Selector type为Check时显示)
   iconInverse?: MDIcon; // 选中图标(Selector type为Check时显示)
@@ -26,7 +26,7 @@ export interface IMDSelectorProps<T> {
   onChoose?: (index: number, data: T) => void;
   onCancle?: () => void;
   onConfirm?: (index: number, data: T) => void;
-  renderItem?: (index: number, data: T) => ReactNode;
+  renderItem?: (index: number, data: T) => React.ReactNode;
 }
 
 export const MDSelectorStyles = {

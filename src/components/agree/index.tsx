@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import {
   StyleSheet,
   Text,
@@ -12,7 +12,7 @@ import MDIcon, { MDIconSize } from '../icon';
 
 export interface IMDAgreeProps {
   styles?: IMDAgreeStyle;
-  content: ReactNode;
+  content: React.ReactNode;
   disabled?: boolean;
   checked?: boolean;
   size?: number | MDIconSize;
@@ -116,7 +116,7 @@ export default class MDAgree extends React.Component<
     );
   }
 
-  private renderContent (content: ReactNode, contentStyle: TextStyle) {
+  private renderContent (content: React.ReactNode, contentStyle: TextStyle) {
     if (typeof content === 'string') {
       return <Text style={contentStyle}>{content}</Text>;
     }

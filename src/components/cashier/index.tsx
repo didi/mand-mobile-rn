@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import { StyleSheet, Text, TextStyle, View, ViewStyle } from 'react-native';
 import { cashier } from '../../_styles/themes/default.components';
 import { safeAreaOffsetBottom } from '../../_styles/themes/device';
@@ -31,11 +31,11 @@ export interface IMDCashierProps<T> {
   payButtonText?: string; // 确认支付按钮文案, default is `确认支付`
   payButtonDisabled?: boolean; // 禁用支付按钮, default is false
   moreButtonText?: string; // 更多支付方式
-  header?: ReactNode; // header
-  footer?: ReactNode; // footer
-  custom?: ReactNode; // scene值为`custom`时渲染
+  header?: React.ReactNode; // header
+  footer?: React.ReactNode; // footer
+  custom?: React.ReactNode; // scene值为`custom`时渲染
   channelData?: T[];
-  renderChannel?: (channel: T, index: number) => ReactNode;
+  renderChannel?: (channel: T, index: number) => React.ReactNode;
   onShow?: () => void;
   onDismiss?: () => void;
   onPay?: () => void;

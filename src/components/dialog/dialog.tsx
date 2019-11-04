@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import {
   StyleSheet,
   Text,
@@ -23,7 +23,7 @@ export interface IMDDialogProps {
   styles?: IMDDialogStyle;
   isVisible: boolean;
   closeable?: boolean;
-  icon?: ReactNode;
+  icon?: React.ReactNode;
   iconColor?: string;
   title?: string;
   context: string;
@@ -204,7 +204,7 @@ export default class Dialog extends React.Component<
   }
 
   private showAction () {
-    const items: ReactNode[] = [];
+    const items: React.ReactNode[] = [];
     if (this.props.btns && this.props.btns.length > 0) {
       this.props.btns.map((item: IMDDialogBtnModel, index: number) => {
         const action = this.getActionStyle(index);

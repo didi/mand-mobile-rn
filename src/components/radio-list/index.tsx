@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import { View, ViewStyle } from 'react-native';
 import { check } from '../../_styles/themes/default.components';
 import MDCellItem, { IMDCellItemStyle, MDCellItemStyles } from '../cell-item';
@@ -14,12 +14,12 @@ export interface IMDRadioListProps {
   inputLabel?: string;
   inputPlaceHolder?: string;
   alignCenter?: boolean;
-  optionRender?: (option: IMDOptionSet) => ReactNode;
+  optionRender?: (option: IMDOptionSet) => React.ReactNode;
   onChange?: (value: IMDOptionValue, index: number) => void;
 
-  icon?: ReactNode;
-  iconInverse?: ReactNode;
-  iconDisabled?: ReactNode;
+  icon?: React.ReactNode;
+  iconInverse?: React.ReactNode;
+  iconDisabled?: React.ReactNode;
   iconPosition?: 'left' | 'right';
 }
 
@@ -116,7 +116,7 @@ export default class MDRadioList extends React.Component<
       });
     }
 
-    const _items: ReactNode[] =
+    const _items: React.ReactNode[] =
       options &&
       options.map((option: any, index: number) => {
         let _icon = !!alignCenter

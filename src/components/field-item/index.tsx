@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import {
   StyleSheet,
   Text,
@@ -16,7 +16,7 @@ import base from '../../_styles/themes/default.basic';
 export interface IMDFieldItemProps {
   styles?: IMDFieldItemStyle;
   title?: string;
-  left?: ReactNode;
+  left?: React.ReactNode;
   placeholder?: string;
   content?: string;
   addon?: string;

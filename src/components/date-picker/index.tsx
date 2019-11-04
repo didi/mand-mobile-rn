@@ -1,4 +1,4 @@
-import React, { createRef } from 'react';
+import * as React from 'react';
 import { StyleSheet, TextStyle, View, ViewStyle } from 'react-native';
 import { toArray } from '../../_utils';
 import MDPicker from '../picker/index';
@@ -91,7 +91,7 @@ export default class MDDatePicker extends React.Component<
     };
   }
 
-  private picker = createRef<MDPicker>();
+  private picker = React.createRef<MDPicker>();
 
   private currentDateIns = new Date();
   private columnData: any[] = [];

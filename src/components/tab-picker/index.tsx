@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import { ScrollView, StyleSheet, Text, View, ViewStyle } from 'react-native';
 import MDPopup from '../popup';
 

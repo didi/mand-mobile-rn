@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import { StyleSheet, TextStyle, View, ViewStyle } from 'react-native';
 import { check } from '../../_styles/themes/default.components';
 import MDCellItem, { MDCellItemStyles } from '../cell-item';
@@ -78,7 +78,7 @@ export default class MDCheckList extends React.Component<
       });
     }
     const _iconStyle = [_styles.icon];
-    const _items: ReactNode[] =
+    const _items: React.ReactNode[] =
       options &&
       options.map((option: any, index: number) => {
         const _icon =

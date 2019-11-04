@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import base from '../../_styles/themes/default.basic';
 import guid from '../../_utils/guid';
 import MDActivityIndicator from '../activity-indicator';
@@ -19,7 +19,7 @@ const setting = (
   content: string,
   duration: number = 3000,
   hasMask: boolean = false,
-  icon: ReactNode = null,
+  icon: React.ReactNode = null,
   position: string = 'center'
 ) => {
   if (!content) {
@@ -45,7 +45,7 @@ export default function MDToast (params: IMDToastProps) {
   setting(content, duration, hasMask, icon, position);
 }
 
-MDToast.info = (content: string, duration?: number, hasMask?: boolean, icon?: ReactNode | string) => {
+MDToast.info = (content: string, duration?: number, hasMask?: boolean, icon?: React.ReactNode | string) => {
   setting(content, duration, hasMask, icon);
 };
 

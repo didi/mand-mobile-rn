@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import {
   StyleSheet,
   Text,
@@ -201,7 +201,7 @@ export default class MDCaptcha extends React.Component<
     );
   }
 
-  private renderChildren (children: ReactNode, style: IMDCaptchaStyle) {
+  private renderChildren (children: React.ReactNode, style: IMDCaptchaStyle) {
     if (!children) return null;
     if (typeof children === 'string') {
       return <Text style={style.children}>{children}</Text>;
