@@ -1,4 +1,4 @@
-import React, { createRef, ReactNode } from 'react';
+import * as React from 'react';
 import {
   findNodeHandle,
   MeasureOnSuccessCallback,
@@ -20,7 +20,7 @@ export interface IMDTipProps {
   styles?: IMDTipStyle;
   content: string | number;
   placement?: string;
-  icon?: ReactNode;
+  icon?: React.ReactNode;
   offset?: IMDOffset;
   fill?: boolean;
   onShow?: () => void;
@@ -189,7 +189,7 @@ export default class MDTip extends React.Component<IMDTipProps, IMDTipState> {
       tipGuid: '',
     };
   }
-  private touchable = createRef<View>();
+  private touchable = React.createRef<View>();
   public componentWillUnmount () {
     RootView.removeAll();
   }

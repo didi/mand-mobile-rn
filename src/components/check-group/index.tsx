@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import { StyleSheet, View, ViewStyle } from 'react-native';
 
 type MDCheckGroupValues = Array<boolean | string | number>;
@@ -6,7 +6,7 @@ type MDCheckGroupValues = Array<boolean | string | number>;
 export interface IMDCheckGroupProps {
   style?: ViewStyle;
   defaultValues?: MDCheckGroupValues;
-  children?: ReactNode;
+  children?: React.ReactNode;
   onChange?: (values?: MDCheckGroupValues) => void;
 }
 
@@ -56,7 +56,7 @@ export default class MDCheckGroup extends React.Component<
     this.setValues(value);
   }
 
-  private addOnPressToCheckItem (children: any, values: any): ReactNode {
+  private addOnPressToCheckItem (children: any, values: any): React.ReactNode {
     if (React.Children.count(children) < 1) {
       return null;
     }

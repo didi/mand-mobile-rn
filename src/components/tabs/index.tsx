@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import { Animated, StyleSheet, View, ViewStyle } from 'react-native';
 import MDTabbar from '../tab-bar';
 
@@ -86,7 +86,7 @@ export default class MDTabs extends React.Component<
     );
   }
 
-  private childItem (children: any): ReactNode {
+  private childItem (children: any): React.ReactNode {
     const { currentIndex } = this.state;
     if (React.Children.count(children) < 1) {
       return null;
@@ -95,7 +95,7 @@ export default class MDTabs extends React.Component<
 
     return React.Children.map(children, (child: any) => {
       if (child.type) {
-        // 有 type 属性，代表是一个 ReactNode
+        // 有 type 属性，代表是一个 React.ReactNode
         if (child.type.name === 'MDTabPane') {
           this.items.push({
             name: child.props.name,

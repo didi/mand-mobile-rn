@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import ReactDOM from 'react-dom';
 import {
   findNodeHandle,
@@ -19,7 +19,7 @@ export interface IMDTipProps {
   styles?: IMDTipStyle;
   content: string | number;
   placement?: string;
-  icon?: ReactNode;
+  icon?: React.ReactNode;
   offset?: IMDOffset;
   fill?: boolean;
   onShow?: () => void;

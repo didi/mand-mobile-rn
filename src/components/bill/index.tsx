@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import { StyleSheet, Text, TextStyle, View, ViewStyle } from 'react-native';
 import MDWaterMark from '../water-mark';
 
@@ -10,8 +10,8 @@ export interface IMDBillProps {
   styles?: IMDBillStyle;
   title?: string; // 票据抬头
   no?: string; // 票据编号
-  header?: ReactNode; // 头部内容插槽
-  footer?: ReactNode; // 底部内容插槽
+  header?: React.ReactNode; // 头部内容插槽
+  footer?: React.ReactNode; // 底部内容插槽
   waterMark?: string; // 水印内容
 }
 
@@ -112,7 +112,7 @@ export default class MDBill extends React.Component<IMDBillProps> {
   private renderTitle (
     styl: IMDBillStyle,
     title?: string,
-    header?: ReactNode,
+    header?: React.ReactNode,
     no?: string
   ) {
     if (header) {

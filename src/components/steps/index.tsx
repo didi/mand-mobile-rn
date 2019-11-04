@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import {
   Animated,
   StyleSheet,
@@ -22,7 +22,7 @@ type MDStepStatus = 'current' | 'reached' | 'unreached';
 export type MDStepsRenderFunc = (
   status: MDStepStatus,
   index: number
-) => ReactNode;
+) => React.ReactNode;
 
 export interface IMDStepsProps {
   styles?: IMDStepsStyle;
@@ -280,7 +280,7 @@ export default class MDSteps extends React.Component<
       : 'unreached';
   }
 
-  private renderBar (index: number): ReactNode {
+  private renderBar (index: number): React.ReactNode {
     const { current = 0 } = this.props;
 
     const animatedVales = this.animatedValues;
@@ -335,7 +335,7 @@ export default class MDSteps extends React.Component<
     ]);
   }
 
-  private renderIcon (index: number): ReactNode {
+  private renderIcon (index: number): React.ReactNode {
     const { iconRender } = this.props;
     const { current } = this.state;
     const _styles = this.props.styles || {};
@@ -346,7 +346,7 @@ export default class MDSteps extends React.Component<
       : { marginHorizontal: 5 };
 
     if (iconRender) {
-      const icon: ReactNode = iconRender(status, index);
+      const icon: React.ReactNode = iconRender(status, index);
       if (icon) {
         return <View style={margin}>{icon}</View>;
       }
@@ -374,13 +374,13 @@ export default class MDSteps extends React.Component<
     );
   }
 
-  private renderTitle (index: number, title: string): ReactNode {
+  private renderTitle (index: number, title: string): React.ReactNode {
     const { titleRender } = this.props;
     const { current } = this.state;
     const _isVertical = this.isVertical();
 
     if (titleRender) {
-      const ele: ReactNode = titleRender(this._getStatus(index, current), index);
+      const ele: React.ReactNode = titleRender(this._getStatus(index, current), index);
       if (ele && React.isValidElement(ele)) {
         const _flatStyle = Object.assign(
           { position: 'absolute' },
@@ -411,13 +411,13 @@ export default class MDSteps extends React.Component<
     ]);
   }
 
-  private renderBrief (index: number, brief?: string): ReactNode {
+  private renderBrief (index: number, brief?: string): React.ReactNode {
     const { briefRender } = this.props;
     const { current } = this.state;
     const _isVertical = this.isVertical();
 
     if (briefRender) {
-      const ele: ReactNode = briefRender(this._getStatus(index, current), index);
+      const ele: React.ReactNode = briefRender(this._getStatus(index, current), index);
       if (ele && React.isValidElement(ele)) {
         const _flatStyle = Object.assign(
           {

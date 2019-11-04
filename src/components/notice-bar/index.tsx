@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import {
   Animated,
   Easing,
@@ -18,8 +18,8 @@ import base from '../../_styles/themes/default.basic';
 export interface IMDNoticeBarProps {
   styles?: IMDNoticeBarStyle;
   type?: 'default' | 'activity' | 'warning'; // 主题样式
-  left?: ReactNode;
-  right?: ReactNode;
+  left?: React.ReactNode;
+  right?: React.ReactNode;
   mode?: string; // 右边提示类型
   time?: number; // 显示时长
   round?: boolean; // 圆角展示
@@ -173,7 +173,7 @@ export default class MDNoticeBar extends React.Component<
     ) : null;
   }
 
-  private renderLeft (sty: IMDNoticeBarStyle, left?: ReactNode, type?: string) {
+  private renderLeft (sty: IMDNoticeBarStyle, left?: React.ReactNode, type?: string) {
     if (!left) {
       return null;
     }
@@ -245,7 +245,7 @@ export default class MDNoticeBar extends React.Component<
 
   private renderRight (
     sty: IMDNoticeBarStyle,
-    right?: ReactNode,
+    right?: React.ReactNode,
     mode?: string,
     type?: string
   ) {

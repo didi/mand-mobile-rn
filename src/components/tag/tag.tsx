@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import * as React from 'react';
 import { StyleSheet, Text, TextStyle, View, ViewStyle } from 'react-native';
 import base from '../../_styles/themes/default.basic';
 import { tag } from '../../_styles/themes/default.components';
@@ -95,7 +95,7 @@ export const MDTagStyles: IMDTagStyle = {
 
 const styles = StyleSheet.create<IMDTagStyle>(MDTagStyles);
 
-export class MDTag extends PureComponent<IMDTagProps> {
+export class MDTag extends React.PureComponent<IMDTagProps> {
   public static defaultProps = {
     styles,
     size: 'large',

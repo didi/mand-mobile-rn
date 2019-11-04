@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import {
   KeyboardTypeOptions,
   Platform,
@@ -35,10 +35,10 @@ export interface IMDInputItemProps {
   styles?: IMDInputItemStyles;
   name?: string; // 表单名称 区分表单组件
   title?: string; // 表单左侧标题 可用left代替
-  brief?: ReactNode;
-  error?: ReactNode;
-  left?: ReactNode;
-  right?: ReactNode;
+  brief?: React.ReactNode;
+  error?: React.ReactNode;
+  left?: React.ReactNode;
+  right?: React.ReactNode;
   value?: string;
   placeholder?: string;
   maxLength?: number;

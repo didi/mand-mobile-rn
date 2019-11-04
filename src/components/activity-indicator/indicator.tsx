@@ -1,11 +1,11 @@
-import React, { PureComponent } from 'react';
+import * as React from 'react';
 import { Animated, Easing, View } from 'react-native';
 import { default as MDIndicatorAnimation } from './animation';
 import { IMDIndicatorProps, IMDIndicatorState, styles } from './indicator-interface';
 
 const hasLoopSupport = false;
 
-export default class MDIndicator extends PureComponent<
+export default class MDIndicator extends React.PureComponent<
   IMDIndicatorProps,
   IMDIndicatorState
 > {

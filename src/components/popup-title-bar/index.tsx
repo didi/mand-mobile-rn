@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import {
   StyleSheet,
   Text,
@@ -11,10 +11,10 @@ import { popup } from '../../_styles/themes/default.components';
 
 export interface IMDPopupTitleBarProps {
   styles?: IMDPopupTitleBarStyle;
-  title?: string | ReactNode;
+  title?: string | React.ReactNode;
   describe?: string;
-  okText?: ReactNode;
-  cancelText?: ReactNode;
+  okText?: React.ReactNode;
+  cancelText?: React.ReactNode;
   onConfirm?: () => void;
   onCancel?: () => void;
 }
@@ -133,8 +133,8 @@ export default class MDPopupTitleBar extends React.Component<
   }
 
   private renderTitle (
-    title: string | ReactNode,
-    describe: string | ReactNode,
+    title: string | React.ReactNode,
+    describe: string | React.ReactNode,
     _styles: IMDPopupTitleBarStyle
   ) {
     if (!title) {
@@ -157,7 +157,7 @@ export default class MDPopupTitleBar extends React.Component<
   }
 
   private renderCancelButton (
-    cancel: string | ReactNode,
+    cancel: string | React.ReactNode,
     _styles: IMDPopupTitleBarStyle,
     onPress?: () => void
   ) {
@@ -165,7 +165,7 @@ export default class MDPopupTitleBar extends React.Component<
   }
 
   private renderOkButton (
-    ok: string | ReactNode,
+    ok: string | React.ReactNode,
     _styles: IMDPopupTitleBarStyle,
     onPress?: () => void
   ) {
@@ -173,7 +173,7 @@ export default class MDPopupTitleBar extends React.Component<
   }
 
   private renderButton (
-    button: string | ReactNode,
+    button: string | React.ReactNode,
     position: 'left' | 'right',
     _styles: IMDPopupTitleBarStyle,
     onPress?: () => void

@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import {
   ScrollView,
   StyleSheet,
@@ -122,7 +122,7 @@ export default class MDLandscape extends React.Component<
       </TouchableOpacity>
     );
 
-    const fullScreenComponent = (_children: ReactNode | ReactNode[]) => (
+    const fullScreenComponent = (_children: React.ReactNode | React.ReactNode[]) => (
       <ScrollView contentContainerStyle={_styles.fullScreeWrapper}>
         {_children}
         {closeButton(_styles.closeWrapper)}
@@ -130,8 +130,8 @@ export default class MDLandscape extends React.Component<
     );
 
     const wrapper = (
-      _children: ReactNode | ReactNode[],
-      colseButton?: ReactNode
+      _children: React.ReactNode | React.ReactNode[],
+      colseButton?: React.ReactNode
     ) => (
       <MDPopup
         isVisible={this.state.isVisible}

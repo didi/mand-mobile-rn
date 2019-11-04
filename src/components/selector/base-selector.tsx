@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import { View } from 'react-native';
 import base from '../../_styles/themes/default.basic';
 import { safeAreaOffsetBottom } from '../../_styles/themes/device';
@@ -12,8 +12,8 @@ interface IMDBaseSelectorProps<T> {
   styles?: IMDOptionItemStyle;
   type?: string; // 类型
   title?: string; // 标题
-  okText?: ReactNode; // 确认文案
-  cancelText?: ReactNode; // 取消文案
+  okText?: React.ReactNode; // 确认文案
+  cancelText?: React.ReactNode; // 取消文案
   maskClosable?: string;
   icon?: MDIcon; // 默认图标(Selector type为Check时显示)
   iconInverse?: MDIcon; // 选中图标(Selector type为Check时显示)
@@ -28,7 +28,7 @@ interface IMDBaseSelectorProps<T> {
   onChoose?: (index: number, data: T) => void; // Item被选中是回调
   onCancle?: () => void; // 取消回调
   onConfirm?: (index: number, data: T) => void; // 确认回调
-  renderItem?: (index: number, data: T) => ReactNode; // 自定义渲染Item
+  renderItem?: (index: number, data: T) => React.ReactNode; // 自定义渲染Item
 }
 
 interface IMDBaseSelectorState {

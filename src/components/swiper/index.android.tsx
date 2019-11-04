@@ -1,10 +1,10 @@
-import React, { createRef } from 'react';
+import * as React from 'react';
 import { ViewPagerAndroid, ViewStyle } from 'react-native';
 
 import MDSwiperCommon from './swiper';
 
 export default class MDSwiperAndroid extends MDSwiperCommon {
-  protected viewPager = createRef<ViewPagerAndroid>();
+  protected viewPager = React.createRef<ViewPagerAndroid>();
 
   protected renderScrollView () {
     const { index } = this.state;

@@ -1,4 +1,4 @@
-import React, { createRef, ReactNode } from 'react';
+import * as React from 'react';
 import {
   Animated,
   InteractionManager,
@@ -97,13 +97,13 @@ const addPropsToSwiperItem = (
   backup: boolean,
   transition: string,
   key: any
-): ReactNode | ReactNode[] => {
+): React.ReactNode | React.ReactNode[] => {
   if (!children) {
     return null;
   }
 
   if (children.type && children.type.name === 'MDSwiperItem') {
-    // 有 type 属性，代表是一个 ReactNode
+    // 有 type 属性，代表是一个 React.ReactNode
     const _style: ViewStyle = {
       width,
       height,
@@ -175,12 +175,12 @@ const addAnimToSwiperItem = (
   height: number,
   opacitys: Animated.AnimatedValue[],
   key: any
-): ReactNode | ReactNode[] => {
+): React.ReactNode | React.ReactNode[] => {
   if (!children) {
     return null;
   }
   if (children.type && children.type.name === 'MDSwiperItem') {
-    // 有 type 属性，代表是一个 ReactNode
+    // 有 type 属性，代表是一个 React.ReactNode
     const _style: ViewStyle = {
       width,
       height,
@@ -217,7 +217,7 @@ export default class MDSwiperCommon extends React.Component<
     dragable: true,
   };
 
-  protected scrollView = createRef<ScrollView>();
+  protected scrollView = React.createRef<ScrollView>();
 
   constructor (props: IMDSwiperProps) {
     super(props);

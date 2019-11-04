@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { MDActivityIndicator } from '../..';
 import base from '../../_styles/themes/default.basic';
@@ -7,7 +7,7 @@ import { MDActivityIndicatorType } from '../activity-indicator';
 import MDIcon from '../icon';
 export interface IMDToastViewProps {
   content: string;
-  icon?: ReactNode;
+  icon?: React.ReactNode;
 }
 export default class MDToastView extends React.Component<
   IMDToastViewProps,

@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import {
   StyleSheet,
   Text,
@@ -19,9 +19,9 @@ export interface IMDCellItemProps {
   addon?: string;
   arrow?: boolean;
   disabled?: boolean;
-  left?: ReactNode;
-  right?: ReactNode;
-  below?: ReactNode;
+  left?: React.ReactNode;
+  right?: React.ReactNode;
+  below?: React.ReactNode;
   onPress?: () => void;
 }
 
@@ -156,7 +156,7 @@ export default class MDCellItem extends React.Component<IMDCellItemProps> {
     styles: IMDCellItemStyle,
     title?: string,
     brief?: string,
-    children?: ReactNode,
+    children?: React.ReactNode,
     disabled?: boolean
   ) {
     if (title || brief || children) {
@@ -182,7 +182,7 @@ export default class MDCellItem extends React.Component<IMDCellItemProps> {
     styles: IMDCellItemStyle,
     arrow?: boolean,
     addon?: string,
-    right?: ReactNode,
+    right?: React.ReactNode,
     disabled?: boolean
   ) {
     if (arrow || addon || right) {
@@ -209,7 +209,7 @@ export default class MDCellItem extends React.Component<IMDCellItemProps> {
     return null;
   }
 
-  private renderSolt (solt: ReactNode, style: any) {
+  private renderSolt (solt: React.ReactNode, style: any) {
     return solt ? <View style={style}>{solt}</View> : null;
   }
 }
