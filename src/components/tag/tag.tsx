@@ -121,7 +121,7 @@ export class MDTag extends React.PureComponent<IMDTagProps> {
     ];
 
     const { leftCoupon, rightCoupon } = this.renderCoupon();
-    const _children = this.renderChileren();
+    const _children = this.renderChildren();
     return (
       <View
         style={{
@@ -138,7 +138,7 @@ export class MDTag extends React.PureComponent<IMDTagProps> {
     );
   }
 
-  private renderChileren () {
+  private renderChildren () {
     const { children, styles: _styles } = this.props;
     const contentStyle = this.contentStyle();
     if (typeof children === 'string') {
