@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { View } from 'react-native'
+import { View, Platform } from 'react-native'
 import { MDButton } from 'mand-mobile-rn'
 import sty from './style'
 
@@ -16,6 +16,21 @@ export default class BaseButtonDemo extends React.Component {
         <MDButton style={sty.margin} type='warning' inactive={true}>Warning Inactive</MDButton>
         <MDButton style={sty.margin} type='disabled'>Disabled</MDButton>
         <MDButton style={sty.margin} onPress={this.props.onPress} type='primary' icon='edit'>Primary</MDButton>
+        <MDButton
+          style={sty.margin}
+          onPress={this.props.onPress}
+          type='primary'
+          gradientStyle={
+            Platform.OS === 'web'
+              ? null
+              : {
+                  colors: ['#FC7353', '#FC9153'],
+                  start: { x: 0.0, y: 0.5 },
+                  end: { x: 1.0, y: 0.5 },
+                }
+          }>
+            Primary
+          </MDButton>
       </View>
     )
   }

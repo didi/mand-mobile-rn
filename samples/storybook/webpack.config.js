@@ -26,6 +26,7 @@ module.exports = ({ config }, configType) => {
       MDStepper: 'mand-mobile-rn/dist/component/stepper/index.web',
       MDBoxShadow: 'mand-mobile-rn/dist/component/shadow/index.web',
       MDBorderShadow: 'mand-mobile-rn/dist/component/shadow/index.web',
+      MDButton: 'mand-mobile-rn/dist/component/button/index.web'
     }),
   }
 
