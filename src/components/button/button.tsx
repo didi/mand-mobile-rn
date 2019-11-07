@@ -133,7 +133,7 @@ export class MDButton extends React.Component<IMDButtonProps, {}> {
       const { width, height, fontSize } = size as MDButtonSizeSet;
       if (fontSize) {
         iconSize = innerScaleFont(fontSize);
-        contentStyle.push({ fontSize });
+        contentStyle.push({ iconSize });
       }
       if (width) {
         wrapperStyle.push({ width: innerScaleSize(width) });
