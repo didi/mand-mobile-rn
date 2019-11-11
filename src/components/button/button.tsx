@@ -90,7 +90,7 @@ export class MDButton extends React.Component<IMDButtonProps, {}> {
   protected wrapperStyle: ViewStyle = {};
   public render () {
     const content = this.renderContent();
-    return <View style={this.wrapperStyle}>{content}</View>;
+    return content;
   }
 
   /**
@@ -108,6 +108,7 @@ export class MDButton extends React.Component<IMDButtonProps, {}> {
       icon,
       iconPosition,
       children,
+      gradientStyle,
     } = this.props;
 
     const wrapperStyle: any = [styles.wrapper];
@@ -143,8 +144,11 @@ export class MDButton extends React.Component<IMDButtonProps, {}> {
       }
     }
 
-    wrapperStyle.push(styles[`${type}`]);
-    if (plain) {
+    if (!gradientStyle) {
+      wrapperStyle.push(styles[`${type}`]);
+    }
+
+    if (!gradientStyle && plain) {
       wrapperStyle.push(styles.plain);
       contentStyle.push(styles[`${type}PlainContent`]);
     } else {
@@ -152,7 +156,7 @@ export class MDButton extends React.Component<IMDButtonProps, {}> {
     }
 
     const { iconColor } = styleByType(type, !!plain);
-    const { underlayColor } = styleByType(type, !!plain);
+    let { underlayColor } = styleByType(type, !!plain);
     const flattenStyle: ViewStyle = StyleSheet.flatten(wrapperStyle);
 
     // 用户传递React.React.ReactNode时，清除掉预设的backgroundColor以及borderWidth
@@ -161,6 +165,10 @@ export class MDButton extends React.Component<IMDButtonProps, {}> {
     //   delete flattenStyle.borderWidth;
     //   underlayColor = 'transparent';
     // }
+    if (gradientStyle) {
+      delete flattenStyle.borderWidth;
+      underlayColor = 'transparent';
+    }
     // 保留用户传递的style
     const wrapper: ViewStyle = StyleSheet.flatten([flattenStyle, style]);
 
@@ -183,7 +191,7 @@ export class MDButton extends React.Component<IMDButtonProps, {}> {
 
     return (
       <TouchableHighlight
-        // style={wrapper}
+        style={wrapper}
         underlayColor={underlayColor}
         onPress={this.props.onPress}
       >
@@ -231,6 +239,7 @@ const styles: any = StyleSheet.create({
     borderStyle: 'solid',
     borderRadius: base.radius.normal,
     alignItems: 'center',
+    flex: 1,
   },
   large: {
     height: btn.height,
