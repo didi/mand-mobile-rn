@@ -29,7 +29,7 @@ export default class BaseButtonDemo extends React.Component {
                   end: { x: 1.0, y: 0.5 },
                 }
           }>
-            Primary
+            Gradient
           </MDButton>
       </View>
     )
