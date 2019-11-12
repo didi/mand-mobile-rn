@@ -289,7 +289,9 @@ export default class MDNoticeBar extends React.Component<
 
   private onLayoutContainer (e: any) {
     const width = e.nativeEvent.layout.width;
-    this.move(width);
+    if (this.props.scrollable) {
+      this.move(width);
+    }
   }
   // 跑马灯效果
   private move (width: number) {

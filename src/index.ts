@@ -73,6 +73,7 @@ export { default as MDCodeBox, MDCodeBoxStyles, IMDCodeBoxProps } from './compon
 export { default as MDDropMenu, MDDropMenuStyles, IMDDropMenuProps } from './components/drop-menu';
 export { default as MDCaptcha, MDCaptchaStyles, IMDCaptchaProps } from './components/captcha';
 export { default as MDSwiper, IMDSwiperProps } from './components/swiper/index';
+export { MDSwiperStyles } from './components/swiper/swiper';
 export { default as MDSwiperItem, IMDSwiperItemProps } from './components/swiper-item';
 export {
   default as MDActionSheet,
