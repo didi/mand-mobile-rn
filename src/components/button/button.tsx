@@ -171,6 +171,7 @@ export class MDButton extends React.Component<IMDButtonProps, {}> {
     }
     // 保留用户传递的style
     const wrapper: ViewStyle = StyleSheet.flatten([flattenStyle, style]);
+    this.wrapperStyle = wrapper;
 
     const iconComponent = icon ? (
       <MDIcon name={icon} color={iconColor} size={iconSize} />
@@ -186,9 +187,6 @@ export class MDButton extends React.Component<IMDButtonProps, {}> {
         false
       );
     }
-
-    this.wrapperStyle = wrapper;
-
     return (
       <TouchableHighlight
         style={wrapper}
@@ -239,7 +237,6 @@ const styles: any = StyleSheet.create({
     borderStyle: 'solid',
     borderRadius: base.radius.normal,
     alignItems: 'center',
-    flex: 1,
   },
   large: {
     height: btn.height,
