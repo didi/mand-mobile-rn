@@ -101,14 +101,54 @@ const addPropsToSwiperItem = (
   if (!children) {
     return null;
   }
+  if (React.Children.count(children) > 0) {
+    const _children = [];
+    // 用于循环，在最前面复制最后一条数据
+    backup &&
+      _children.push(
+        renderSwiperItem(
+          children[children.length - 1],
+          width,
+          height,
+          transition,
+          -1
+        )
+      );
+    React.Children.forEach(children, (child, index) => {
+      _children.push(
+        renderSwiperItem(child, width, height, transition, index)
+      );
+    });
 
-  if (children.type && children.type.name === 'MDSwiperItem') {
+    // 用于循环，在最后面复制第一条数据
+    backup &&
+      _children.push(
+        renderSwiperItem(
+          children[0],
+          width,
+          height,
+          transition,
+          children.length
+        )
+      );
+    return _children;
+  }
+  return children;
+};
+
+const renderSwiperItem = (
+  children: any,
+  width: number,
+  height: number,
+  transition: string,
+  key: any
+): React.ReactNode | React.ReactNode[] => {
+  if (children.props.isSwiperItem) {
     // 有 type 属性，代表是一个 React.ReactNode
     const _style: ViewStyle = {
       width,
       height,
     };
-
     if (transition === 'slideY') {
       const _styleWrapper: ViewStyle = {
         height: width,
@@ -126,47 +166,12 @@ const addPropsToSwiperItem = (
         </View>
       );
     }
-
     return (
       <View key={key} style={_style}>
         {children}
       </View>
     );
-  } else if (React.Children.count(children) > 0) {
-    const _children = [];
-    // 用于循环，在最前面复制最后一条数据
-    backup &&
-      _children.push(
-        addPropsToSwiperItem(
-          children[children.length - 1],
-          width,
-          height,
-          backup,
-          transition,
-          -1
-        )
-      );
-    React.Children.forEach(children, (child, index) => {
-      _children.push(
-        addPropsToSwiperItem(child, width, height, backup, transition, index)
-      );
-    });
-
-    // 用于循环，在最后面复制第一条数据
-    backup &&
-      _children.push(
-        addPropsToSwiperItem(
-          children[0],
-          width,
-          height,
-          backup,
-          transition,
-          children.length
-        )
-      );
-    return _children;
   }
-  return children;
 };
 
 const addAnimToSwiperItem = (
