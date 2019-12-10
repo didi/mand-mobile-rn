@@ -3,6 +3,7 @@ import { Text, View } from 'react-native';
 import { MDSwiper, MDSwiperItem, MDButton } from 'mand-mobile-rn';
 import styles from './styles'
 import data from './simple.data'
+import data2 from './simple2.data'
 
 export default class BaseHorizontalDemo extends React.Component {
 
@@ -10,29 +11,42 @@ export default class BaseHorizontalDemo extends React.Component {
 
   constructor(props) {
     super(props)
-    this.state = { show: ''}
+    this.state = { data: data }
   }
 
-  render () {
-    const items = data.map((item, index) => {
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({
+        data: data2
+      })
+      setTimeout(() => {
+        this.setState({
+          data: data
+        })
+      }, 20000)
+    }, 40000)
+  }
+
+  render() {
+    const items = this.state.data.map((item, index) => {
       return (
         <MDSwiperItem key={index}>
-          <Text style={[{backgroundColor: item.color}, styles.text]} >{item.text}</Text>
+          <Text style={[{ backgroundColor: item.color }, styles.text]} >{item.text}</Text>
         </MDSwiperItem>
       )
     });
 
     return (
       <View style={styles.wrapper}>
-        <View style={{justifyContent: 'flex-start', marginBottom: 7}}>
-          <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
-            <MDButton size="tiny" type="primary" onPress={this._goto.bind(this)} style={{marginBottom: 5}}>Goto 2</MDButton>
-            <MDButton size="tiny" type="primary" onPress={this._play.bind(this)} style={{marginBottom: 5}}>Play</MDButton>
-            <MDButton size="tiny" type="primary" onPress={this._stop.bind(this)} style={{marginBottom: 5}}>Stop</MDButton>
+        <View style={{ justifyContent: 'flex-start', marginBottom: 7 }}>
+          <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+            <MDButton size="tiny" type="primary" onPress={this._goto.bind(this)} style={{ marginBottom: 5 }}>Goto 2</MDButton>
+            <MDButton size="tiny" type="primary" onPress={this._play.bind(this)} style={{ marginBottom: 5 }}>Play</MDButton>
+            <MDButton size="tiny" type="primary" onPress={this._stop.bind(this)} style={{ marginBottom: 5 }}>Stop</MDButton>
           </View>
-          <Text style={{fontSize: 12, fontWeight: '300', color: '#666f83',marginTop: 5}}>10秒后异步加载更多项，20秒后重置为初始数量</Text>
+          <Text style={{ fontSize: 12, fontWeight: '300', color: '#666f83', marginTop: 5 }}>20秒后异步加载更多项，40秒后重置为初始数量</Text>
         </View>
-        <View style={{width: 300, height: 200}}>
+        <View style={{ width: 300, height: 200 }}>
           <MDSwiper
             ref={this.swiper}
             width={300}
@@ -47,26 +61,26 @@ export default class BaseHorizontalDemo extends React.Component {
     )
   }
 
-  _goto () {
+  _goto() {
     // console.log(this.swiper.current.goto);
     this.swiper.current.goto(2)
   }
-  
-  _play () {
+
+  _play() {
     // console.log(this.swiper.current.goto);
     this.swiper.current.play()
   }
 
-  _stop () {
+  _stop() {
     // console.log(this.swiper.current.goto);
     this.swiper.current.stop()
   }
 
-  _beforeChange (from, to) {
+  _beforeChange(from, to) {
     // console.log('----_beforeChange', from, to);
   }
 
-  _afterChange (from, to) {
+  _afterChange(from, to) {
     // console.log('----_afterChange', from, to);
   }
 }
