@@ -32,6 +32,7 @@ const styles = StyleSheet.create<IMDTabPaneStyle>(MDTabPaneStyles);
 export default class MDTabPane extends React.Component<IMDTabPaneProps> {
   public static defaultProps = {
     styles,
+    __name: 'MDTabPane',
   };
 
   public render () {

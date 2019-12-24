@@ -94,18 +94,15 @@ export default class MDTabs extends React.Component<
     this.items = [];
 
     return React.Children.map(children, (child: any) => {
-      if (child.type) {
-        // 有 type 属性，代表是一个 React.ReactNode
-        if (child.type.name === 'MDTabPane') {
-          this.items.push({
-            name: child.props.name,
-            label: child.props.label,
-            disabled: child.props.disabled || false,
-          });
-          return React.cloneElement(child, {
-            curName: child.props.currentIndex || currentIndex,
-          });
-        }
+      if (child.props && child.props.__name === 'MDTabPane') {
+        this.items.push({
+          name: child.props.__name,
+          label: child.props.label,
+          disabled: child.props.disabled || false,
+        });
+        return React.cloneElement(child, {
+          curName: child.props.currentIndex || currentIndex,
+        });
       }
       return child;
     });

@@ -31,7 +31,7 @@ const addPropsToSwiperItem = (
     return null;
   }
 
-  if (children.props && children.props.name === 'MDSwiperItem') {
+  if (children.props && children.props.__name === 'MDSwiperItem') {
     const _style: ViewStyle = {
       width,
       height,

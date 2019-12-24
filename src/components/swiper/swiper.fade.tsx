@@ -26,7 +26,7 @@ const addAnimToSwiperItem = (
     return null;
   }
   return React.Children.map(children, (child: any, index: number) => {
-    if (child.props && child.props.name === 'MDSwiperItem') {
+    if (child.props && child.props.__name === 'MDSwiperItem') {
       const _style: ViewStyle = {
         width,
         height,
