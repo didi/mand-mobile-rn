@@ -64,7 +64,7 @@ export default class MDCheckGroup extends React.Component<
     return React.Children.map(children, (child: any) => {
       if (child.type) {
         // 有 type 属性，代表是一个 ReactNode
-        if (child.type.name === 'MDCheck' || child.type.name === 'MDCheckBox') {
+        if (child.props.__name === 'MDCheck' || child.props.__name === 'MDCheckBox') {
           let _onChange = this.onCheckItemPress;
           if (child.props.onChange) {
             _onChange = (checked: any, value: any) => {

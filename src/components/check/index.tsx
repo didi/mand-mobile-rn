@@ -63,6 +63,7 @@ export default class MDCheck extends React.Component<
     iconDisabled: (
       <MDIcon name='check-disabled' color={check.disabledColor} size='medium' />
     ),
+    __name: 'MDCheck'
   };
 
   constructor (props: IMDCheckProps) {

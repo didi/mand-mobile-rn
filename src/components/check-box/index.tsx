@@ -67,6 +67,7 @@ export default class MDCheckBox extends React.Component<
     styles,
     checked: false,
     disabled: false,
+    __name: 'MDCheckBox',
   };
 
   constructor (props: IMDCheckBoxProps) {

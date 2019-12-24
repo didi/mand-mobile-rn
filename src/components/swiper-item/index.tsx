@@ -9,7 +9,7 @@ export interface IMDSwiperItemProps {
 
 export default class MDSwiperItem extends React.Component<IMDSwiperItemProps> {
   public static defaultProps = {
-    name: 'MDSwiperItem',
+    __name: 'MDSwiperItem',
   };
 
   public render () {
