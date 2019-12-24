@@ -4,7 +4,7 @@ import * as React from 'react';
 import { Text } from 'react-native';
 import renderer from 'react-test-renderer';
 import MDSwiperItem from '../../swiper-item/index';
-import MDSwiper from '../swiper';
+import MDSwiper from '../index.ios';
 
 configure({ adapter: new Adapter() });
 
