@@ -155,7 +155,7 @@ export default class MDTabBar extends React.Component<
       return (
         <TouchableOpacity
           style={sty.tabbarItem}
-          key={tabItem.name}
+          key={`tabItem.name-${index}`}
           onPress={this.onPress.bind(this, tabItem, index)}
           onLayout={this.onLayout.bind(this, index, curIndex)} // 当组件挂载或者布局变化的时候调用
         >

@@ -61,7 +61,7 @@ export default class MDTabs extends React.Component<
   private items: IMDTabItem[] = [];
 
   public componentWillReceiveProps (props: IMDTabsProps) {
-    if (this.props.currentIndex !== props.currentIndex) {
+    if (this.props.currentIndex !== props.currentIndex || this.state.currentIndex !== props.currentIndex) {
       this.setState({
         currentIndex: props.currentIndex,
       });

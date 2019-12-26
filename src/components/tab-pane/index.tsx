@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyleSheet, Text, View, ViewStyle } from 'react-native';
+import { StyleSheet, View, ViewStyle } from 'react-native';
 
 import base from '../../_styles/themes/default.basic';
 
