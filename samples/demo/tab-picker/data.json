@@ -11,15 +11,15 @@
         "options": [
           {
             "value": "hd",
-            "label": "海淀"
+            "label": "海淀区"
           },
           {
             "value": "cp",
-            "label": "昌平"
+            "label": "昌平区"
           },
           {
             "value": "cy",
-            "label": "朝阳"
+            "label": "朝阳区"
           }
         ]
       }
@@ -36,7 +36,7 @@
             "label": "成都市",
             "children": {
               "name": "block",
-              "label": "区",
+              "label": "请选择",
               "options": [
                 {
                   "value": "gx",
@@ -44,7 +44,35 @@
                 },
                 {
                   "value": "qy",
-                  "label": "青羊区"
+                  "label": "青羊区",
+                  "children": {
+                    "name": "block",
+                    "label": "请选择",
+                    "options": [
+                      {
+                        "value": "rmgy",
+                        "label": "人民公园"
+                      },
+                      {
+                        "value": "kzxz",
+                        "label": "宽窄巷子",
+                        "children": {
+                          "name": "block",
+                          "label": "请选择",
+                          "options": [
+                            {
+                              "value": "sxl",
+                              "label": "思贤庐"
+                            },
+                            {
+                              "value": "kl",
+                              "label": "凯庐"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -58,7 +86,7 @@
               "options": [
                 {
                   "value": "jn",
-                  "label": "金牛区"
+                  "label": "游仙区"
                 }
               ]
             }
