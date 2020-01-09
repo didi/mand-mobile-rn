@@ -67,7 +67,7 @@ export default class MDActionSheet extends React.Component<
       <MDBaseSelector
         {...this.props}
         isVisible={this.state.isVisible}
-        showTitle={title!.length > 0}
+        showTitle={!!(title && title.length > 0)}
         options={options}
         cancelText={''}
         okText={''}
