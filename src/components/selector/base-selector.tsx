@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import { View } from 'react-native';
 import base from '../../_styles/themes/default.basic';
 import { safeAreaOffsetBottom } from '../../_styles/themes/device';
@@ -12,14 +12,15 @@ interface IMDBaseSelectorProps<T> {
   styles?: IMDOptionItemStyle;
   type?: string; // 类型
   title?: string; // 标题
-  okText?: ReactNode; // 确认文案
-  cancelText?: ReactNode; // 取消文案
+  okText?: React.ReactNode; // 确认文案
+  cancelText?: React.ReactNode; // 取消文案
   maskClosable?: string;
   icon?: MDIcon; // 默认图标(Selector type为Check时显示)
   iconInverse?: MDIcon; // 选中图标(Selector type为Check时显示)
   iconDisabled?: MDIcon; // 禁用图标(Selector type为Check时显示)
   options: T[]; // 数据列表
   isVisible?: boolean; // 是否可见
+  showTitle?: boolean; // 标题是否可见
   defaultIndex?: number; // 默认选中索引
   iconPosition?: string; // 图标位置(Selector type为Check时可用)
   cancleItem?: any; // 取消Item(MDActionSheet底部取消按钮)
@@ -27,7 +28,7 @@ interface IMDBaseSelectorProps<T> {
   onChoose?: (index: number, data: T) => void; // Item被选中是回调
   onCancle?: () => void; // 取消回调
   onConfirm?: (index: number, data: T) => void; // 确认回调
-  renderItem?: (index: number, data: T) => ReactNode; // 自定义渲染Item
+  renderItem?: (index: number, data: T) => React.ReactNode; // 自定义渲染Item
 }
 
 interface IMDBaseSelectorState {
@@ -50,6 +51,7 @@ export default class MDBaseSelector extends React.Component<
     cancelText: '取消',
     maskClosable: false,
     isVisible: false,
+    showTitle: true,
     defaultIndex: -1,
     iconPosition: 'right',
     callBackImmediately: false,
@@ -67,6 +69,7 @@ export default class MDBaseSelector extends React.Component<
       okText,
       cancelText,
       isVisible,
+      showTitle,
       options,
       renderItem,
       cancleItem,
@@ -89,30 +92,32 @@ export default class MDBaseSelector extends React.Component<
     return (
       <MDPopup position={'bottom'} isVisible={isVisible}>
         <View style={{ flex: 1, width: '100%', justifyContent: 'flex-end' }}>
-          <MDPopupTitleBar
-            title={title}
-            cancelText={cancelText}
-            okText={okText}
-            onConfirm={() => {
-              this.setState({
-                lastIndex: this.state.checkedIndex,
-              });
-              if (onConfirm) {
-                onConfirm(
-                  this.state.checkedIndex,
-                  options[this.state.checkedIndex]
-                );
-              }
-            }}
-            onCancel={() => {
-              if (onCancle) {
-                onCancle();
-              }
-              this.setState({
-                checkedIndex: this.state.lastIndex,
-              });
-            }}
-          />
+          {showTitle ? (
+            <MDPopupTitleBar
+              title={title}
+              cancelText={cancelText}
+              okText={okText}
+              onConfirm={() => {
+                this.setState({
+                  lastIndex: this.state.checkedIndex,
+                });
+                if (onConfirm) {
+                  onConfirm(
+                    this.state.checkedIndex,
+                    options[this.state.checkedIndex]
+                  );
+                }
+              }}
+              onCancel={() => {
+                if (onCancle) {
+                  onCancle();
+                }
+                this.setState({
+                  checkedIndex: this.state.lastIndex,
+                });
+              }}
+            />
+          ) : null}
           <View
             style={{
               backgroundColor: base.colors.bg,

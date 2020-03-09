@@ -1,4 +1,4 @@
-import React, { createRef } from 'react';
+import * as React from 'react';
 import { View } from 'react-native';
 import { default as base } from '../../_styles/themes/default.basic';
 import MDPopupTitleBar from '../popup-title-bar/index';
@@ -47,7 +47,7 @@ export default class MDPicker extends React.Component<
     };
   }
 
-  private _picker = createRef<Picker>();
+  private _picker = React.createRef<Picker>();
   private selectedColumn: number = 0;
 
   public componentWillReceiveProps (nextProps: IMDPickerProps) {

@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import {
   Animated,
   Easing,
@@ -18,8 +18,8 @@ import base from '../../_styles/themes/default.basic';
 export interface IMDNoticeBarProps {
   styles?: IMDNoticeBarStyle;
   type?: 'default' | 'activity' | 'warning'; // 主题样式
-  left?: ReactNode;
-  right?: ReactNode;
+  left?: React.ReactNode;
+  right?: React.ReactNode;
   mode?: string; // 右边提示类型
   time?: number; // 显示时长
   round?: boolean; // 圆角展示
@@ -63,6 +63,7 @@ export const MDNoticeBarStyles: IMDNoticeBarStyle = {
     position: 'relative',
     minHeight: noticeBar.height,
     paddingLeft: noticeBar.borderRadius,
+    paddingRight: noticeBar.paddingRight,
   },
 
   noticeBarText: {
@@ -93,13 +94,12 @@ export const MDNoticeBarStyles: IMDNoticeBarStyle = {
   noticeBarLeft: {
     display: 'flex',
     alignItems: 'center',
-    paddingRight: noticeBar.paddingRight,
+    marginRight: noticeBar.marginRight,
   },
 
   noticeBarRight: {
     display: 'flex',
     alignItems: 'center',
-    paddingRight: noticeBar.borderRadius,
   },
 
   noticeBarEmpty: {
@@ -107,7 +107,8 @@ export const MDNoticeBarStyles: IMDNoticeBarStyle = {
   },
 
   noticeBarContent: {
-    flex: 1,
+    flexGrow: 1,
+    flexShrink: 1,
     margin: 'auto',
     width: 'auto',
     overflow: 'hidden',
@@ -158,10 +159,10 @@ export default class MDNoticeBar extends React.Component<
     const _content = this.renderContent(sty, multiRows, type, scrollable);
     const _right = this.renderRight(sty, right, mode, type);
     const styArr = [
-      styles.noticeBar,
-      round && styles.noticeBarRound,
-      type === 'activity' ? styles.activity : {},
-      type === 'warning' ? styles.warning : {},
+      sty.noticeBar,
+      round && sty.noticeBarRound,
+      type === 'activity' ? sty.activity : {},
+      type === 'warning' ? sty.warning : {},
     ];
     return this.state.isShow ? (
       <View style={styArr}>
@@ -172,7 +173,7 @@ export default class MDNoticeBar extends React.Component<
     ) : null;
   }
 
-  private renderLeft (sty: IMDNoticeBarStyle, left?: ReactNode, type?: string) {
+  private renderLeft (sty: IMDNoticeBarStyle, left?: React.ReactNode, type?: string) {
     if (!left) {
       return null;
     }
@@ -244,7 +245,7 @@ export default class MDNoticeBar extends React.Component<
 
   private renderRight (
     sty: IMDNoticeBarStyle,
-    right?: ReactNode,
+    right?: React.ReactNode,
     mode?: string,
     type?: string
   ) {
@@ -281,12 +282,16 @@ export default class MDNoticeBar extends React.Component<
       this.setState({
         isShow: false,
       });
+    } else {
+      this.props.onPress && this.props.onPress(mode!);
     }
   }
 
   private onLayoutContainer (e: any) {
     const width = e.nativeEvent.layout.width;
-    this.move(width);
+    if (this.props.scrollable) {
+      this.move(width);
+    }
   }
   // 跑马灯效果
   private move (width: number) {

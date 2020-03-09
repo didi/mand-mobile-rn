@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import {
   StyleSheet,
   Text,
@@ -13,7 +13,7 @@ import { innerScaleSize } from '../../_styles/themes/responsive';
 import MDIcon from '../icon';
 
 export interface IMDCashierChannel {
-  icon?: ReactNode;
+  icon?: React.ReactNode;
   text: string;
   value: string;
 }
@@ -27,7 +27,7 @@ interface IMDCashierProps<T> {
   paymentAmount?: number; // 支付金额, default is 0
   paymentDescribe?: string; // 支付金额说明
   moreButtonText?: string; // 更多支付方式
-  renderChannel?: (channel: T, index: number) => ReactNode;
+  renderChannel?: (channel: T, index: number) => React.ReactNode;
   onSelect?: (index: number) => void;
 }
 
@@ -176,7 +176,7 @@ export default class MDCashierChannel<T> extends React.Component<
     );
   }
 
-  private renderChannel (channel: IMDCashierChannel, index: number): ReactNode {
+  private renderChannel (channel: IMDCashierChannel, index: number): React.ReactNode {
     const { checkedIndex } = this.state;
     const { onSelect } = this.props;
     const checked = checkedIndex === index;

@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import {
   StyleSheet,
   Text,
@@ -67,6 +67,7 @@ export default class MDCheckBox extends React.Component<
     styles,
     checked: false,
     disabled: false,
+    __name: 'MDCheckBox',
   };
 
   constructor (props: IMDCheckBoxProps) {

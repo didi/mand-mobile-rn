@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import {
   Animated,
   Easing,
@@ -24,13 +24,13 @@ import RootView from '../root-view';
 
 import { IMDOptionSet } from '../types';
 
-interface IMDDropMenuProps {
+export interface IMDDropMenuProps {
   isShow?: boolean;
   style?: ViewStyle;
   data?: DropMenuData[];
   alignCenter?: boolean; // item内容是否居中  todo 默认为true
   defaultValue?: boolean[] | number[] | string[]; // 默认值，如[1],[1,2]
-  optionRender?: (listItem: IMDOptionSet) => ReactNode; // 自定义item项
+  optionRender?: (listItem: IMDOptionSet) => React.ReactNode; // 自定义item项
   /**
    * 数据变化时通知用户
    * @param dropMenuData 菜单项的所有数据

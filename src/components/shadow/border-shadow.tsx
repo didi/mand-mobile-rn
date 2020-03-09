@@ -1,4 +1,4 @@
-import React, { Fragment, PureComponent, ReactNode } from 'react';
+import * as React from 'react';
 import { Text, View, ViewStyle } from 'react-native';
 import Svg, { Defs, LinearGradient, Rect, Stop } from 'react-native-svg';
 
@@ -12,7 +12,7 @@ export interface IMDBorderShadowProps {
   style?: ViewStyle;
 }
 
-export default class MDBorderShadow extends PureComponent<
+export default class MDBorderShadow extends React.PureComponent<
   IMDBorderShadowProps
 > {
   public static defaultProps = {
@@ -55,13 +55,13 @@ export default class MDBorderShadow extends PureComponent<
     return [element1, element2];
   }
 
-  private renderShadow (children?: ReactNode) {
+  private renderShadow (children?: React.ReactNode) {
     const { width, inset, border, side } = this.props;
     const lineWidth = border!;
 
     if (side === 'top') {
       return (
-        <Fragment>
+        <React.Fragment>
           <Svg
             height={lineWidth}
             width={width! + lineWidth}
@@ -85,11 +85,11 @@ export default class MDBorderShadow extends PureComponent<
             />
           </Svg>
           {typeof children === 'string' ? <Text>children</Text> : children}
-        </Fragment>
+        </React.Fragment>
       );
     } else if (side === 'bottom') {
       return (
-        <Fragment>
+        <React.Fragment>
           {typeof children === 'string' ? <Text>children</Text> : children}
           <Svg
             height={lineWidth}
@@ -119,7 +119,7 @@ export default class MDBorderShadow extends PureComponent<
               fill={`url(#bottom${inset ? '-inset' : ''})`}
             />
           </Svg>
-        </Fragment>
+        </React.Fragment>
       );
     } else {
       throw new Error('Wrong Type of Side! We just support \'top\' and \'bottom\'');

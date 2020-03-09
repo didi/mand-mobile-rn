@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { Platform, StyleSheet, View } from 'react-native';
 import { default as base } from '../../_styles/themes/default.basic';
 import { picker } from '../../_styles/themes/default.components';

@@ -1,6 +1,6 @@
 import { configure, mount, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import React from 'react';
+import * as React from 'react';
 import renderer from 'react-test-renderer';
 import RootView from '../../root-view';
 import Dialog from '../dialog';

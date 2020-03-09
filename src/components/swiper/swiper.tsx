@@ -1,4 +1,4 @@
-import React, { createRef, ReactNode } from 'react';
+import * as React from 'react';
 import {
   Animated,
   InteractionManager,
@@ -97,18 +97,58 @@ const addPropsToSwiperItem = (
   backup: boolean,
   transition: string,
   key: any
-): ReactNode | ReactNode[] => {
+): React.ReactNode | React.ReactNode[] => {
   if (!children) {
     return null;
   }
+  if (React.Children.count(children) > 0) {
+    const _children = [];
+    // 用于循环，在最前面复制最后一条数据
+    backup &&
+      _children.push(
+        renderSwiperItem(
+          children[children.length - 1],
+          width,
+          height,
+          transition,
+          -1
+        )
+      );
+    React.Children.forEach(children, (child, index) => {
+      _children.push(
+        renderSwiperItem(child, width, height, transition, index)
+      );
+    });
 
-  if (children.type && children.type.name === 'MDSwiperItem') {
-    // 有 type 属性，代表是一个 ReactNode
+    // 用于循环，在最后面复制第一条数据
+    backup &&
+      _children.push(
+        renderSwiperItem(
+          children[0],
+          width,
+          height,
+          transition,
+          children.length
+        )
+      );
+    return _children;
+  }
+  return children;
+};
+
+const renderSwiperItem = (
+  children: any,
+  width: number,
+  height: number,
+  transition: string,
+  key: any
+): React.ReactNode | React.ReactNode[] => {
+  if (children.props.isSwiperItem) {
+    // 有 type 属性，代表是一个 React.ReactNode
     const _style: ViewStyle = {
       width,
       height,
     };
-
     if (transition === 'slideY') {
       const _styleWrapper: ViewStyle = {
         height: width,
@@ -126,47 +166,12 @@ const addPropsToSwiperItem = (
         </View>
       );
     }
-
     return (
       <View key={key} style={_style}>
         {children}
       </View>
     );
-  } else if (React.Children.count(children) > 0) {
-    const _children = [];
-    // 用于循环，在最前面复制最后一条数据
-    backup &&
-      _children.push(
-        addPropsToSwiperItem(
-          children[children.length - 1],
-          width,
-          height,
-          backup,
-          transition,
-          -1
-        )
-      );
-    React.Children.forEach(children, (child, index) => {
-      _children.push(
-        addPropsToSwiperItem(child, width, height, backup, transition, index)
-      );
-    });
-
-    // 用于循环，在最后面复制第一条数据
-    backup &&
-      _children.push(
-        addPropsToSwiperItem(
-          children[0],
-          width,
-          height,
-          backup,
-          transition,
-          children.length
-        )
-      );
-    return _children;
   }
-  return children;
 };
 
 const addAnimToSwiperItem = (
@@ -175,12 +180,12 @@ const addAnimToSwiperItem = (
   height: number,
   opacitys: Animated.AnimatedValue[],
   key: any
-): ReactNode | ReactNode[] => {
+): React.ReactNode | React.ReactNode[] => {
   if (!children) {
     return null;
   }
   if (children.type && children.type.name === 'MDSwiperItem') {
-    // 有 type 属性，代表是一个 ReactNode
+    // 有 type 属性，代表是一个 React.ReactNode
     const _style: ViewStyle = {
       width,
       height,
@@ -217,7 +222,7 @@ export default class MDSwiperCommon extends React.Component<
     dragable: true,
   };
 
-  protected scrollView = createRef<ScrollView>();
+  protected scrollView = React.createRef<ScrollView>();
 
   constructor (props: IMDSwiperProps) {
     super(props);

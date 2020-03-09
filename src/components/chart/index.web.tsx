@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { StyleSheet, ViewStyle } from 'react-native';
 import { chart } from '../../_styles/themes/default.components';
 

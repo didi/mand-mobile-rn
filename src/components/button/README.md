@@ -33,6 +33,7 @@ render () {
 | iconPosition | 图标位置   | string                    | -       | N    | `left/right`                                                                                |
 | inactive     | 未激活     | boolean                   | `false` | N    | inactive 为 true 用于表单校验无效等主观因素。<br> disabled 类型用于无权限或无库存等客观因素 |
 | onPress      | 按压事件   | (params: any) => void     | -       | N    | 处理按压事件                                                                                |
+| gradientStyle | 渐变     | any                       | -       | N    | -    |
 
 ### 类型
 

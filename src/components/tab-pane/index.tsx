@@ -1,5 +1,5 @@
-import React, { ReactNode } from 'react';
-import { StyleSheet, Text, View, ViewStyle } from 'react-native';
+import * as React from 'react';
+import { StyleSheet, View, ViewStyle } from 'react-native';
 
 import base from '../../_styles/themes/default.basic';
 
@@ -32,6 +32,7 @@ const styles = StyleSheet.create<IMDTabPaneStyle>(MDTabPaneStyles);
 export default class MDTabPane extends React.Component<IMDTabPaneProps> {
   public static defaultProps = {
     styles,
+    __name: 'MDTabPane',
   };
 
   public render () {

@@ -1,20 +1,14 @@
-import React, { ReactNode } from 'react';
-import { ScrollView, StyleSheet, Text, View, ViewStyle } from 'react-native';
+import * as React from 'react';
+import { ScrollView, StyleSheet, View, ViewStyle } from 'react-native';
+import MDIcon from '../icon';
 import MDPopup from '../popup';
-
+import MDPopupTitlebar from '../popup-title-bar';
+import MDRadioList from '../radio-list';
+import MDTabPane from '../tab-pane';
 import MDTabs from '../tabs';
 
-import MDTabPane from '../tab-pane';
-
-import MDIcon from '../icon';
-
-import MDPopupTitlebar from '../popup-title-bar';
-
-import MDRadioList from '../radio-list';
-
-import { tabPicker, tabs } from '../../_styles/themes/default.components';
-
 import base from '../../_styles/themes/default.basic';
+import { tabPicker } from '../../_styles/themes/default.components';
 
 interface TabPickerData {
   name?: number | string | boolean;
@@ -41,7 +35,7 @@ export interface IMDTabPickerStyle {
 
 interface IMDTabPickerState {
   isPopupShow: boolean;
-  panes: any[];
+  selected: number;
 }
 
 export const MDTabPickerStyles: IMDTabPickerStyle = {
@@ -73,27 +67,22 @@ export default class MDTabPicker extends React.Component<
 
   constructor (props: IMDTabPickerProps) {
     super(props);
+    const { data, placeholder } = props;
+    const target: any = data || {};
     this.state = {
       isPopupShow: props.visible || false,
-      panes: [],
+      selected: 0,
     };
-    this.selected = 0;
+    this.panes = [{
+      name: target.name,
+      label: target.label || placeholder,
+      parentValue: '',
+      value: null,
+      selected: null,
+      options: target.options,
+    }];
   }
-  private selected: number;
-
-  public componentWillMount () {
-    const { data, placeholder } = this.props;
-    if (data && data.name) {
-      const pane = {
-        name: data.name,
-        label: data.label || placeholder,
-        // value: data.value || 0,
-        selected: 0,
-        options: data.options,
-      };
-      this.setState({ panes: [pane] });
-    }
-  }
+  private panes: any[];
 
   public componentWillReceiveProps (props: IMDTabPickerProps) {
     this.setState({
@@ -103,7 +92,7 @@ export default class MDTabPicker extends React.Component<
 
   public render () {
     const sty = this.props.styles || {};
-    const { title, describe, children, data } = this.props;
+    const { title, describe, data } = this.props;
     const { isPopupShow } = this.state;
     const renderItem = this.renderItem(sty, data);
     return (
@@ -124,29 +113,34 @@ export default class MDTabPicker extends React.Component<
   }
 
   private renderItem (sty: IMDTabPickerStyle, data?: TabPickerData | null) {
-    const { panes } = this.state;
+    const panes = this.panes;
+    const selected = this.state.selected;
+
+    const radioList = panes.map((item, index) => {
+      return (
+        <MDTabPane
+          key={`tabPane-${selected}-${item.parentValue}-${item.value}-${index}`}
+          name={index}
+          label={item.label}
+          curName={selected}
+        >
+          <ScrollView style={sty.content}>
+            <MDRadioList
+              defaultValue={item.value}
+              options={item.options}
+              onChange={(value, _index) => {
+                this.onSelectPaneItem(index, value, _index);
+              }}
+            />
+          </ScrollView>
+        </MDTabPane>
+      );
+    });
+
     if (data && data.options) {
       return (
-        <MDTabs currentIndex={this.selected}>
-          {panes.map((item, index) => {
-            return (
-              <MDTabPane
-                key={'tabPane-' + index}
-                name={index}
-                label={item.label}
-              >
-                <ScrollView style={sty.content}>
-                  <MDRadioList
-                    defaultValue={index}
-                    options={item.options}
-                    onChange={(value) => {
-                      this.onSelectPaneItem(index, value);
-                    }}
-                  />
-                </ScrollView>
-              </MDTabPane>
-            );
-          })}
+        <MDTabs currentIndex={selected}>
+          {radioList}
         </MDTabs>
       );
     } else {
@@ -154,77 +148,73 @@ export default class MDTabPicker extends React.Component<
     }
   }
 
-  private onSelectPaneItem (index: number, value?: number | string | boolean) {
-    const { data, placeholder, change } = this.props;
-    let target = data;
-    let cursor = 0;
-    let paneArr = [];
-    const { panes } = this.state;
-    const nextPane = panes[this.selected];
+  private onSelectPaneItem (tabIndex: number, value: number | string | boolean, itemIndex: number) {
+    const { placeholder, change } = this.props;
+    let paneArr: any[] = [];
+    const panes = this.panes;
+    const curPane = panes[tabIndex];
 
-    /* istanbul ignore else */
     if (
-      nextPane &&
-      nextPane.options &&
-      nextPane.options[index] &&
-      nextPane.options[index].children &&
-      panes.length > 1 &&
-      target
+      curPane &&
+      curPane.options &&
+      curPane.options[itemIndex] &&
+      curPane.options[itemIndex].children
     ) {
-      paneArr = panes;
-      cursor++;
-      paneArr.splice(paneArr.length - 1, 1);
-      target = target.options[this.selected].children;
-    } else if (!nextPane.options[index] || !nextPane.options[index].children) {
+      paneArr = JSON.parse(JSON.stringify(panes));
+
+      const curOption = curPane.options[itemIndex];
+
+      // 更新当前选中的值
+      curPane.value = value;
+      curPane.label = curOption.label;
+      curPane.selected = curOption;
+      paneArr.splice(tabIndex, paneArr.length - tabIndex);
+      paneArr.push(curPane);
+      this.panes = paneArr;
+
+      // 将选中的options放入 panes 中
+      const nextPane = curOption.children;
+      const pane = {
+        name: nextPane.name,
+        label: nextPane.label || placeholder,
+        value: null,
+        parentValue: value,
+        selected: null,
+        options: nextPane.options,
+      };
+      paneArr.push(pane);
+
+      this.setState({ selected: tabIndex + 1 });
+      this.panes = paneArr;
+      return;
+    }
+
+    if (!curPane.options[itemIndex] || !curPane.options[itemIndex].children) {
       setTimeout(() => {
         this.setState({
           isPopupShow: false,
         });
       }, 300);
-      const pane = panes[this.selected];
-      pane.selected = pane.options.filter(
-        (item: any) => item.value === value
-      )[0];
-      paneArr = panes;
-      paneArr.splice(paneArr.length - 1, 1);
-      paneArr.push(pane);
-      this.setState({ panes: paneArr });
-      const options = this.getSelectedOptions();
+      const pane = panes[tabIndex];
+      curPane.selected = pane.options[itemIndex];
+      curPane.value = value;
+      curPane.label = pane.label;
+
+      paneArr = JSON.parse(JSON.stringify(panes));
+
+      paneArr.splice(tabIndex, paneArr.length - tabIndex);
+      paneArr.push(curPane);
+
+      this.setState({ selected: tabIndex });
+
+      this.panes = paneArr;
+      const options = this.getSelectedOptions(paneArr);
       change(options);
       return;
     }
-
-    while (target && target.name) {
-      const pane = {
-        name: target.name,
-        label: target.label || placeholder,
-        value,
-        selected: null,
-        options: target.options,
-      };
-      let find = false;
-      for (let i = 0, len = target.options.length; i < len; i++) {
-        if (target.options[i].value === value) {
-          pane.label = target.options[i].label;
-          pane.selected = target.options[i];
-          target = target.options[i].children;
-          find = true;
-          cursor++;
-          this.selected = cursor;
-          break;
-        }
-      }
-      if (!find) {
-        target = null;
-      }
-      paneArr.push(pane);
-    }
-
-    this.setState({ panes: paneArr });
   }
 
-  private getSelectedOptions () {
-    const { panes } = this.state;
+  private getSelectedOptions (panes: any[]) {
     if (panes && panes.length) {
       return panes.filter((pane) => pane.value).map((pane) => pane.selected);
     } else {

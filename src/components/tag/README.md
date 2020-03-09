@@ -32,7 +32,7 @@ render () {
 | fillColor     | 标签颜色 `rgba` or `hex number` | string                                                      | `#ffffff`   | N    | -    |
 | textColor     | 字体颜色 `rgba` or `hex number` | string                                                      | `#fc9153`   | N    | -    |
 | fonWeight     | 字体粗细                        | TextStyle.fontWeight                                        | `normal`    | N    | -    |
-| gradientStyle | 梯度                            | any                                                         | -           | N    | -    |
+| gradientStyle | 渐变                           | any                                                         | -           | N    | -    |
 
 ### 类型
 

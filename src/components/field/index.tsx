@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import { StyleSheet, Text, TextStyle, View, ViewStyle } from 'react-native';
 import { field } from '../../_styles/themes/default.components';
 
@@ -8,9 +8,9 @@ export interface IMDFieldProps {
   styles?: IMDFieldStyle;
   title?: string; // 标题
   isPlain?: boolean; // 镂空样式
-  action?: ReactNode; // 非禁用状态下的点击模块
+  action?: React.ReactNode; // 非禁用状态下的点击模块
   brief?: string; // 描述内容
-  footer?: ReactNode; // 末尾区域插槽
+  footer?: React.ReactNode; // 末尾区域插槽
   disabled?: boolean; // 是否禁用区域
 }
 

@@ -37,9 +37,9 @@ export function innerScaleFont (size: number, isInner = true): number {
 export function innerScaleSize (size: number, isInner = true): number {
   // @ts-ignore
   if (global.MD_OPEN_RESPONSIVE_SCALE) {
-    return Math.round((size * scale(isInner)) / 2);
+    return +((size * scale(isInner)) / 2).toFixed(2);
   }
-  return size / 2;
+  return +(size / 2).toFixed(2);
 }
 
 export function scaleFont (size: number): number {

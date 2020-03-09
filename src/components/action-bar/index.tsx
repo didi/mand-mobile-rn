@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { StyleSheet, View, ViewStyle } from 'react-native';
 import { actionBar } from '../../_styles/themes/default.components';
 import MDButton from '../button';

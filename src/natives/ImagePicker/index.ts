@@ -1,8 +1,8 @@
 import { Dimensions, NativeModules } from 'react-native';
 
-const { MDImagePicker } = NativeModules;
+const { MDImagePicker: MDImagePickerAlias } = NativeModules;
 
-interface IMDImagePickerOptions {
+export interface IMDImagePickerOptions {
   /**
    * 每行图片数
    */
@@ -63,7 +63,7 @@ interface IMDImage {
   uri?: string;
   base64?: string;
 }
-export default class ImagePicker {
+export default class MDImagePicker {
   public static showImagePicker (
     options: IMDImagePickerOptions,
     successCallback: (imageList: IMDImage[]) => void,
@@ -73,7 +73,7 @@ export default class ImagePicker {
       ...DefaultImagePickerOptions,
       ...options,
     };
-    MDImagePicker.showImagePicker(o, successCallback, errorCallback);
+    MDImagePickerAlias.showImagePicker(o, successCallback, errorCallback);
   }
 
   public static asyncShowImagePicker (
@@ -83,7 +83,7 @@ export default class ImagePicker {
       ...DefaultImagePickerOptions,
       ...options,
     };
-    return MDImagePicker.asyncShowImagePicker(o);
+    return MDImagePickerAlias.asyncShowImagePicker(o);
   }
 
   public static openCamera (
@@ -95,7 +95,7 @@ export default class ImagePicker {
       ...DefaultImagePickerOptions,
       ...options,
     };
-    MDImagePicker.openCamera(o, successCallback, errorCallback);
+    MDImagePickerAlias.openCamera(o, successCallback, errorCallback);
   }
 
   public static asyncOpenCamera (
@@ -105,25 +105,25 @@ export default class ImagePicker {
       ...DefaultImagePickerOptions,
       ...options,
     };
-    return MDImagePicker.asyncOpenCamera(o);
+    return MDImagePickerAlias.asyncOpenCamera(o);
   }
 
   public static removeImage (index: number) {
-    MDImagePicker.removeImage(index);
+    MDImagePickerAlias.removeImage(index);
   }
 
   public static removeAll () {
-    MDImagePicker.removeAll();
+    MDImagePickerAlias.removeAll();
   }
 
   public static previewImage (index: number, showTitle: boolean) {
-    MDImagePicker.previewImage(index, showTitle);
+    MDImagePickerAlias.previewImage(index, showTitle);
   }
   public static previewImageList (
     imageList: string[],
     index: number,
     showTitle: boolean
   ) {
-    MDImagePicker.previewImageList(imageList, index, showTitle);
+    MDImagePickerAlias.previewImageList(imageList, index, showTitle);
   }
 }

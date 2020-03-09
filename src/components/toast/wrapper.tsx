@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { View } from 'react-native';
 import MDPopup from '../popup';
 import { MDPopupPos } from '../popup/types';

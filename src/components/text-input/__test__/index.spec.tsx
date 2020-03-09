@@ -2,7 +2,7 @@
 import { configure, render, shallow } from 'enzyme';
 // @ts-ignore
 import Adapter from 'enzyme-adapter-react-16';
-import React from 'react';
+import * as React from 'react';
 import { NativeModules } from 'react-native';
 import renderer from 'react-test-renderer';
 import MDTextInput, { MDTextInputRenderKeys } from '../index';

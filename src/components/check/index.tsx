@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import {
   StyleSheet,
   Text,
@@ -13,15 +13,15 @@ import MDIcon from '../icon';
 
 import { IMDOptionValue } from '../types';
 
-interface IMDCheckProps {
+export interface IMDCheckProps {
   styles?: IMDCheckStyle;
   label: string;
   disabled?: boolean;
   checked?: boolean;
   value?: IMDOptionValue;
-  icon?: ReactNode;
-  iconInverse?: ReactNode;
-  iconDisabled?: ReactNode;
+  icon?: React.ReactNode;
+  iconInverse?: React.ReactNode;
+  iconDisabled?: React.ReactNode;
   onChange?: (checked: boolean, value?: IMDOptionValue) => void;
 }
 
@@ -63,6 +63,7 @@ export default class MDCheck extends React.Component<
     iconDisabled: (
       <MDIcon name='check-disabled' color={check.disabledColor} size='medium' />
     ),
+    __name: 'MDCheck'
   };
 
   constructor (props: IMDCheckProps) {

@@ -31,14 +31,14 @@ render () {
 | icon         | 非选中项的图标           | MDIcon                                          | -                | N    | -    |
 | iconInverse  | 选中项的图标             | MDIcon                                          | -                | N    | -    |
 | iconDisabled | 禁用项的图标             | MDIcon                                          | -                | N    | -    |
-| options      | 数据源                   | IActionOptionSet[]                              | -                | N    | -    |
+| options      | 数据源                   | IMDActionOptionSet[]                              | -                | N    | -    |
 | isVisible    | 是否可见                 | boolean                                         | false            | N    | -    |
 | defaultIndex | 默认选中项               | number                                          | -1               | N    | -    |
 | iconPosition | 图标位置                 | 'right' \| 'left'                               | right            | N    | -    |
-| onChoose     | 选项点击回调             | (index: number, data: IActionOptionSet) => void | -                | N    | -    |
+| onChoose     | 选项点击回调             | (index: number, data: IMDActionOptionSet) => void | -                | N    | -    |
 | onCancel     | 取消选择回调             | () => void                                      | -                | N    | -    |
-| onConfirm    | 确认选择回调             | (index: number, data: IActionOptionSet) => void | -                | N    | -    |
-| renderItem   | 自定义渲染               | (index: number, data: IActionOptionSet) => void | -                | N    | -    |
+| onConfirm    | 确认选择回调             | (index: number, data: IMDActionOptionSet) => void | -                | N    | -    |
+| renderItem   | 自定义渲染               | (index: number, data: IMDActionOptionSet) => void | -                | N    | -    |
 
 ### 类型
 

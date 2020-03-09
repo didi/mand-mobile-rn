@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import {
   StyleSheet,
   Text,
@@ -13,17 +13,17 @@ import MDIcon from '../icon';
 
 import { IMDOptionValue } from '../types';
 
-interface IMDRadioProps {
+export interface IMDRadioProps {
   styles?: IMDRadioStyle;
-  label: string | ReactNode;
+  label: string | React.ReactNode;
   selected?: IMDOptionValue;
   value?: IMDOptionValue;
   disabled?: boolean;
   onChange?: (checked: boolean, value?: IMDOptionValue) => void;
 
-  icon?: ReactNode;
-  iconInverse?: ReactNode;
-  iconDisabled?: ReactNode;
+  icon?: React.ReactNode;
+  iconInverse?: React.ReactNode;
+  iconDisabled?: React.ReactNode;
 }
 
 interface IMDRadioState {

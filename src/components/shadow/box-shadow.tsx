@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import * as React from 'react';
 import { Text, View, ViewStyle } from 'react-native';
 import Svg, {
   Defs,
@@ -42,7 +42,7 @@ function colorRgb (color: string) {
   }
 }
 
-export default class MDBoxShadow extends PureComponent<IMDBoxShadowProps> {
+export default class MDBoxShadow extends React.PureComponent<IMDBoxShadowProps> {
   public static defaultProps = {
     width: 0,
     height: 0,

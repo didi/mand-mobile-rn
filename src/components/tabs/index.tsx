@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import { Animated, StyleSheet, View, ViewStyle } from 'react-native';
 import MDTabbar from '../tab-bar';
 
@@ -61,7 +61,7 @@ export default class MDTabs extends React.Component<
   private items: IMDTabItem[] = [];
 
   public componentWillReceiveProps (props: IMDTabsProps) {
-    if (this.props.currentIndex !== props.currentIndex) {
+    if (this.props.currentIndex !== props.currentIndex || this.state.currentIndex !== props.currentIndex) {
       this.setState({
         currentIndex: props.currentIndex,
       });
@@ -86,7 +86,7 @@ export default class MDTabs extends React.Component<
     );
   }
 
-  private childItem (children: any): ReactNode {
+  private childItem (children: any): React.ReactNode {
     const { currentIndex } = this.state;
     if (React.Children.count(children) < 1) {
       return null;
@@ -94,18 +94,15 @@ export default class MDTabs extends React.Component<
     this.items = [];
 
     return React.Children.map(children, (child: any) => {
-      if (child.type) {
-        // 有 type 属性，代表是一个 ReactNode
-        if (child.type.name === 'MDTabPane') {
-          this.items.push({
-            name: child.props.name,
-            label: child.props.label,
-            disabled: child.props.disabled || false,
-          });
-          return React.cloneElement(child, {
-            curName: child.props.currentIndex || currentIndex,
-          });
-        }
+      if (child.props && child.props.__name === 'MDTabPane') {
+        this.items.push({
+          name: child.props.__name,
+          label: child.props.label,
+          disabled: child.props.disabled || false,
+        });
+        return React.cloneElement(child, {
+          curName: child.props.currentIndex || currentIndex,
+        });
       }
       return child;
     });

@@ -21,7 +21,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     NSURL *jsCodeLocation;
     
-    jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
+    #if defined(RELEASE) || defined(STAGING)
+     jsCodeLocation = [[NSBundle mainBundle] URLForResource:[NSString stringWithFormat:@"%@.ios", bundleName] withExtension:@"jsbundle"];
+    #else
+        jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
+    #endif
+    
+    
     
     RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
                                                         moduleName:@"samples"
