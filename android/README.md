@@ -77,6 +77,7 @@ react-native link mand-mobile-rn
             );
         }
     ```
+5. 把 mand-mobile-rn `src/assets/fonts` 文件夹，粘贴到你的 Android 工程 `asset`。
 
 ### 使用的第三方库
 
