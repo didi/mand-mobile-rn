@@ -1,22 +1,23 @@
 package com.mandmobilern.sample;
 
 import android.app.Application;
-
-import com.facebook.react.devsupport.DevInternalSettings;
 import com.mandmobile.react.imagepicker.MDImagePickerPackage;
 import com.mandmobile.MDNumberKeyboardPackage;
 import com.mandmobile.react.refreshcontrol.MDRefreshControlPackage;
 
 import com.BV.LinearGradient.LinearGradientPackage;
 import com.facebook.react.ReactApplication;
-import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
+import com.facebook.react.devsupport.DevInternalSettings;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
 import com.horcrux.svg.SvgPackage;
+import com.mandmobile.MDNumberKeyboardPackage;
+import com.mandmobile.react.imagepicker.MDImagePickerPackage;
+import com.mandmobile.react.refreshcontrol.MDRefreshControlPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
-import com.squareup.leakcanary.LeakCanary;
+import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 
 import java.util.Arrays;
 import java.util.List;
@@ -57,10 +58,6 @@ public class MainApplication extends Application implements ReactApplication {
     @Override
     public void onCreate() {
         super.onCreate();
-        if (LeakCanary.isInAnalyzerProcess(this)) {
-            return;
-        }
-        LeakCanary.install(this);
         SoLoader.init(this, /* native exopackage */ false);
         // 处理 haul delta 包 和 rn 不兼容问题
         new DevInternalSettings(this,null).setBundleDeltasEnabled(false);

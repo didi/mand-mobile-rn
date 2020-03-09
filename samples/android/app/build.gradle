@@ -159,16 +159,14 @@ dependencies {
     implementation project(':react-native-linear-gradient')
     implementation fileTree(dir: "libs", include: ["*.jar"])
 
-    implementation "com.android.support:appcompat-v7:${safeExtGet('supportLibVersion', '27.1.1')}"
+    implementation "com.android.support:appcompat-v7:${safeExtGet('supportLibVersion', '28.0.0')}"
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"
     implementation project(':mand-mobile-image-picker')
     implementation project(':mand-mobile-number-keyboard')
     implementation project(':mand-mobile-refresh-control')
 
-
-    releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.6.3'
-    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.6.3'
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.2'
 }
 
 // Run this once to be able to run the application with BUCK
