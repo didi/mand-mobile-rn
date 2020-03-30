@@ -216,13 +216,13 @@ export default class MDInputItem extends React.Component<
     const { styles: _styles, error, brief } = this.props;
     const errorNode =
       typeof error === 'string' ? (
-        <Text style={_styles!.errorText}>error</Text>
+        <Text style={_styles!.errorText}>{error}</Text>
       ) : (
         error
       );
     const briefNode =
       typeof brief === 'string' ? (
-        <Text style={_styles!.briefText}>brief</Text>
+        <Text style={_styles!.briefText}>{brief}</Text>
       ) : (
         brief
       );
