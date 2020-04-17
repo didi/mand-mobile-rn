@@ -33,7 +33,7 @@ Pod::Spec.new do |spec|
   spec.subspec "MDRefreshControl" do |ss|
     ss.source_files = "src/natives/RefreshControl/ios/*.{h,m}"
     ss.public_header_files = "src/natives/RefreshControl/ios/*.h"
-    ss.dependency "MJRefresh", "~> 3.1"
+    ss.dependency "MJRefresh", "~> 3.2.2"
   end
 
   spec.subspec "MDImagePicker" do |ss|
