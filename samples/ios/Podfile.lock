@@ -8,22 +8,22 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
-  - MandMobileRN (0.1.0):
-    - MandMobileRN/Core (= 0.1.0)
-    - MandMobileRN/MDImagePicker (= 0.1.0)
-    - MandMobileRN/MDNumberKeyboard (= 0.1.0)
-    - MandMobileRN/MDRefreshControl (= 0.1.0)
+  - MandMobileRN (1.0.0):
+    - MandMobileRN/Core (= 1.0.0)
+    - MandMobileRN/MDImagePicker (= 1.0.0)
+    - MandMobileRN/MDNumberKeyboard (= 1.0.0)
+    - MandMobileRN/MDRefreshControl (= 1.0.0)
     - React
-  - MandMobileRN/Core (0.1.0):
+  - MandMobileRN/Core (1.0.0):
     - React
-  - MandMobileRN/MDImagePicker (0.1.0):
+  - MandMobileRN/MDImagePicker (1.0.0):
     - React
-  - MandMobileRN/MDNumberKeyboard (0.1.0):
+  - MandMobileRN/MDNumberKeyboard (1.0.0):
     - React
-  - MandMobileRN/MDRefreshControl (0.1.0):
-    - MJRefresh (~> 3.1)
+  - MandMobileRN/MDRefreshControl (1.0.0):
+    - MJRefresh (~> 3.2.2)
     - React
-  - MJRefresh (3.1.15.7)
+  - MJRefresh (3.2.3)
   - React (0.59.10):
     - React/Core (= 0.59.10)
   - React/ART (0.59.10):
@@ -143,8 +143,8 @@ SPEC CHECKSUMS:
   DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
   Folly: de497beb10f102453a1afa9edbf8cf8a251890de
   glog: aefd1eb5dda2ab95ba0938556f34b98e2da3a60d
-  MandMobileRN: 20aa1aa71c2e4ca806ae2405e45f6e61c4667e69
-  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  MandMobileRN: 4aaac48cf284cbb1eed858e345fe91396a95a0af
+  MJRefresh: 2b1214a2dc8f4df4c5dcb028ea2ad4e245425fb7
   React: 36d0768f9e93be2473b37e7fa64f92c1d5341eef
   RNGestureHandler: b65d391f4f570178d657b99a16ec99d09b8656b0
   RNSVG: 9cb6e958c4b6a1f58185ac72a350b148947d6fed

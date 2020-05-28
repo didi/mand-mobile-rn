@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -282,7 +282,6 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-samples/Pods-samples-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-samples/Pods-samples-resources.sh",
@@ -326,7 +325,6 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-samples/Pods-samples-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
