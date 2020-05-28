@@ -1,9 +1,6 @@
 package com.mandmobilern.sample;
 
 import android.app.Application;
-import com.mandmobile.react.imagepicker.MDImagePickerPackage;
-import com.mandmobile.MDNumberKeyboardPackage;
-import com.mandmobile.react.refreshcontrol.MDRefreshControlPackage;
 
 import com.BV.LinearGradient.LinearGradientPackage;
 import com.facebook.react.ReactApplication;
