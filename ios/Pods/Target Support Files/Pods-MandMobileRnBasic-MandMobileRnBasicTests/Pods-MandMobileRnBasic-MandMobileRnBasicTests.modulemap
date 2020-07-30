@@ -1,0 +1,6 @@
+module Pods_MandMobileRnBasic_MandMobileRnBasicTests {
+  umbrella header "Pods-MandMobileRnBasic-MandMobileRnBasicTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,7 +7,7 @@
 **import**
 
 ```js
-import { MDButton } from 'mand-mobile-rn'
+import { MDButton } from '../../../src'
 ```
 
 **JSX**

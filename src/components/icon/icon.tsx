@@ -2,10 +2,9 @@ import * as React from 'react';
 import { ImageURISource, ViewStyle } from 'react-native';
 import { createIconSetFromIcoMoon } from 'react-native-vector-icons';
 import { icon } from '../../_styles/themes/default.components';
+import MandMobileConfig from '../../assets/fonts/mand-mobile.json';
 
-// tslint:disable-next-line:no-var-requires
-const section = require('../../assets/fonts/selection.json');
-const Icon = createIconSetFromIcoMoon(section);
+const Icon = createIconSetFromIcoMoon(MandMobileConfig);
 
 export type MDIconSize = 'smaller' | 'small' | 'medium' | 'large';
 
@@ -26,21 +25,11 @@ export interface IMDIconProps {
   source?: ImageURISource;
 }
 
-export class MDIcon extends React.Component<IMDIconProps> {
-  public static defaultProps = {
-    size: 'medium',
-  };
-
-  constructor (props: IMDIconProps) {
-    super(props);
-    if (!props.svg && !props.name) {
-      throw new Error('[MDIcon] must have A name props.');
-    }
+export const MDIcon: React.SFC<IMDIconProps> = ({ size = 'medium', svg, name, ...otherProps}) => {
+  if (!svg && !name) {
+    throw new Error('[MDIcon] must have A name props.');
   }
 
-  public render () {
-    const { size } = this.props;
-    const _size = typeof size === 'string' ? MDIconSizeToNum[size] : size;
-    return <Icon {...this.props} size={_size} />;
-  }
+  const _size = typeof size === 'string' ? MDIconSizeToNum[size] : size;
+  return <Icon {...otherProps} name={name} size={_size} />;
 }

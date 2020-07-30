@@ -1,0 +1,6 @@
+module Pods_MandMobileRnBasic {
+  umbrella header "Pods-MandMobileRnBasic-umbrella.h"
+
+  export *
+  module * { export * }
+}

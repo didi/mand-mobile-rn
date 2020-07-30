@@ -28,5 +28,5 @@ fi
 if [ "$watch" == "--watch" ]; then
   $ROOT_DIR/node_modules/typescript/bin/tsc -p ./tsconfig.json $watch
 else
-  $ROOT_DIR/node_modules/typescript/bin/tsc  -p ./tsconfig.build.json
+  $ROOT_DIR/node_modules/typescript/bin/tsc -p ./tsconfig.build.json
 fi

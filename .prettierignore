@@ -1,6 +1,0 @@
-node_modules/*
-dist/*
-android/*
-ios/*
-tsconfig.json
-tsconfig.build.json

@@ -7,7 +7,7 @@ IconFont、SVG 图标
 **import**
 
 ```js
-import { MDIcon } from 'mand-mobile-rn'
+import { MDIcon } from '../../../src'
 ```
 
 **JSX**

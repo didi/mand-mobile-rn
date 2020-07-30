@@ -1,9 +1,8 @@
 export { scaleFont, scaleSize } from './_styles/themes/responsive';
+export { default as MDIcon, IMDIconProps } from './components/icon';
 export { default as MDButton, IMDButtonProps } from './components/button';
 export { default as MDAmount, IMDAmountProps } from './components/amount';
-export { default as MDIcon, IMDIconProps } from './components/icon';
 export { default as MDNoticeBar, MDNoticeBarStyles, IMDNoticeBarProps } from './components/notice-bar';
-export { default as MDRefreshControl, IMDRefreshControlProps } from './components/refresh-control';
 export { default as MDPopup, IMDPopupProps} from './components/popup';
 export {
   default as MDPopupTitleBar,
@@ -47,7 +46,6 @@ export {
   IMDLandscapeProps,
 } from './components/landscape';
 export { default as MDSlider, IMDSliderProps } from './components/slider';
-export { default as MDImagePicker, IMDImagePickerOptions } from './components/image-picker';
 export { default as MDTip, MDTipStyles, IMDTipProps } from './components/tip';
 export { default as MDCheck, MDCheckStyles, IMDCheckProps } from './components/check';
 export { default as MDCheckBox, MDCheckBoxStyles, IMDCheckBoxProps } from './components/check-box';
@@ -91,5 +89,4 @@ export {
   IMDBoxShadowProps,
 } from './components/shadow';
 export { default as MDDatePicker, IMDDatePickerProps } from './components/date-picker';
-export { default as MDImageViewer } from './components/image-viewer';
 /* @init<%export { default as MD${componentName}, MD${componentName}Styles } from './components/${componentKebabName}'%> */

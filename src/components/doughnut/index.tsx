@@ -1,9 +1,7 @@
 import * as React from 'react';
-// @ts-ignore
-import * as RART from 'react-art';
+import { Surface } from '@react-native-community/art';
 import {
   Animated,
-  ART,
   Easing,
   EasingFunction,
   Platform,
@@ -12,7 +10,6 @@ import {
 import Doughnut from './doughnut';
 
 // @ts-ignore
-const { Surface } = Platform.OS === 'web' ? RART : ART;
 const AnimatedDoughnut = Animated.createAnimatedComponent(Doughnut);
 
 export interface IMDDoughnutArcSet {
@@ -119,6 +116,7 @@ export default class MDDoughnut extends React.Component<
           duration: this.animateDuration(index, values.length),
           easing: this.animateType(),
           toValue: values[index],
+          useNativeDriver: false,
         }).start(() => {
           setTimeout(() => {
             arcWalker(++index);

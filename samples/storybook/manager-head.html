@@ -1,9 +1,0 @@
-<!-- Your scripts will run before Storybook’s React UI. Also be aware, that this is an uncommon scenario and could potentially break Storybook’s UI. So use with caution. -->
-<script>
-  document.addEventListener("DOMContentLoaded", function(event) {
-    var eles = document.getElementsByClassName('Pane2')
-    if (eles.length >= 2 && eles[1]) {
-      eles[1].style.flex = '2 0 0%';
-    }
-  });
-</script>

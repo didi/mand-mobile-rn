@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <drawable name="blue_bg_pressed">#2A78DC</drawable>
-    <drawable name="blue_bg_normal">#2F86F6</drawable>
-
-    <drawable name="key_bg_normal">#FFFFFF</drawable>
-    <drawable name="key_bg_press">#F9FAFB</drawable>
-
-</resources>
