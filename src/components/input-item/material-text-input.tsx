@@ -91,7 +91,7 @@ export default class MDMaterialTextInput extends React.Component<
   private inputLabel: MDInputLabel | null = null;
   private input: MDTextInput | null = null;
 
-  public componentWillReceiveProps (
+  public UNSAFE_componentWillReceiveProps (
     nextProps: IMDMaterialTextInputProps & TextInputProps
   ) {
     const { value, height } = this.props;

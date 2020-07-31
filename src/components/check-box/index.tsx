@@ -77,7 +77,7 @@ export default class MDCheckBox extends React.Component<
     };
   }
 
-  public componentWillReceiveProps (nextProps: IMDCheckBoxProps) {
+  public UNSAFE_componentWillReceiveProps (nextProps: IMDCheckBoxProps) {
     const { checked } = nextProps;
     if (checked !== this.props.checked || checked !== this.state.checked) {
       this.setState({

@@ -19,7 +19,6 @@ export default [
   { path: 'Steps', name: 'Steps', ccname: '步骤条' },
   { path: 'DropMenu', name: 'DropMenu', ccname: '下拉菜单' },
   { path: 'Swiper', name: 'Swiper', ccname: '轮播' },
-  { path: 'ImageViewer', name: 'ImageViewer', ccname: '图片浏览器' },
   { path: 'Shadow', name: 'Shadow', ccname: '阴影' },
   /* @init<%  { path: '${componentName}', name: '${componentName}', ccname: '${componentCnName}' },%> */
 ]

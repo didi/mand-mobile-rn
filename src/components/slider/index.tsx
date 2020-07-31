@@ -104,7 +104,7 @@ export default class MDSlider extends React.Component<
   private startPanResponder = PanResponder.create({});
   private endPanResponder = PanResponder.create({});
 
-  public componentWillReceiveProps (nextProps: any) {
+  public UNSAFE_componentWillReceiveProps (nextProps: any) {
     const { range, startValue, endValue } = this.props;
     if (
       range !== nextProps.range ||
@@ -125,7 +125,7 @@ export default class MDSlider extends React.Component<
     }
   }
 
-  public componentWillMount () {
+  public UNSAFE_componentWillMount () {
     const { disabled } = this.props;
     this.startPanResponder = this.initStartPanResponder(disabled!);
     this.endPanResponder = this.initEndPanResponder(disabled!);

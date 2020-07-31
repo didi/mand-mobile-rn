@@ -11,7 +11,7 @@ export default {
 
     const inputRange = Array.from(
       new Array(frames),
-      (value, i) => i / (frames - 1)
+      (_, i) => i / (frames - 1)
     );
     const outputRange = Array.from(new Array(frames), (value, i) => {
       const rotation = index ? 360 - 15 : -(180 - 15);
@@ -99,7 +99,7 @@ export default {
 
     const inputRange = Array.from(
       new Array(count! + 1),
-      (value, _index) => _index / count!
+      (_, _index) => _index / count!
     );
 
     const outputRange = Array.from(new Array(count), (value, _index) =>

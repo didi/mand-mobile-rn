@@ -56,6 +56,9 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>mand-mobile.ttf</string>
+		<string>DIDIFD-Black.otf</string>
+		<string>DIDIFD-Medium.otf</string>
+		<string>DIDIFD-Regular.otf</string>
 	</array>
 </dict>
 </plist>

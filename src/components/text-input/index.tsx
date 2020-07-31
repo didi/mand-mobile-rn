@@ -101,7 +101,7 @@ export default class MDTextInput extends React.Component<
     }
   }
 
-  public componentWillReceiveProps (nextProps: IMDtextInputProps) {
+  public UNSAFE_componentWillReceiveProps (nextProps: IMDtextInputProps) {
     const { value } = nextProps;
     if (nextProps && value) {
       this.setState({ value });

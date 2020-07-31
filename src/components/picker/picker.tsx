@@ -50,13 +50,13 @@ export default class Picker extends React.Component<
   private activeValues: any[] = [];
   private columnValues: any[] = [];
 
-  public componentWillReceiveProps (nextProps: IMDPickerProps) {
+  public UNSAFE_componentWillReceiveProps (nextProps: IMDPickerProps) {
     this.initActiveIndexsByNextProps(nextProps);
     this.initColumnValues();
     this.setupStateColumns();
   }
 
-  public componentWillMount () {
+  public UNSAFE_componentWillMount () {
     this.initActiveIndexs();
     this.initColumnValues();
     this.setupStateColumns();

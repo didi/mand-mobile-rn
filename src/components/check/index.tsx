@@ -73,7 +73,7 @@ export default class MDCheck extends React.Component<
     };
   }
 
-  public componentWillReceiveProps (nextProps: IMDCheckProps) {
+  public UNSAFE_componentWillReceiveProps (nextProps: IMDCheckProps) {
     const { checked } = nextProps;
     if (checked !== this.props.checked || checked !== this.state.checked) {
       this.setState({

@@ -303,6 +303,7 @@ export default class MDNoticeBar extends React.Component<
           toValue: -width, // Animate to left: width (opaque)
           duration: 10000, // Make it take a while
           easing: Easing.linear,
+          useNativeDriver: false
         }
       )
     ).start();

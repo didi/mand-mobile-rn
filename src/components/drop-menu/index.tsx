@@ -171,6 +171,7 @@ export default class MDDropMenu extends React.Component<
         toValue: 1,
         duration: 200,
         easing: Easing.ease,
+        useNativeDriver: false
       });
     });
     this.unExpandAnim = this.animValues.map((animValue) => {
@@ -178,6 +179,7 @@ export default class MDDropMenu extends React.Component<
         toValue: 0,
         duration: 200,
         easing: Easing.ease,
+        useNativeDriver: false
       });
     });
 

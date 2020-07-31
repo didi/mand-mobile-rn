@@ -1,7 +1,6 @@
 export default [
   { path: 'Popup', name: 'Popup', ccname: '弹窗层' },
   { path: 'Landscape', name: 'Landscape', ccname: '压屏窗' },
-  { path: 'ImagePicker', name: 'ImagePicker', ccname: '图片选择器' },
   { path: 'TabPicker', name: 'TabPicker', ccname: '多级联动选择器' },
   { path: 'Tip', name: 'Tip', ccname: '气泡' },
   { path: 'Toast', name: 'Toast', ccname: '轻提示' },

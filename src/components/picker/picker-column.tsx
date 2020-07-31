@@ -52,7 +52,7 @@ export default class PickerColumn extends React.Component<
   private scroller: ScrollView | null = null;
   private isNewProps: boolean = false;
 
-  public componentWillReceiveProps (nextProps: IMDPickerColumnProps) {
+  public UNSAFE_componentWillReceiveProps (nextProps: IMDPickerColumnProps) {
     if (
       JSON.stringify(nextProps.column) !== JSON.stringify(this.props.column) ||
       nextProps.selectIndex !== this.selectIndex
@@ -65,7 +65,7 @@ export default class PickerColumn extends React.Component<
     }
   }
 
-  public componentWillMount () {
+  public UNSAFE_componentWillMount () {
     this.selectIndex = this.checkValidIndex(this.props.selectIndex, this.props);
     this.isNewProps = true;
     this.setState({
@@ -189,12 +189,12 @@ export default class PickerColumn extends React.Component<
 
   private scrollToPisiton (x: number, y: number) {
     if (!this.isNewProps && Math.abs(this.selectIndex - this.oldIndex) < 2) {
-      this.scroller!.scrollResponderScrollTo({ x, y, animated: true });
+      this.scroller?.scrollTo({ x, y, animated: true });
     } else {
       if (this.isNewProps) {
         this.isNewProps = false;
       }
-      this.scroller!.scrollResponderScrollTo({ x, y, animated: false });
+      this.scroller?.scrollTo({ x, y, animated: false });
     }
   }
 

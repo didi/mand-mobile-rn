@@ -60,7 +60,7 @@ export default class MDPopup extends React.Component<
     this.setVisible = this.setVisible.bind(this);
   }
 
-  public componentWillReceiveProps (newProps: IMDPopupProps) {
+  public UNSAFE_componentWillReceiveProps (newProps: IMDPopupProps) {
     const {
       isVisible,
       hasMask,

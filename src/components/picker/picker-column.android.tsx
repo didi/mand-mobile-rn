@@ -54,7 +54,7 @@ export default class PickerColumn extends React.Component<
   private isNewProps: boolean = false;
   private columnValue: any[] = [];
 
-  public componentWillReceiveProps (nextProps: IMDPickerColumnProps) {
+  public UNSAFE_componentWillReceiveProps (nextProps: IMDPickerColumnProps) {
     if (
       JSON.stringify(nextProps.column) !== JSON.stringify(this.props.column) ||
       nextProps.selectIndex !== this.realIndex
@@ -69,7 +69,7 @@ export default class PickerColumn extends React.Component<
     }
   }
 
-  public componentWillMount () {
+  public UNSAFE_componentWillMount () {
     this.initColumnValue(this.props.column);
     this.isNewProps = true;
     this.realIndex = this.checkValidIndex(this.props.selectIndex, this.props);

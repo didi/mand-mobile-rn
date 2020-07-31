@@ -102,7 +102,7 @@ export default class MDStepper extends React.Component<
     this.onChangeText = this.onChangeText.bind(this);
   }
 
-  public componentWillReceiveProps (props: IMDStepperProps) {
+  public UNSAFE_componentWillReceiveProps (props: IMDStepperProps) {
     if (props.value === this.state.currentNum) {
       return;
     }

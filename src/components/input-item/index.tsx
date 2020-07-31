@@ -287,12 +287,12 @@ export default class MDInputItem extends React.Component<
       textAlign: align,
       marginLeft: left ? 10 : 0,
       marginRight: right ? 10 : 0,
-      // fontFamily: amount ? 'FD+_Number' : undefined,
+      // fontFamily: amount ? 'DIDIFD-Medium' : undefined,
       // fontSize: size === 'large' ? inputItem.fontSizeLarge : undefined,
     };
 
     if(!!amount){
-      inputStyle.fontFamily = 'FD+_Number';
+      inputStyle.fontFamily = 'DIDIFD-Medium';
     }
     if(size === 'large') {
       inputStyle.fontSize = inputItem.fontSizeLarge;

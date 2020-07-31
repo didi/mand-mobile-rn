@@ -56,7 +56,7 @@ export default class MDRadioList extends React.Component<
     this.onItemPressed = this.onItemPressed.bind(this);
   }
 
-  public componentWillReceiveProps (nextProps: IMDRadioListProps) {
+  public UNSAFE_componentWillReceiveProps (nextProps: IMDRadioListProps) {
     if (nextProps.defaultValue !== this.props.defaultValue) {
       this.setState({
         value: nextProps.defaultValue,

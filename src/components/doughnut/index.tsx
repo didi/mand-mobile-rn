@@ -78,7 +78,7 @@ export default class MDDoughnut extends React.Component<
     return true;
   }
 
-  public componentWillReceiveProps (nextProps: IMDDoughnutProps) {
+  public UNSAFE_componentWillReceiveProps (nextProps: IMDDoughnutProps) {
     if (JSON.stringify(this.props.data) !== JSON.stringify(nextProps.data))
       this.setState({
         arcProportValues: [],

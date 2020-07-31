@@ -61,7 +61,7 @@ const MDThemeStyleVaribles: { [key: string]: any } = {
   fontFamily: {
     normal:
       '"Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif',
-    number: 'FD+_Number',
+    number: 'DIDIFD-Medium',
   },
 
   // radius size

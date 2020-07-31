@@ -1,5 +1,5 @@
 import * as React from "react";
-import { MDChart } from "mand-mobile-rn";
+import { MDChart } from "../../../src";
 import { width, height, labels } from "./data-store.demo";
 
 export default class GradientChartDemo extends React.Component {

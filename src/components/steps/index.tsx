@@ -6,6 +6,7 @@ import {
   TextStyle,
   View,
   ViewStyle,
+  StyleProp,
 } from 'react-native';
 import { steps as theme } from '../../_styles/themes/default.components';
 import MDIcon from '../icon';
@@ -148,7 +149,7 @@ export default class MDSteps extends React.Component<
     );
   }
 
-  public componentWillReceiveProps (nextProps: IMDStepsProps) {
+  public UNSAFE_componentWillReceiveProps (nextProps: IMDStepsProps) {
     const { transition, direction, steps } = this.props;
     const current: number = this.props.current as number;
     const nextCurrent: number = nextProps.current as number;
@@ -260,6 +261,7 @@ export default class MDSteps extends React.Component<
     Animated.timing(this.animatedValues[_current], {
       toValue: toValue * diff,
       duration: !transition || !isAddStep ? 0 : TRANSITION_DURATION,
+      useNativeDriver: false
     }).start(() => {
       this.startAnimByIndex(
         next,
@@ -315,7 +317,7 @@ export default class MDSteps extends React.Component<
     );
   }
 
-  private genBarWrapperStyle () {
+  private genBarWrapperStyle (): StyleProp<ViewStyle> {
     const _styles = this.props.styles || {};
     const _v = this.isVertical();
 
@@ -386,7 +388,7 @@ export default class MDSteps extends React.Component<
           { position: 'absolute' },
           !_isVertical ? { top: HORIZONTAL_TOP } : null,
           _isVertical ? { left: VERTICAL_LEFT } : null
-        );
+        ) as ViewStyle;
         return <View style={_flatStyle}>{ele}</View>;
       }
     }
@@ -396,7 +398,7 @@ export default class MDSteps extends React.Component<
     return title ? <Text style={_titleStyle}>{title}</Text> : null;
   }
 
-  private genTitleStyle (index: number) {
+  private genTitleStyle (index: number): StyleProp<TextStyle> {
     const { current } = this.state;
     const _styles = this.props.styles || {};
     const _v = this.isVertical();
@@ -425,7 +427,7 @@ export default class MDSteps extends React.Component<
             top: _isVertical ? VERTICAL_GAP : VERTICAL_GAP + HORIZONTAL_TOP,
           },
           _isVertical ? { left: VERTICAL_LEFT } : null
-        );
+        ) as ViewStyle;
         return <View style={_flatStyle}>{ele}</View>;
       }
     }

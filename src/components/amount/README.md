@@ -33,7 +33,7 @@ render () {
 | thousand        | 千分位         | string                   | `,`        | N    | 千分位分隔符                               |
 | decimal         | 十进制分割     | string                   | `.`        | N    |                                            |
 | format          | 格式           | string                   | `%s%v`     | N    | `%s`表示货币标志，`%v`表示 value           |
-| fontFamily      | 数字字体       | string                   | FD+_Number | N    | 用于数字特殊字体                           |
+| fontFamily      | 数字字体       | string                   | DIDIFD-Medium | N    | 用于数字特殊字体                           |
 | fontSize        | 字体大小       | number                   | -          | N    |                                            |
 | color           | 字体颜色       | string                   | -          | N    |                                            |
 | mask            | 是否掩码       | boolean                  | false      | N    |                                            |

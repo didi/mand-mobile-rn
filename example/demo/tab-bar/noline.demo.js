@@ -1,6 +1,6 @@
 import * as React from "react";
 import { View, Text } from "react-native";
-import { MDTabBar } from "mand-mobile-rn";
+import { MDTabBar } from "../../../src";
 import styles from "./styles";
 
 export default class NolineTabBarDemo extends React.Component {

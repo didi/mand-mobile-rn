@@ -194,12 +194,13 @@ export default class MDTip extends React.Component<IMDTipProps, IMDTipState> {
     RootView.removeAll();
   }
   public render () {
+    const tip = this.state.visible ? this.renderTip() : null;
     return (
       <View>
         <TouchableWithoutFeedback onPress={this.onHandlePress.bind(this)}>
           <View ref={this.touchable}>{this.props.children}</View>
         </TouchableWithoutFeedback>
-        {this.state.visible ? this.renderTip() : null}
+        {tip}
       </View>
     );
   }

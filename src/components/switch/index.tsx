@@ -79,7 +79,7 @@ export default class MDSwitch extends React.Component<
       checked: checked ? !!checked : false,
     };
   }
-  public componentWillReceiveProps (nextProps: IMDSwitchProps) {
+  public UNSAFE_componentWillReceiveProps (nextProps: IMDSwitchProps) {
     const { checked } = nextProps;
     if (
       checked !== this.props.checked ||

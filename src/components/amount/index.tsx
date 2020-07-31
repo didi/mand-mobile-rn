@@ -42,7 +42,7 @@ export default class MDAmount extends React.Component<
     thousand: ',',
     decimal: '.',
     format: '%s%v',
-    fontFamily: 'FD+_Number',
+    fontFamily: 'DIDIFD-Medium',
     mask: false,
     startAnim: true, // 默认创建DidMount后启动动画
     transition: false,
@@ -82,7 +82,7 @@ export default class MDAmount extends React.Component<
     }
   }
 
-  public componentWillReceiveProps (nextProps: IMDAmountProps) {
+  public UNSAFE_componentWillReceiveProps (nextProps: IMDAmountProps) {
     const { amount, transition } = nextProps;
     const { transition: _transition, amount: _amount } = this.props;
 

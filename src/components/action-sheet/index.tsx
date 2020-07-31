@@ -54,7 +54,7 @@ export default class MDActionSheet extends React.Component<
     };
   }
 
-  public componentWillReceiveProps (nextProps: IMDActionSheetProps) {
+  public UNSAFE_componentWillReceiveProps (nextProps: IMDActionSheetProps) {
     this.setState({
       isVisible: nextProps.isVisible!,
     });

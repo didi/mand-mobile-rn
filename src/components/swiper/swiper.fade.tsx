@@ -232,6 +232,7 @@ export default class MDSwiperFade extends React.Component<
         Animated.timing(this.state.opacityAnim, {
           duration: 500,
           toValue: 1,
+          useNativeDriver: false
         }).start();
       }
     );

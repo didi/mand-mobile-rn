@@ -101,6 +101,7 @@ export default class MDProgress extends React.Component<
     Animated.timing(this.state.curProgress, {
       toValue: this.props.progress,
       easing: Easing.linear,
+      useNativeDriver: false,
       duration:
         10 *
         Math.abs(this.props.progress - prevProps.progress) *

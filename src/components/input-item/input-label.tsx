@@ -84,7 +84,7 @@ export default class MDInputLabel extends React.Component<
     return hasValue !== nextHasValue || focused !== nextFocused;
   }
 
-  public componentWillReceiveProps (nextProps: IMDInputLabelProps) {
+  public UNSAFE_componentWillReceiveProps (nextProps: IMDInputLabelProps) {
     const { hasValue, focused } = this.props;
     const { hasValue: nextHasValue, focused: nextFocused } = nextProps;
 

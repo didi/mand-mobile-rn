@@ -108,7 +108,7 @@ export default class MDTabBar extends React.Component<
   private widthArr: number[] = []; // 下划线宽度数组
   private leftArr: number[] = []; // 下划线位置数组
 
-  public componentWillReceiveProps (props: IMDTabBarProps) {
+  public UNSAFE_componentWillReceiveProps (props: IMDTabBarProps) {
     if (this.props.currentIndex !== props.currentIndex) {
       this.setState({
         curIndex: props.currentIndex,
@@ -123,7 +123,7 @@ export default class MDTabBar extends React.Component<
     const _item = this.renderItem(sty, children, items, curIndex);
     return (
       <View style={sty.wrapper}>
-        <ScrollView horizontal={true}>
+        <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
           <View style={sty.tabbarList}>
             {_item}
             {hasInk ? (
@@ -154,6 +154,7 @@ export default class MDTabBar extends React.Component<
     return items.map((tabItem, index) => {
       return (
         <TouchableOpacity
+          activeOpacity={1}
           style={sty.tabbarItem}
           key={`tabItem.name-${index}`}
           onPress={this.onPress.bind(this, tabItem, index)}
@@ -197,6 +198,7 @@ export default class MDTabBar extends React.Component<
         {
           toValue: this.leftArr[index] + 3, // inkPos
           duration: 300, // 让动画持续一段时间
+          useNativeDriver: false,
         }
       ).start();
     }
@@ -221,6 +223,7 @@ export default class MDTabBar extends React.Component<
         {
           toValue: this.leftArr[curIndex || 0] + 3, // inkPos
           duration: 100, // 让动画持续一段时间
+          useNativeDriver: false,
         }
       ).start();
     }

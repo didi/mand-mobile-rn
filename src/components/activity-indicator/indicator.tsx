@@ -50,7 +50,7 @@ export default class MDIndicator extends React.PureComponent<
     this.mounted = false;
   }
 
-  public componentWillReceiveProps (nextProps: IMDIndicatorProps) {
+  public UNSAFE_componentWillReceiveProps (nextProps: IMDIndicatorProps) {
     const { animating } = this.props;
 
     if (animating !== nextProps.animating) {

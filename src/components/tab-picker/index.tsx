@@ -84,7 +84,7 @@ export default class MDTabPicker extends React.Component<
   }
   private panes: any[];
 
-  public componentWillReceiveProps (props: IMDTabPickerProps) {
+  public UNSAFE_componentWillReceiveProps (props: IMDTabPickerProps) {
     this.setState({
       isPopupShow: !!props.visible,
     });

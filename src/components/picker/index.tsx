@@ -50,7 +50,7 @@ export default class MDPicker extends React.Component<
   private _picker = React.createRef<Picker>();
   private selectedColumn: number = 0;
 
-  public componentWillReceiveProps (nextProps: IMDPickerProps) {
+  public UNSAFE_componentWillReceiveProps (nextProps: IMDPickerProps) {
     this.setUpVisibleState(nextProps.isVisible!);
   }
 

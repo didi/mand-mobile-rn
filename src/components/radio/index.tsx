@@ -73,7 +73,7 @@ export default class MDRadio extends React.Component<
     };
   }
 
-  public componentWillReceiveProps (nextProps: IMDRadioProps) {
+  public UNSAFE_componentWillReceiveProps (nextProps: IMDRadioProps) {
     const { selected, value } = nextProps;
     if (selected !== this.props.selected) {
       this.setState({

@@ -103,7 +103,7 @@ export default class MDDatePicker extends React.Component<
     this.initPicker();
   }
 
-  public componentWillReceiveProps (nextProps: IMDDatePickerProps) {
+  public UNSAFE_componentWillReceiveProps (nextProps: IMDDatePickerProps) {
     if (nextProps.isVisable !== this.props.isVisable) {
       this.setState({
         isPickerShow: !!nextProps.isVisable,

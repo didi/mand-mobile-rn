@@ -139,7 +139,7 @@ export default class Dialog extends React.Component<
     }
   }
 
-  public componentWillReceiveProps (nextProps: IMDDialogProps) {
+  public UNSAFE_componentWillReceiveProps (nextProps: IMDDialogProps) {
     if (nextProps.isVisible) {
       this.visible(true);
     }

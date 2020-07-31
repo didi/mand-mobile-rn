@@ -19,7 +19,6 @@ import { WaterMarkScreen } from '../screen/business/water-mark'
 import { CellItemScreen } from '../screen/basic/cell-item'
 import { SwitchScreen } from '../screen/form/switch'
 import { ProgressScreen } from '../screen/basic/progress'
-import { NumberKeyboardScreen } from '../screen/form/number-keyboard'
 import { ActionBarScreen } from '../screen/basic/action-bar'
 import { SliderScreen } from '../screen/form/slider'
 import { LandscapeScreen } from '../screen/feedback/landscape'
@@ -90,9 +89,6 @@ const rootRoutesConfig = {
   },
   DetailItem: {
     screen: DetailItemScreen,
-  },
-  NumberKeyboard: {
-    screen: NumberKeyboardScreen,
   },
   ResultPage: {
     screen: ResultPageScreen,

@@ -170,7 +170,7 @@ export default class MDCashier<ItemT> extends React.Component<
     };
   }
 
-  public componentWillReceiveProps (nextProps: IMDCashierProps<ItemT>) {
+  public UNSAFE_componentWillReceiveProps (nextProps: IMDCashierProps<ItemT>) {
     const { visible } = nextProps;
     if (visible) {
       this.setState({ isPopupShow: true });
