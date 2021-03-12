@@ -52,7 +52,7 @@
     "react": "16.8.6",
     "react-app-polyfill": "0.2.2",
     "react-art": "16.8.6",
-    "react-dev-utils": "8.0.0",
+    "react-dev-utils": "11.0.4",
     "react-dom": "16.8.6",
     "react-native": "0.59.10",
     "react-native-gesture-handler": "1.1.0",
