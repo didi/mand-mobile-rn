@@ -99,7 +99,7 @@
     "markdown-loader": "5.0.0",
     "marked": "0.6.2",
     "metro-react-native-babel-preset": "0.53.1",
-    "prismjs": "1.16.0",
+    "prismjs": "1.27.0",
     "raw-loader": "2.0.0",
     "react-art": "16.8.6",
     "react-hot-loader": "4.8.4",
